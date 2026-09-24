@@ -1,7 +1,16 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 0,
-  "generated_at": "2026-09-24T00:00:00Z",
-  "events": []
+  "revision": 1,
+  "generated_at": "2026-09-24T19:02:00Z",
+  "events": [
+    {
+      "seq": 1,
+      "type": "notice",
+      "payload": {
+        "title": "Campaign Sync conectado",
+        "body": "Geria Codex está recebendo atualizações do GM corretamente."
+      }
+    }
+  ]
 }
