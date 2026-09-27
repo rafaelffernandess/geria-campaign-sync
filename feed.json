@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 4,
-  "generated_at": "2026-09-27T05:08:30Z",
+  "revision": 5,
+  "generated_at": "2026-09-27T06:03:30Z",
   "events": [
     {
       "seq": 1,
@@ -194,6 +194,191 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "O primeiro combate e novas observações das criaturas foram registrados."
+      }
+    },
+    {
+      "seq": 8,
+      "id": "session-000-state-after-first-battle",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Floresta desconhecida",
+          "timeOfDay": "Dia"
+        },
+        "character": {
+          "level": 1,
+          "xp": 75,
+          "nextXp": 273,
+          "className": "Combatente",
+          "classTier": "Básica",
+          "resources": {
+            "hp": {
+              "cur": 114,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 60,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 45,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          },
+          "powerProfiles": {
+            "aura": {
+              "knowledge": "Não avaliado",
+              "access": "Percebido",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "notes": "Manifestação involuntária observada sob perigo. O fenômeno parece circular do peito aos braços, pode envolver uma arma e pode reduzir a presença percebida. A natureza exata permanece não avaliada."
+            }
+          }
+        },
+        "inventory": [
+          {
+            "id": "item-mufwpsox-1cjxfc",
+            "name": "Escudo redondo",
+            "condition": "Danificado",
+            "effects": "+1 Defesa quando equipado.",
+            "tags": [
+              "Rachado"
+            ],
+            "desc": "Escudo simples. Recebeu um impacto pesado no primeiro combate e apresenta uma rachadura, mas continua utilizável."
+          }
+        ],
+        "effects": [
+          {
+            "id": "injury-left-shoulder-0001",
+            "name": "Contusão no ombro esquerdo",
+            "kind": "injury",
+            "duration": 2,
+            "unit": "cenas",
+            "stacks": 1,
+            "permanent": false,
+            "modifiers": [
+              "-1 em ações intensas que dependam do braço esquerdo"
+            ],
+            "desc": "Dor e impacto residual após ser lançado contra uma árvore durante o primeiro combate."
+          }
+        ],
+        "quests": [
+          {
+            "id": "quest-help-wounded-lupine-001",
+            "name": "Socorrer a criatura ferida",
+            "desc": "Rafael decidiu tentar salvar a criatura lupina ferida pelo grande predador, mesmo com medo e sem suprimentos médicos adequados.",
+            "status": "Ativa",
+            "type": "Objetivo pessoal",
+            "objectives": [
+              {
+                "id": "obj-calm-lupine",
+                "text": "Acalmar a criatura o suficiente para permitir aproximação",
+                "done": false
+              },
+              {
+                "id": "obj-stabilize-wound",
+                "text": "Estabilizar e proteger o ferimento",
+                "done": false
+              },
+              {
+                "id": "obj-ensure-survival",
+                "text": "Garantir que ela tenha condições de sobreviver",
+                "done": false
+              }
+            ],
+            "reward": "Desconhecida"
+          }
+        ],
+        "relations": [
+          {
+            "id": "relation-rafa-lupine-001",
+            "a": "Rafael",
+            "b": "Criatura lupina desconhecida",
+            "type": "Proteção / confiança incerta",
+            "sentiment": "positive",
+            "notes": "Rafael voltou para defendê-la de um predador maior. A criatura ainda demonstra medo e desconfiança."
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-first-battle",
+            "title": "Primeiro combate",
+            "body": "Rafael retornou para ajudar a criatura lupina ferida e enfrentou um grande predador. Sobreviveu ao impacto, identificou uma região exposta no pescoço e conseguiu afastar o animal sem matá-lo. A energia desconhecida voltou a se manifestar através da espada. Depois do combate, decidiu tentar socorrer a criatura ferida.",
+            "date": "Sessão 0"
+          }
+        ],
+        "chronicle": [
+          {
+            "id": "chron-session0-first-battle",
+            "title": "Primeiro combate em Geria",
+            "body": "Mesmo apavorado, Rafael abandonou o esconderijo para proteger uma criatura ferida. O confronto terminou sem morte: o grande predador recuou e Rafael permaneceu para tentar prestar socorro.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 9,
+      "id": "session-000-full-state-sync-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Estado da campanha sincronizado",
+        "body": "Recursos, XP, condição, equipamento, missão, relação, diário e histórico de rolagens foram atualizados."
       }
     }
   ]
