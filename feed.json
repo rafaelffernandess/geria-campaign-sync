@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 8,
-  "generated_at": "2026-09-27T06:16:30Z",
+  "revision": 9,
+  "generated_at": "2026-09-27T06:20:00Z",
   "events": [
     {
       "seq": 1,
@@ -936,6 +936,220 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "Primeiro contato, barreira linguística, relação, missão, XP, recursos, diário e rolagem foram sincronizados."
+      }
+    },
+    {
+      "seq": 15,
+      "id": "session-000-lupine-trust-contact",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "xp": 100,
+          "resources": {
+            "hp": {
+              "cur": 114,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 54,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 45,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          }
+        },
+        "codex": {
+          "entries": [
+            {
+              "id": "creature-unknown-lupine-001",
+              "category": "creatures",
+              "name": "Criatura lupina desconhecida",
+              "state": "discovered",
+              "summary": "Grande quadrúpede semelhante a um lobo; ferido, mas começando a tolerar a aproximação de Rafael.",
+              "body": "Depois de ser protegido do predador e receber água, a criatura passou a tolerar a aproximação lenta de Rafael. Ela ainda reage à dor e mantém cautela diante de movimentos bruscos, mas permitiu contato próximo sem atacar. A pata dianteira esquerda continua lesionada e o ferimento próximo ao ombro ainda precisa de tratamento.",
+              "tags": [
+                "Criatura desconhecida",
+                "Ferida",
+                "Confiança crescente",
+                "Informação parcial"
+              ]
+            }
+          ]
+        },
+        "relations": [
+          {
+            "id": "relation-rafa-lupine-001",
+            "a": "Rafael",
+            "b": "Criatura lupina desconhecida",
+            "type": "Proteção / confiança crescente",
+            "sentiment": "positive",
+            "notes": "Após Rafael protegê-la, respeitar seus limites e trazer água, a criatura aceitou sua aproximação direta e contato próximo sem atacar. A confiança ainda é frágil, especialmente por causa da dor."
+          }
+        ],
+        "quests": [
+          {
+            "id": "quest-help-wounded-lupine-001",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-calm-lupine",
+                "text": "Acalmar a criatura o suficiente para permitir aproximação",
+                "done": true
+              },
+              {
+                "id": "obj-water-lupine",
+                "text": "Conseguir água para a criatura ferida",
+                "done": true
+              },
+              {
+                "id": "obj-food-lupine",
+                "text": "Encontrar alimento seguro para ela",
+                "done": false
+              },
+              {
+                "id": "obj-find-help",
+                "text": "Encontrar alguém que possa ajudar no tratamento",
+                "done": true
+              },
+              {
+                "id": "obj-stabilize-wound",
+                "text": "Estabilizar e proteger o ferimento",
+                "done": false
+              },
+              {
+                "id": "obj-ensure-survival",
+                "text": "Garantir que ela tenha condições de sobreviver",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              },
+              {
+                "id": "roll-session0-animal-01",
+                "expr": "Lidar com Animais — permitir aproximação",
+                "rolls": [
+                  1,
+                  4
+                ],
+                "mod": 2,
+                "total": 6,
+                "time": "2026-09-27T06:05:00Z"
+              },
+              {
+                "id": "roll-session0-survival-01",
+                "expr": "Sobrevivência — encontrar água e alimento seguro",
+                "rolls": [
+                  6
+                ],
+                "mod": 3,
+                "total": 9,
+                "time": "2026-09-27T06:10:00Z"
+              },
+              {
+                "id": "roll-session0-animal-02",
+                "expr": "Lidar com Animais — aceitar água deixada à distância",
+                "rolls": [
+                  9
+                ],
+                "mod": 2,
+                "total": 11,
+                "time": "2026-09-27T06:10:20Z"
+              },
+              {
+                "id": "roll-session0-perception-01",
+                "expr": "Percepção — localizar a origem do som",
+                "rolls": [
+                  20
+                ],
+                "mod": 1,
+                "total": 21,
+                "time": "2026-09-27T06:11:00Z"
+              },
+              {
+                "id": "roll-session0-communication-01",
+                "expr": "Presença — comunicação por gestos",
+                "rolls": [
+                  10
+                ],
+                "mod": 0,
+                "total": 10,
+                "time": "2026-09-27T06:15:00Z"
+              },
+              {
+                "id": "roll-session0-animal-03",
+                "expr": "Lidar com Animais — aproximação direta após oferecer água",
+                "rolls": [
+                  13
+                ],
+                "mod": 2,
+                "total": 15,
+                "time": "2026-09-27T06:19:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 16,
+      "id": "session-000-lupine-trust-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "Confiança com a criatura, missão, XP, Stamina e histórico de rolagens foram sincronizados."
       }
     }
   ]
