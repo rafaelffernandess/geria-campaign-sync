@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 5,
-  "generated_at": "2026-09-27T06:03:30Z",
+  "revision": 6,
+  "generated_at": "2026-09-27T06:06:30Z",
   "events": [
     {
       "seq": 1,
@@ -379,6 +379,95 @@
       "payload": {
         "title": "Estado da campanha sincronizado",
         "body": "Recursos, XP, condição, equipamento, missão, relação, diário e histórico de rolagens foram atualizados."
+      }
+    },
+    {
+      "seq": 10,
+      "id": "session-000-lupine-first-aid-attempt",
+      "type": "patch",
+      "payload": {
+        "relations": [
+          {
+            "id": "relation-rafa-lupine-001",
+            "a": "Rafael",
+            "b": "Criatura lupina desconhecida",
+            "type": "Proteção / confiança incerta",
+            "sentiment": "positive",
+            "notes": "Rafael a protegeu de um predador maior. A criatura não o perseguiu nem atacou após o confronto, mas ainda reage defensivamente quando ele tenta se aproximar ou tocá-la por causa do medo e da dor."
+          }
+        ],
+        "quests": [
+          {
+            "id": "quest-help-wounded-lupine-001",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-calm-lupine",
+                "text": "Acalmar a criatura o suficiente para permitir aproximação",
+                "done": false
+              },
+              {
+                "id": "obj-stabilize-wound",
+                "text": "Estabilizar e proteger o ferimento",
+                "done": false
+              },
+              {
+                "id": "obj-ensure-survival",
+                "text": "Garantir que ela tenha condições de sobreviver",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              },
+              {
+                "id": "roll-session0-animal-01",
+                "expr": "Lidar com Animais — permitir aproximação",
+                "rolls": [
+                  1,
+                  4
+                ],
+                "mod": 2,
+                "total": 6,
+                "time": "2026-09-27T06:05:00Z"
+              }
+            ]
+          }
+        ]
       }
     }
   ]
