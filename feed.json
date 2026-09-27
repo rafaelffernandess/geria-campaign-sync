@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 7,
-  "generated_at": "2026-09-27T06:12:00Z",
+  "revision": 8,
+  "generated_at": "2026-09-27T06:16:30Z",
   "events": [
     {
       "seq": 1,
@@ -711,6 +711,231 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "Recursos, XP, mapa, missão, relação, diário, rolagens e novas descobertas foram sincronizados."
+      }
+    },
+    {
+      "seq": 13,
+      "id": "session-000-first-contact",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "xp": 90,
+          "resources": {
+            "hp": {
+              "cur": 114,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 55,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 45,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          }
+        },
+        "codex": {
+          "entries": [
+            {
+              "id": "character-unknown-woodcutter-001",
+              "category": "characters",
+              "name": "Lenhador desconhecido",
+              "state": "discovered",
+              "summary": "Primeira pessoa avistada por Rafael em Geria; contato inicial realizado sem hostilidade.",
+              "body": "Rafael se revelou ao homem e tentou explicar por palavras e gestos que havia uma criatura ferida na floresta. Os dois não compartilham idioma, mas o homem pareceu compreender que Rafael não estava atacando e que havia algum tipo de problema envolvendo um animal ferido. Ele manteve cautela, porém não reagiu de forma hostil.",
+              "tags": [
+                "Primeiro contato",
+                "Idioma desconhecido",
+                "Humano?",
+                "Informação parcial"
+              ]
+            },
+            {
+              "id": "mystery-language-barrier-001",
+              "category": "mysteries",
+              "name": "Barreira linguística",
+              "state": "discovered",
+              "summary": "Rafael não compreende a língua falada pelo primeiro habitante de Geria que encontrou.",
+              "body": "No primeiro contato com um homem aparentemente humano, Rafael confirmou que a língua local não corresponde ao português, inglês ou a qualquer idioma que reconheça. Gestos simples ainda permitem transmitir intenções básicas.",
+              "tags": [
+                "Idioma",
+                "Mistério cultural",
+                "Primeiro contato"
+              ]
+            }
+          ]
+        },
+        "relations": [
+          {
+            "id": "relation-rafa-woodcutter-001",
+            "a": "Rafael",
+            "b": "Lenhador desconhecido",
+            "type": "Primeiro contato / cautela",
+            "sentiment": "neutral",
+            "notes": "O homem não demonstrou hostilidade imediata, mas permaneceu atento e armado. A comunicação é limitada por uma barreira de idioma."
+          }
+        ],
+        "quests": [
+          {
+            "id": "quest-help-wounded-lupine-001",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-calm-lupine",
+                "text": "Acalmar a criatura o suficiente para permitir aproximação",
+                "done": false
+              },
+              {
+                "id": "obj-water-lupine",
+                "text": "Conseguir água para a criatura ferida",
+                "done": true
+              },
+              {
+                "id": "obj-food-lupine",
+                "text": "Encontrar alimento seguro para ela",
+                "done": false
+              },
+              {
+                "id": "obj-find-help",
+                "text": "Encontrar alguém que possa ajudar no tratamento",
+                "done": true
+              },
+              {
+                "id": "obj-stabilize-wound",
+                "text": "Estabilizar e proteger o ferimento",
+                "done": false
+              },
+              {
+                "id": "obj-ensure-survival",
+                "text": "Garantir que ela tenha condições de sobreviver",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-first-contact",
+            "title": "Primeiro contato",
+            "body": "Rafael saiu da cobertura e tentou conversar com o lenhador. O idioma era incompreensível, mas gestos e tom de voz foram suficientes para evitar hostilidade e transmitir parcialmente que havia uma criatura ferida precisando de ajuda.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              },
+              {
+                "id": "roll-session0-animal-01",
+                "expr": "Lidar com Animais — permitir aproximação",
+                "rolls": [
+                  1,
+                  4
+                ],
+                "mod": 2,
+                "total": 6,
+                "time": "2026-09-27T06:05:00Z"
+              },
+              {
+                "id": "roll-session0-survival-01",
+                "expr": "Sobrevivência — encontrar água e alimento seguro",
+                "rolls": [
+                  6
+                ],
+                "mod": 3,
+                "total": 9,
+                "time": "2026-09-27T06:10:00Z"
+              },
+              {
+                "id": "roll-session0-animal-02",
+                "expr": "Lidar com Animais — aceitar água deixada à distância",
+                "rolls": [
+                  9
+                ],
+                "mod": 2,
+                "total": 11,
+                "time": "2026-09-27T06:10:20Z"
+              },
+              {
+                "id": "roll-session0-perception-01",
+                "expr": "Percepção — localizar a origem do som",
+                "rolls": [
+                  20
+                ],
+                "mod": 1,
+                "total": 21,
+                "time": "2026-09-27T06:11:00Z"
+              },
+              {
+                "id": "roll-session0-communication-01",
+                "expr": "Presença — comunicação por gestos",
+                "rolls": [
+                  10
+                ],
+                "mod": 0,
+                "total": 10,
+                "time": "2026-09-27T06:15:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 14,
+      "id": "session-000-first-contact-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "Primeiro contato, barreira linguística, relação, missão, XP, recursos, diário e rolagem foram sincronizados."
       }
     }
   ]
