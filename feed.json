@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 3,
-  "generated_at": "2026-09-27T05:03:30Z",
+  "revision": 4,
+  "generated_at": "2026-09-27T05:08:30Z",
   "events": [
     {
       "seq": 1,
@@ -125,6 +125,75 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "Novas descobertas da Sessão 0 foram registradas."
+      }
+    },
+    {
+      "seq": 6,
+      "id": "session-000-first-battle",
+      "type": "patch",
+      "payload": {
+        "codex": {
+          "entries": [
+            {
+              "id": "creature-unknown-colossus-001",
+              "category": "creatures",
+              "name": "Grande criatura desconhecida",
+              "state": "discovered",
+              "summary": "Grande predador quadrúpede encontrado na floresta; possui placas protetoras e regiões expostas entre elas.",
+              "body": "A criatura possui porte muito superior ao da criatura lupina, corpo robusto e alongado, membros anteriores poderosos, pelos castanho-acinzentados e placas escuras protegendo partes da cabeça, pescoço e ombros. O lado direito do pescoço apresenta uma faixa menos protegida. Durante o primeiro confronto de Rafael, um golpe nessa região causou dor suficiente para interromper a investida sem ser letal. A criatura reagiu como um predador territorial ou faminto e recuou após perceber resistência. Nome, espécie, rank e capacidades completas permanecem desconhecidos.",
+              "tags": [
+                "Criatura desconhecida",
+                "Predador",
+                "Primeiro combate",
+                "Informação parcial"
+              ]
+            },
+            {
+              "id": "creature-unknown-lupine-001",
+              "category": "creatures",
+              "name": "Criatura lupina desconhecida",
+              "state": "discovered",
+              "summary": "Grande quadrúpede semelhante a um lobo; foi encontrado ferido após ser perseguido por um predador maior.",
+              "body": "A criatura mede aproximadamente um metro até os ombros, possui pelagem cinza-escura, placas negras, presas recurvadas e olhos amarelos. Após fugir de Rafael, foi alcançada e ferida por um predador maior, ficando com a pata dianteira esquerda lesionada. Rafael decidiu retornar e intervir para protegê-la.",
+              "tags": [
+                "Criatura desconhecida",
+                "Ferida",
+                "Primeiro encontro",
+                "Informação parcial"
+              ]
+            },
+            {
+              "id": "mystery-first-energy-manifestation",
+              "category": "mysteries",
+              "name": "Manifestação energética desconhecida",
+              "state": "discovered",
+              "summary": "Uma energia interna reage ao perigo e parece conseguir envolver uma arma empunhada.",
+              "body": "O fenômeno já se manifestou de diferentes formas: alterou a reação da criatura lupina, pareceu reduzir a presença de Rafael enquanto ele se escondia e aqueceu sua espada. No primeiro combate, a sensação percorreu peito, braços e mão direita, envolvendo a lâmina como uma película quase imperceptível durante o golpe. A natureza da energia, seu sistema de origem e suas propriedades continuam não avaliados.",
+              "tags": [
+                "Poder",
+                "Não avaliado",
+                "Mistério pessoal",
+                "Manifestação recorrente",
+                "Arma"
+              ]
+            }
+          ]
+        },
+        "operations": [
+          {
+            "op": "unlockAchievement",
+            "id": "first-battle"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 7,
+      "id": "session-000-first-battle-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "O primeiro combate e novas observações das criaturas foram registrados."
       }
     }
   ]
