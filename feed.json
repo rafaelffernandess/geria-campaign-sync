@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 9,
-  "generated_at": "2026-09-27T06:20:00Z",
+  "revision": 10,
+  "generated_at": "2026-09-27T06:24:30Z",
   "events": [
     {
       "seq": 1,
@@ -1150,6 +1150,269 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "Confiança com a criatura, missão, XP, Stamina e histórico de rolagens foram sincronizados."
+      }
+    },
+    {
+      "seq": 17,
+      "id": "session-000-lupine-treatment",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "xp": 115,
+          "resources": {
+            "hp": {
+              "cur": 114,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 52,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 45,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          }
+        },
+        "codex": {
+          "entries": [
+            {
+              "id": "creature-unknown-lupine-001",
+              "category": "creatures",
+              "name": "Criatura lupina desconhecida",
+              "state": "discovered",
+              "summary": "Grande quadrúpede semelhante a um lobo; ferimento estabilizado após receber ajuda de Rafael e de um homem local.",
+              "body": "Depois de ser protegida de um predador, receber água e aceitar a aproximação de Rafael, a criatura permitiu tratamento com auxílio de um homem local. O ferimento na pata dianteira esquerda foi limpo, recebeu uma preparação vegetal e foi enfaixado. A criatura ainda apresenta dor e dificuldade para apoiar a pata, mas o sangramento foi controlado e a condição parece estável no curto prazo. Nome, espécie e capacidades permanecem desconhecidos.",
+              "tags": [
+                "Criatura desconhecida",
+                "Ferida",
+                "Estabilizada",
+                "Confiança crescente",
+                "Informação parcial"
+              ]
+            },
+            {
+              "id": "character-unknown-woodcutter-001",
+              "category": "characters",
+              "name": "Lenhador desconhecido",
+              "state": "discovered",
+              "summary": "Homem local que ajudou Rafael a tratar uma criatura ferida.",
+              "body": "O homem aceitou seguir Rafael até a criatura lupina e demonstrou familiaridade com primeiros socorros de campo. Usou tecido limpo, um pequeno recipiente e uma preparação de folhas secas para limpar, proteger e enfaixar o ferimento. Ele continua sem compartilhar um idioma compreensível com Rafael, mas agiu de forma cooperativa.",
+              "tags": [
+                "Primeiro contato",
+                "Cooperativo",
+                "Primeiros socorros",
+                "Idioma desconhecido"
+              ]
+            }
+          ]
+        },
+        "relations": [
+          {
+            "id": "relation-rafa-lupine-001",
+            "a": "Rafael",
+            "b": "Criatura lupina desconhecida",
+            "type": "Proteção / confiança crescente",
+            "sentiment": "positive",
+            "notes": "A criatura permitiu que Rafael permanecesse em contato direto enquanto o ferimento era tratado. Sua presença parece ajudá-la a tolerar dor e aproximação de terceiros."
+          },
+          {
+            "id": "relation-rafa-woodcutter-001",
+            "a": "Rafael",
+            "b": "Lenhador desconhecido",
+            "type": "Cooperação inicial",
+            "sentiment": "positive",
+            "notes": "Apesar da barreira de idioma, o homem seguiu Rafael até a criatura ferida e ajudou no tratamento sem exigir nada em troca. A relação deixou de ser puramente cautelosa e passou a ser cooperativa."
+          }
+        ],
+        "quests": [
+          {
+            "id": "quest-help-wounded-lupine-001",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-calm-lupine",
+                "text": "Acalmar a criatura o suficiente para permitir aproximação",
+                "done": true
+              },
+              {
+                "id": "obj-water-lupine",
+                "text": "Conseguir água para a criatura ferida",
+                "done": true
+              },
+              {
+                "id": "obj-food-lupine",
+                "text": "Encontrar alimento seguro para ela",
+                "done": false
+              },
+              {
+                "id": "obj-find-help",
+                "text": "Encontrar alguém que possa ajudar no tratamento",
+                "done": true
+              },
+              {
+                "id": "obj-stabilize-wound",
+                "text": "Estabilizar e proteger o ferimento",
+                "done": true
+              },
+              {
+                "id": "obj-ensure-survival",
+                "text": "Garantir que ela tenha condições de sobreviver",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-lupine-treatment",
+            "title": "O ferimento foi estabilizado",
+            "body": "Rafael permaneceu junto da criatura lupina para mantê-la calma enquanto o homem local limpava e enfaixava o ferimento. A presença de Rafael permitiu que o tratamento fosse realizado sem novo ataque. O sangramento foi controlado e a condição do animal parece estável por enquanto.",
+            "date": "Sessão 0"
+          }
+        ],
+        "chronicle": [
+          {
+            "id": "chron-session0-lupine-treatment",
+            "title": "Primeiro gesto de confiança",
+            "body": "A criatura ferida permitiu que Rafael permanecesse ao seu lado durante o tratamento. O homem local ajudou a estabilizar o ferimento, e a tensão inicial entre os três deu lugar a uma cooperação silenciosa.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              },
+              {
+                "id": "roll-session0-animal-01",
+                "expr": "Lidar com Animais — permitir aproximação",
+                "rolls": [
+                  1,
+                  4
+                ],
+                "mod": 2,
+                "total": 6,
+                "time": "2026-09-27T06:05:00Z"
+              },
+              {
+                "id": "roll-session0-survival-01",
+                "expr": "Sobrevivência — encontrar água e alimento seguro",
+                "rolls": [
+                  6
+                ],
+                "mod": 3,
+                "total": 9,
+                "time": "2026-09-27T06:10:00Z"
+              },
+              {
+                "id": "roll-session0-animal-02",
+                "expr": "Lidar com Animais — aceitar água deixada à distância",
+                "rolls": [
+                  9
+                ],
+                "mod": 2,
+                "total": 11,
+                "time": "2026-09-27T06:10:20Z"
+              },
+              {
+                "id": "roll-session0-perception-01",
+                "expr": "Percepção — localizar a origem do som",
+                "rolls": [
+                  20
+                ],
+                "mod": 1,
+                "total": 21,
+                "time": "2026-09-27T06:11:00Z"
+              },
+              {
+                "id": "roll-session0-communication-01",
+                "expr": "Presença — comunicação por gestos",
+                "rolls": [
+                  10
+                ],
+                "mod": 0,
+                "total": 10,
+                "time": "2026-09-27T06:15:00Z"
+              },
+              {
+                "id": "roll-session0-animal-03",
+                "expr": "Lidar com Animais — aproximação direta após oferecer água",
+                "rolls": [
+                  13
+                ],
+                "mod": 2,
+                "total": 15,
+                "time": "2026-09-27T06:19:00Z"
+              },
+              {
+                "id": "roll-session0-animal-04",
+                "expr": "Lidar com Animais — manter calma durante tratamento",
+                "rolls": [
+                  12
+                ],
+                "mod": 2,
+                "total": 14,
+                "time": "2026-09-27T06:23:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 18,
+      "id": "session-000-lupine-treatment-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "Tratamento, XP, Stamina, missão, relações, Diário, Crônica, Bestiário e rolagem foram sincronizados."
       }
     }
   ]
