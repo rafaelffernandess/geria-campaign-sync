@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 6,
-  "generated_at": "2026-09-27T06:06:30Z",
+  "revision": 7,
+  "generated_at": "2026-09-27T06:12:00Z",
   "events": [
     {
       "seq": 1,
@@ -468,6 +468,249 @@
             ]
           }
         ]
+      }
+    },
+    {
+      "seq": 11,
+      "id": "session-000-water-and-sound",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "xp": 85,
+          "resources": {
+            "hp": {
+              "cur": 114,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 56,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 45,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          }
+        },
+        "codex": {
+          "entries": [
+            {
+              "id": "location-unnamed-stream-001",
+              "category": "locations",
+              "name": "Riacho sem nome",
+              "state": "discovered",
+              "summary": "Pequeno curso d'água próximo ao local do primeiro confronto.",
+              "body": "Rafael encontrou um riacho de água corrente na floresta e o utilizou para levar água até a criatura lupina ferida. A localização exata no mundo e o nome da região continuam desconhecidos.",
+              "tags": [
+                "Floresta desconhecida",
+                "Água",
+                "Local sem nome"
+              ]
+            },
+            {
+              "id": "character-unknown-woodcutter-001",
+              "category": "characters",
+              "name": "Lenhador desconhecido",
+              "state": "discovered",
+              "summary": "Primeira pessoa avistada por Rafael em Geria.",
+              "body": "Rafael localizou a origem do som ritmado e avistou à distância um homem aparentemente humano cortando madeira. Ele trabalha sozinho junto a um pequeno monte de lenha e possui equipamento de viagem. Nome, ocupação exata, idioma e intenções permanecem desconhecidos.",
+              "tags": [
+                "Primeiro humanoide avistado",
+                "Desconhecido",
+                "Informação parcial"
+              ]
+            },
+            {
+              "id": "creature-unknown-lupine-001",
+              "category": "creatures",
+              "name": "Criatura lupina desconhecida",
+              "state": "discovered",
+              "summary": "Grande quadrúpede semelhante a um lobo; ferido, desconfiado e agora aceitando água deixada à distância.",
+              "body": "A criatura continua ferida na pata dianteira esquerda e reage defensivamente à aproximação direta. Quando Rafael deixou água a uma distância segura e recuou, ela esperou antes de se aproximar e beber. Ainda não permite contato físico. Alimento seguro não foi encontrado.",
+              "tags": [
+                "Criatura desconhecida",
+                "Ferida",
+                "Confiança incerta",
+                "Informação parcial"
+              ]
+            }
+          ]
+        },
+        "map": {
+          "markers": [
+            {
+              "id": "marker-stream-001",
+              "name": "Riacho sem nome",
+              "type": "location",
+              "x": 50,
+              "y": 53,
+              "visible": true
+            },
+            {
+              "id": "marker-woodcutter-001",
+              "name": "Origem do som",
+              "type": "rumor",
+              "x": 58,
+              "y": 47,
+              "visible": true
+            }
+          ]
+        },
+        "quests": [
+          {
+            "id": "quest-help-wounded-lupine-001",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-calm-lupine",
+                "text": "Acalmar a criatura o suficiente para permitir aproximação",
+                "done": false
+              },
+              {
+                "id": "obj-water-lupine",
+                "text": "Conseguir água para a criatura ferida",
+                "done": true
+              },
+              {
+                "id": "obj-food-lupine",
+                "text": "Encontrar alimento seguro para ela",
+                "done": false
+              },
+              {
+                "id": "obj-stabilize-wound",
+                "text": "Estabilizar e proteger o ferimento",
+                "done": false
+              },
+              {
+                "id": "obj-ensure-survival",
+                "text": "Garantir que ela tenha condições de sobreviver",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "id": "relation-rafa-lupine-001",
+            "a": "Rafael",
+            "b": "Criatura lupina desconhecida",
+            "type": "Proteção / confiança incerta",
+            "sentiment": "positive",
+            "notes": "Rafael a protegeu, respeitou seus limites e deixou água à distância. A criatura continua desconfiada, mas aceitou beber depois que ele recuou."
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-water-and-first-person",
+            "title": "Água e um sinal de civilização",
+            "body": "Rafael encontrou um riacho próximo e conseguiu deixar água para a criatura ferida, embora não tenha encontrado alimento que julgasse seguro. Depois seguiu o som ritmado pela floresta e avistou à distância a primeira pessoa desde sua chegada a Geria: um homem aparentemente humano cortando madeira.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              },
+              {
+                "id": "roll-session0-animal-01",
+                "expr": "Lidar com Animais — permitir aproximação",
+                "rolls": [
+                  1,
+                  4
+                ],
+                "mod": 2,
+                "total": 6,
+                "time": "2026-09-27T06:05:00Z"
+              },
+              {
+                "id": "roll-session0-survival-01",
+                "expr": "Sobrevivência — encontrar água e alimento seguro",
+                "rolls": [
+                  6
+                ],
+                "mod": 3,
+                "total": 9,
+                "time": "2026-09-27T06:10:00Z"
+              },
+              {
+                "id": "roll-session0-animal-02",
+                "expr": "Lidar com Animais — aceitar água deixada à distância",
+                "rolls": [
+                  9
+                ],
+                "mod": 2,
+                "total": 11,
+                "time": "2026-09-27T06:10:20Z"
+              },
+              {
+                "id": "roll-session0-perception-01",
+                "expr": "Percepção — localizar a origem do som",
+                "rolls": [
+                  20
+                ],
+                "mod": 1,
+                "total": 21,
+                "time": "2026-09-27T06:11:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 12,
+      "id": "session-000-water-and-sound-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "Recursos, XP, mapa, missão, relação, diário, rolagens e novas descobertas foram sincronizados."
       }
     }
   ]
