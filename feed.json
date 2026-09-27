@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 12,
-  "generated_at": "2026-09-27T07:08:00Z",
+  "revision": 13,
+  "generated_at": "2026-09-27T21:35:00Z",
   "events": [
     {
       "seq": 1,
@@ -2249,6 +2249,303 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "Primeiras respostas sobre Geria, Extramundanos, Aura, criaturas, tradução, Auren e o objeto branco foram registradas; recursos, XP, missões, relações, mapa, condições, Diário, Crônica e conquista também foram sincronizados."
+      }
+    },
+    {
+      "seq": 23,
+      "id": "session-000-recover-white-object",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Velmora — casa de Maela"
+        },
+        "character": {
+          "xp": 180,
+          "resources": {
+            "hp": {
+              "cur": 118,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 44,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 45,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          }
+        },
+        "inventory": [
+          {
+            "id": "item-unknown-white-token-001",
+            "name": "Objeto branco desconhecido",
+            "type": "Relíquia?",
+            "rarity": "Não avaliada",
+            "qty": 1,
+            "weight": 0.05,
+            "slot": "",
+            "desc": "Pequeno objeto branco translúcido com três linhas curvas convergindo para um círculo central. Ao ser tocado por Rafael, transmite mentalmente o conceito de 'Norte'.",
+            "effects": "Função completa desconhecida.",
+            "category": "story",
+            "subtype": "Objeto misterioso",
+            "quality": "Não avaliada",
+            "condition": "Íntegro",
+            "materials": [],
+            "tags": [
+              "Direção",
+              "Não avaliado",
+              "Reage a Rafael?"
+            ],
+            "media": [],
+            "protected": true
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "item-unknown-white-token-001",
+              "category": "items",
+              "name": "Objeto branco desconhecido",
+              "state": "discovered",
+              "summary": "Objeto translúcido recuperado do abrigo na floresta; transmite mentalmente a ideia de Norte quando Rafael o toca.",
+              "body": "Rafael retornou ao abrigo e recuperou o objeto. Maela confirmou que ele não parece ser moeda comum. Quando Maela o segurou, nada perceptível aconteceu; quando Rafael voltou a tocá-lo, recebeu novamente a impressão mental 'Norte', acompanhada por uma sensação direcional coerente. Maela considera provável que o objeto transmita significado diretamente, em vez de usar linguagem falada. Material, origem, idade, mecanismo e função completa permanecem desconhecidos e exigem avaliação especializada.",
+              "tags": [
+                "Objeto misterioso",
+                "Orientação",
+                "Comunicação conceitual?",
+                "Reage a Rafael?",
+                "Não avaliado"
+              ]
+            }
+          ]
+        },
+        "quests": [
+          {
+            "id": "quest-investigate-origin-001",
+            "name": "De onde eu vim — e por quê?",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-find-scholar-extramundanos",
+                "text": "Encontrar alguém capaz de pesquisar relatos de Extramundanos",
+                "done": false
+              },
+              {
+                "id": "obj-appraise-energy",
+                "text": "Obter uma avaliação especializada da manifestação energética",
+                "done": false
+              },
+              {
+                "id": "obj-recover-white-object",
+                "text": "Recuperar o objeto branco deixado no abrigo, quando for seguro",
+                "done": true
+              },
+              {
+                "id": "obj-appraise-white-object",
+                "text": "Levar o objeto branco a um avaliador especializado",
+                "done": false
+              },
+              {
+                "id": "obj-discover-cause-crossing",
+                "text": "Descobrir o que causou a travessia entre mundos",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-white-object-recovered",
+            "title": "O objeto do Norte",
+            "body": "Rafael retornou à floresta para recuperar o objeto branco encontrado no abrigo. A volta foi cansativa e a navegação inicial saiu do caminho, mas ele conseguiu recuperar a peça e retornar a Velmora. Maela não reconheceu o objeto e não percebeu efeito ao tocá-lo. Quando Rafael o segurou, a impressão mental 'Norte' voltou, sugerindo uma transmissão direta de significado e possível reação específica ao portador.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              },
+              {
+                "id": "roll-session0-animal-01",
+                "expr": "Lidar com Animais — permitir aproximação",
+                "rolls": [
+                  1,
+                  4
+                ],
+                "mod": 2,
+                "total": 6,
+                "time": "2026-09-27T06:05:00Z"
+              },
+              {
+                "id": "roll-session0-survival-01",
+                "expr": "Sobrevivência — encontrar água e alimento seguro",
+                "rolls": [
+                  6
+                ],
+                "mod": 3,
+                "total": 9,
+                "time": "2026-09-27T06:10:00Z"
+              },
+              {
+                "id": "roll-session0-animal-02",
+                "expr": "Lidar com Animais — aceitar água deixada à distância",
+                "rolls": [
+                  9
+                ],
+                "mod": 2,
+                "total": 11,
+                "time": "2026-09-27T06:10:20Z"
+              },
+              {
+                "id": "roll-session0-perception-01",
+                "expr": "Percepção — localizar a origem do som",
+                "rolls": [
+                  20
+                ],
+                "mod": 1,
+                "total": 21,
+                "time": "2026-09-27T06:11:00Z"
+              },
+              {
+                "id": "roll-session0-communication-01",
+                "expr": "Presença — comunicação por gestos",
+                "rolls": [
+                  10
+                ],
+                "mod": 0,
+                "total": 10,
+                "time": "2026-09-27T06:15:00Z"
+              },
+              {
+                "id": "roll-session0-animal-03",
+                "expr": "Lidar com Animais — aproximação direta após oferecer água",
+                "rolls": [
+                  13
+                ],
+                "mod": 2,
+                "total": 15,
+                "time": "2026-09-27T06:19:00Z"
+              },
+              {
+                "id": "roll-session0-animal-04",
+                "expr": "Lidar com Animais — manter calma durante tratamento",
+                "rolls": [
+                  12
+                ],
+                "mod": 2,
+                "total": 14,
+                "time": "2026-09-27T06:23:00Z"
+              },
+              {
+                "id": "roll-session0-travel-01",
+                "expr": "Resistência — acompanhar a travessia até Velmora",
+                "rolls": [
+                  11
+                ],
+                "mod": 1,
+                "total": 12,
+                "time": "2026-09-27T06:28:00Z"
+              },
+              {
+                "id": "roll-session0-explain-01",
+                "expr": "Presença — relatar a travessia de forma convincente",
+                "rolls": [
+                  18
+                ],
+                "mod": 0,
+                "total": 18,
+                "time": "2026-09-27T07:05:00Z"
+              },
+              {
+                "id": "roll-session0-return-shelter-01",
+                "expr": "Sobrevivência — reencontrar o abrigo",
+                "rolls": [
+                  2
+                ],
+                "mod": 3,
+                "total": 5,
+                "time": "2026-09-27T21:20:00Z"
+              },
+              {
+                "id": "roll-session0-shelter-awareness-01",
+                "expr": "Percepção — verificar sinais de perigo no retorno",
+                "rolls": [
+                  7
+                ],
+                "mod": 1,
+                "total": 8,
+                "time": "2026-09-27T21:24:00Z"
+              },
+              {
+                "id": "roll-session0-return-velmora-01",
+                "expr": "Sobrevivência — retornar a Velmora",
+                "rolls": [
+                  17
+                ],
+                "mod": 3,
+                "total": 20,
+                "time": "2026-09-27T21:31:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 24,
+      "id": "session-000-white-object-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "Objeto branco recuperado e adicionado ao inventário; XP, Stamina, missão, Diário e rolagens foram sincronizados."
       }
     }
   ]
