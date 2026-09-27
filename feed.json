@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 1,
-  "generated_at": "2026-09-24T19:02:00Z",
+  "revision": 2,
+  "generated_at": "2026-09-27T04:48:00Z",
   "events": [
     {
       "seq": 1,
@@ -10,6 +10,61 @@
       "payload": {
         "title": "Campaign Sync conectado",
         "body": "Geria Codex está recebendo atualizações do GM corretamente."
+      }
+    },
+    {
+      "seq": 2,
+      "id": "session-000-first-discoveries",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Floresta desconhecida"
+        },
+        "codex": {
+          "entries": [
+            {
+              "id": "creature-unknown-lupine-001",
+              "category": "creatures",
+              "name": "Criatura lupina desconhecida",
+              "state": "discovered",
+              "summary": "Grande quadrúpede semelhante a um lobo encontrado numa floresta desconhecida.",
+              "body": "A criatura mede aproximadamente um metro até os ombros, possui pelagem cinza-escura, placas negras, presas recurvadas e olhos amarelos. Ela hesitou diante de uma manifestação energética involuntária de Rafael e fugiu pouco depois, aparentemente assustada por uma presença maior que se aproximava. Nome, espécie, rank e capacidades permanecem desconhecidos.",
+              "tags": [
+                "Criatura desconhecida",
+                "Primeiro encontro",
+                "Informação parcial"
+              ]
+            },
+            {
+              "id": "mystery-first-energy-manifestation",
+              "category": "mysteries",
+              "name": "Manifestação energética desconhecida",
+              "state": "discovered",
+              "summary": "Uma energia interna parece ter se manifestado involuntariamente.",
+              "body": "Durante o encontro com a criatura lupina, Rafael sentiu calor no peito e algo pareceu afetar a reação do animal. O fenômeno ainda não foi avaliado: não se sabe a qual sistema de poder pertence, quais propriedades possui ou se pode ser reproduzido conscientemente.",
+              "tags": [
+                "Poder",
+                "Não avaliado",
+                "Mistério pessoal"
+              ]
+            }
+          ]
+        },
+        "operations": [
+          {
+            "op": "unlockAchievement",
+            "id": "awakening"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 3,
+      "id": "session-000-discovery-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "2 novas descobertas registradas."
       }
     }
   ]
