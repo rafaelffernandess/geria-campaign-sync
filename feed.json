@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 13,
-  "generated_at": "2026-09-27T21:35:00Z",
+  "revision": 14,
+  "generated_at": "2026-09-27T21:37:00Z",
   "events": [
     {
       "seq": 1,
@@ -2546,6 +2546,36 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "Objeto branco recuperado e adicionado ao inventário; XP, Stamina, missão, Diário e rolagens foram sincronizados."
+      }
+    },
+    {
+      "seq": 25,
+      "id": "session-000-post-retrieval-condition",
+      "type": "patch",
+      "payload": {
+        "operations": [
+          {
+            "op": "removeEffect",
+            "id": "injury-left-shoulder-0001"
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-shoulder-recovered",
+            "title": "Ombro recuperado",
+            "body": "Depois do tratamento de Maela e do tempo de caminhada até o antigo abrigo e de volta, a contusão no ombro esquerdo deixou de causar limitação mecânica relevante.",
+            "date": "Sessão 0"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 26,
+      "id": "session-000-condition-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Condição atualizada",
+        "body": "A contusão no ombro esquerdo deixou de aplicar penalidade."
       }
     }
   ]
