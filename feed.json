@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 2,
-  "generated_at": "2026-09-27T04:48:00Z",
+  "revision": 3,
+  "generated_at": "2026-09-27T05:03:30Z",
   "events": [
     {
       "seq": 1,
@@ -65,6 +65,66 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "2 novas descobertas registradas."
+      }
+    },
+    {
+      "seq": 4,
+      "id": "session-000-shelter-discoveries",
+      "type": "patch",
+      "payload": {
+        "codex": {
+          "entries": [
+            {
+              "id": "creature-unknown-colossus-001",
+              "category": "creatures",
+              "name": "Grande criatura desconhecida",
+              "state": "discovered",
+              "summary": "Uma criatura de grande porte perseguiu a criatura lupina através da floresta.",
+              "body": "Rafael viu apenas partes do animal enquanto se escondia: uma pata robusta com quatro dedos e garras negras, além de um grande olho amarelo. A criatura fareja para localizar presas e possui massa suficiente para fazer o solo vibrar ao caminhar. Nome, espécie, rank e demais capacidades permanecem desconhecidos.",
+              "tags": [
+                "Criatura desconhecida",
+                "Predador",
+                "Informação parcial"
+              ]
+            },
+            {
+              "id": "item-unknown-white-token-001",
+              "category": "items",
+              "name": "Objeto branco desconhecido",
+              "state": "discovered",
+              "summary": "Pequeno objeto branco translúcido encontrado entre raízes no abrigo improvisado.",
+              "body": "Possui três linhas curvas gravadas convergindo para um círculo central. Ao ser tocado, provocou em Rafael uma impressão mental imediata associada à palavra 'Norte'. Sua natureza, origem e funcionamento permanecem desconhecidos. O objeto foi deixado no abrigo.",
+              "tags": [
+                "Objeto desconhecido",
+                "Orientação?",
+                "Não avaliado"
+              ]
+            },
+            {
+              "id": "mystery-first-energy-manifestation",
+              "category": "mysteries",
+              "name": "Manifestação energética desconhecida",
+              "state": "discovered",
+              "summary": "Uma energia interna parece reagir involuntariamente a situações de perigo.",
+              "body": "Rafael já percebeu o fenômeno em mais de uma situação. Primeiro, a energia pareceu afetar a reação da criatura lupina. Depois, enquanto Rafael se escondia de um predador maior, a presença pareceu se recolher enquanto a criatura tinha dificuldade em localizá-lo. A espada também aqueceu brevemente. Não se sabe a qual sistema de poder o fenômeno pertence, quais propriedades possui ou se pode ser reproduzido conscientemente.",
+              "tags": [
+                "Poder",
+                "Não avaliado",
+                "Mistério pessoal",
+                "Manifestação recorrente"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seq": 5,
+      "id": "session-000-shelter-discoveries-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "Novas descobertas da Sessão 0 foram registradas."
       }
     }
   ]
