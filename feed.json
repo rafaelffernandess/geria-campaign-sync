@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 11,
-  "generated_at": "2026-09-27T06:31:00Z",
+  "revision": 12,
+  "generated_at": "2026-09-27T07:08:00Z",
   "events": [
     {
       "seq": 1,
@@ -1735,6 +1735,520 @@
       "payload": {
         "title": "Codex atualizado",
         "body": "Velmora, mapa, XP, recursos, conquista, nova missão linguística, Diário, Crônica e pista de tradução foram sincronizados."
+      }
+    },
+    {
+      "seq": 21,
+      "id": "session-000-explanations-at-velmora",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Velmora — casa de Maela"
+        },
+        "character": {
+          "xp": 165,
+          "resources": {
+            "hp": {
+              "cur": 118,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 58,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 45,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          },
+          "powerProfiles": {
+            "aura": {
+              "knowledge": "Identificação provisória",
+              "access": "Percebido",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "notes": "Maela considera provável que a sensação no peito e a película sobre a espada sejam uma manifestação involuntária de Aura, embora parte do comportamento descrito não possa ser explicada com segurança sem avaliação especializada."
+            }
+          }
+        },
+        "codex": {
+          "entries": [
+            {
+              "id": "geria",
+              "category": "world",
+              "name": "Geria",
+              "state": "known",
+              "summary": "O mundo para o qual Rafael foi transportado; o nome foi confirmado por habitantes locais.",
+              "body": "Maela confirmou que o mundo em que Rafael despertou é chamado Geria. A natureza da travessia entre mundos continua desconhecida.",
+              "tags": [
+                "Mundo",
+                "Confirmado em diálogo"
+              ]
+            },
+            {
+              "id": "character-maela-001",
+              "category": "characters",
+              "name": "Maela",
+              "state": "known",
+              "summary": "Curandeira e herbalista de Velmora que ajudou Rafael e a criatura ferida.",
+              "body": "Maela é uma mulher mais velha de Velmora com experiência em ervas, primeiros socorros e alguns artefatos utilitários. Ela possui um pendente de tradução temporária e ouviu o relato completo de Rafael sobre sua chegada a Geria. Mostrou-se cautelosa, mas receptiva.",
+              "tags": [
+                "Velmora",
+                "Curandeira",
+                "Herbalista",
+                "Aliada inicial"
+              ]
+            },
+            {
+              "id": "character-unknown-woodcutter-001",
+              "category": "characters",
+              "name": "Teren",
+              "state": "known",
+              "summary": "Lenhador de Velmora que encontrou Rafael e o guiou até a vila.",
+              "body": "Teren é o homem que Rafael encontrou cortando madeira na floresta. Ele ajudou a tratar e transportar a criatura ferida e guiou Rafael até Velmora. Seu nome foi finalmente compreendido por meio do pendente de tradução de Maela.",
+              "tags": [
+                "Velmora",
+                "Lenhador",
+                "Aliado inicial"
+              ]
+            },
+            {
+              "id": "creature-unknown-colossus-001",
+              "category": "creatures",
+              "name": "Drauk",
+              "state": "known",
+              "summary": "Grande predador florestal de placas escuras, conhecido pelos habitantes de Velmora.",
+              "body": "Maela confirmou que 'Drauk' é o nome usado localmente para a espécie do grande predador encontrado por Rafael. São animais perigosos, territoriais e oportunistas, capazes de atacar presas feridas e pessoas isoladas, mas não são tratados como criaturas malignas. Costumam evitar grupos, fogo e áreas habitadas. O indivíduo encontrado por Rafael recuou após ser ferido.",
+              "tags": [
+                "Predador",
+                "Floresta",
+                "Perigoso",
+                "Identificado"
+              ]
+            },
+            {
+              "id": "creature-unknown-lupine-001",
+              "category": "creatures",
+              "name": "Varkin",
+              "state": "known",
+              "summary": "Predador lupino de placas negras; o indivíduo encontrado por Rafael foi estabilizado em Velmora.",
+              "body": "Maela identificou a criatura lupina como um Varkin, animal selvagem de floresta. Varkins costumam evitar pessoas quando podem, mas podem reagir agressivamente quando acuados, famintos ou feridos. O indivíduo salvo por Rafael está estável, alimentado e descansando; ainda precisa de repouso e troca de curativo antes de caminhar normalmente.",
+              "tags": [
+                "Varkin",
+                "Predador",
+                "Ferido",
+                "Estabilizado",
+                "Identificado"
+              ]
+            },
+            {
+              "id": "system-aura-basic-001",
+              "category": "systems",
+              "name": "Aura",
+              "state": "discovered",
+              "summary": "Força interna associada ao corpo, presença e combate; Maela suspeita que Rafael a tenha manifestado involuntariamente.",
+              "body": "Segundo Maela, algumas pessoas aprendem a projetar e conduzir uma força interna chamada Aura através do corpo e de armas. A descrição do calor no peito e da película sobre a espada lembra manifestações iniciais de Aura, mas a aparente redução de presença e outros detalhes permanecem sem explicação. Uma avaliação especializada seria necessária para confirmar capacidades, afinidade e controle.",
+              "tags": [
+                "Poder",
+                "Conhecimento inicial",
+                "Identificação provisória"
+              ]
+            },
+            {
+              "id": "history-extramundanos-rumor-001",
+              "category": "history",
+              "name": "Relatos de Extramundanos",
+              "state": "rumor",
+              "summary": "Existem registros e histórias raras sobre pessoas que teriam vindo de outros mundos.",
+              "body": "Maela afirmou que histórias antigas mencionam pessoas chamadas, em alguns registros, de Extramundanos: indivíduos que teriam surgido em Geria vindos de outro mundo. Os relatos são raros, antigos e nem todos acreditam neles. Ela não consegue confirmar que Rafael seja um deles, mas considera a hipótese plausível o bastante para recomendar investigação especializada.",
+              "tags": [
+                "Extramundanos",
+                "Rumor histórico",
+                "Travessia entre mundos"
+              ]
+            },
+            {
+              "id": "item-translation-pendant-unknown-001",
+              "category": "items",
+              "name": "Laço de Fala",
+              "state": "known",
+              "summary": "Pendente de tradução temporária usado por Maela.",
+              "body": "O Laço de Fala traduz significado entre interlocutores próximos enquanto permanece ativo. O efeito é temporário e depende do objeto. Maela explicou que há outros métodos de tradução: encantamentos temporários, recursos de aprendizado acelerado e procedimentos especializados capazes de estabelecer compreensão duradoura ou permanente.",
+              "tags": [
+                "Tradução",
+                "Artefato utilitário",
+                "Temporário"
+              ]
+            },
+            {
+              "id": "location-auren-rumor-001",
+              "category": "locations",
+              "name": "Auren",
+              "state": "rumor",
+              "summary": "Cidade comercial mencionada por Maela como o lugar próximo mais provável para encontrar escribas, avaliadores e soluções linguísticas especializadas.",
+              "body": "Maela indicou Auren como um destino provável para Rafael caso queira investigar sua origem, avaliar a manifestação energética e procurar uma forma duradoura de compreender a língua local. Auren fica além de Velmora por estrada; Rafael ainda não esteve lá.",
+              "tags": [
+                "Cidade",
+                "Rumor",
+                "Próximo destino possível"
+              ]
+            },
+            {
+              "id": "item-unknown-white-token-001",
+              "category": "items",
+              "name": "Objeto branco desconhecido",
+              "state": "discovered",
+              "summary": "Objeto translúcido deixado no abrigo da floresta; Maela considera a descrição semelhante a um marcador de direção antigo, mas não pôde identificá-lo sem vê-lo.",
+              "body": "O objeto possui três linhas curvas convergindo para um círculo e provocou a impressão mental 'Norte' quando tocado. Maela reconheceu a ideia como semelhante a certos marcadores de rumo, mas afirmou que não pode identificar material, origem ou função apenas pela descrição. Recuperá-lo com segurança pode ser útil.",
+              "tags": [
+                "Objeto desconhecido",
+                "Orientação",
+                "Possível marcador de rumo",
+                "Não avaliado"
+              ]
+            }
+          ]
+        },
+        "effects": [
+          {
+            "id": "injury-left-shoulder-0001",
+            "name": "Contusão no ombro esquerdo",
+            "kind": "injury",
+            "duration": 1,
+            "unit": "cenas",
+            "stacks": 1,
+            "permanent": false,
+            "modifiers": [
+              "Dor leve ao esforço intenso com o braço esquerdo"
+            ],
+            "desc": "Contusão tratada por Maela com compressa e unguento. A dor diminuiu, mas ainda não desapareceu."
+          }
+        ],
+        "map": {
+          "markers": [
+            {
+              "id": "marker-maela-house-001",
+              "name": "Casa de Maela",
+              "type": "location",
+              "x": 66,
+              "y": 43,
+              "visible": true
+            },
+            {
+              "id": "marker-auren-rumor-001",
+              "name": "Auren (informação de Maela)",
+              "type": "rumor",
+              "x": 78,
+              "y": 39,
+              "visible": true
+            }
+          ]
+        },
+        "quests": [
+          {
+            "id": "quest-help-wounded-lupine-001",
+            "status": "Concluída",
+            "objectives": [
+              {
+                "id": "obj-calm-lupine",
+                "text": "Acalmar a criatura o suficiente para permitir aproximação",
+                "done": true
+              },
+              {
+                "id": "obj-water-lupine",
+                "text": "Conseguir água para a criatura ferida",
+                "done": true
+              },
+              {
+                "id": "obj-food-lupine",
+                "text": "Encontrar alimento seguro para ela",
+                "done": true
+              },
+              {
+                "id": "obj-find-help",
+                "text": "Encontrar alguém que possa ajudar no tratamento",
+                "done": true
+              },
+              {
+                "id": "obj-stabilize-wound",
+                "text": "Estabilizar e proteger o ferimento",
+                "done": true
+              },
+              {
+                "id": "obj-reach-safety",
+                "text": "Levar a criatura ferida até um local seguro",
+                "done": true
+              },
+              {
+                "id": "obj-ensure-survival",
+                "text": "Garantir que ela tenha condições de sobreviver",
+                "done": true
+              }
+            ],
+            "reward": "A criatura foi estabilizada e sobreviveu ao perigo imediato."
+          },
+          {
+            "id": "quest-understand-local-language-001",
+            "name": "Quebrar a barreira da língua",
+            "desc": "Rafael precisa encontrar uma forma confiável de compreender e falar a língua local de Geria.",
+            "status": "Ativa",
+            "type": "Objetivo pessoal",
+            "objectives": [
+              {
+                "id": "obj-identify-translation-method",
+                "text": "Descobrir como funciona o método de tradução visto em Velmora",
+                "done": true
+              },
+              {
+                "id": "obj-learn-about-lasting-methods",
+                "text": "Descobrir se existem métodos duradouros ou permanentes",
+                "done": true
+              },
+              {
+                "id": "obj-reach-specialist-language",
+                "text": "Encontrar um especialista capaz de oferecer uma solução permanente",
+                "done": false
+              },
+              {
+                "id": "obj-obtain-lasting-translation",
+                "text": "Obter compreensão duradoura ou permanente da língua local",
+                "done": false
+              }
+            ],
+            "reward": "Acesso confiável à comunicação local"
+          },
+          {
+            "id": "quest-investigate-origin-001",
+            "name": "De onde eu vim — e por quê?",
+            "desc": "Investigar a travessia que trouxe Rafael da Terra para Geria e descobrir se os relatos de Extramundanos têm relação com o ocorrido.",
+            "status": "Ativa",
+            "type": "Mistério pessoal",
+            "objectives": [
+              {
+                "id": "obj-find-scholar-extramundanos",
+                "text": "Encontrar alguém capaz de pesquisar relatos de Extramundanos",
+                "done": false
+              },
+              {
+                "id": "obj-appraise-energy",
+                "text": "Obter uma avaliação especializada da manifestação energética",
+                "done": false
+              },
+              {
+                "id": "obj-recover-white-object",
+                "text": "Recuperar o objeto branco deixado no abrigo, quando for seguro",
+                "done": false
+              },
+              {
+                "id": "obj-discover-cause-crossing",
+                "text": "Descobrir o que causou a travessia entre mundos",
+                "done": false
+              }
+            ],
+            "reward": "Desconhecida"
+          }
+        ],
+        "relations": [
+          {
+            "id": "relation-rafa-lupine-001",
+            "a": "Rafael",
+            "b": "Varkin ferido",
+            "type": "Proteção / confiança crescente",
+            "sentiment": "positive",
+            "notes": "O Varkin foi alimentado, tratado e colocado em repouso na casa de Maela. Ele tolera a presença e o toque de Rafael e parece associá-lo a segurança."
+          },
+          {
+            "id": "relation-rafa-woodcutter-001",
+            "a": "Rafael",
+            "b": "Teren",
+            "type": "Cooperação / gratidão",
+            "sentiment": "positive",
+            "notes": "Teren encontrou Rafael na floresta, ajudou a criatura ferida, guiou os dois até Velmora e corroborou partes do relato diante de Maela."
+          },
+          {
+            "id": "relation-rafa-maela-001",
+            "a": "Rafael",
+            "b": "Maela",
+            "type": "Ajuda / confiança cautelosa",
+            "sentiment": "positive",
+            "notes": "Maela tratou Rafael e o Varkin, forneceu tradução temporária e respondeu às primeiras perguntas sobre Geria, Aura, Extramundanos e meios de tradução."
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-explanations",
+            "title": "Respostas em Velmora",
+            "body": "Na casa de Maela, Rafael contou toda a história desde a Terra até sua chegada a Velmora. Maela confirmou o nome de Geria, identificou Teren, o Drauk e o Varkin, explicou que a energia descrita pode ser Aura e relatou histórias raras sobre Extramundanos. Também explicou que o Laço de Fala é temporário e que Auren provavelmente possui especialistas capazes de oferecer tradução duradoura, avaliação de poderes e pesquisa sobre sua origem.",
+            "date": "Sessão 0"
+          }
+        ],
+        "chronicle": [
+          {
+            "id": "chron-session0-first-answers",
+            "title": "As primeiras respostas",
+            "body": "Rafael finalmente conseguiu relatar sua chegada completa a alguém que podia compreendê-lo. As respostas não solucionaram o mistério, mas deram nomes ao mundo, às criaturas e a uma possível força interna, além de apontarem Auren como um caminho para investigar sua origem e superar a barreira linguística.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "unlockAchievement",
+            "id": "first-friend"
+          },
+          {
+            "op": "set",
+            "path": "dice.history",
+            "value": [
+              {
+                "id": "roll-session0-agility-01",
+                "expr": "Agilidade — aproximação ao flanco",
+                "rolls": [
+                  5
+                ],
+                "mod": 2,
+                "total": 7,
+                "time": "2026-09-27T05:52:00Z"
+              },
+              {
+                "id": "roll-session0-attack-01",
+                "expr": "Ataque — ponto exposto",
+                "rolls": [
+                  17
+                ],
+                "mod": 2,
+                "total": 19,
+                "time": "2026-09-27T05:52:10Z"
+              },
+              {
+                "id": "roll-session0-control-01",
+                "expr": "Controle não letal",
+                "rolls": [
+                  20
+                ],
+                "mod": 0,
+                "total": 20,
+                "time": "2026-09-27T05:52:20Z"
+              },
+              {
+                "id": "roll-session0-animal-01",
+                "expr": "Lidar com Animais — permitir aproximação",
+                "rolls": [
+                  1,
+                  4
+                ],
+                "mod": 2,
+                "total": 6,
+                "time": "2026-09-27T06:05:00Z"
+              },
+              {
+                "id": "roll-session0-survival-01",
+                "expr": "Sobrevivência — encontrar água e alimento seguro",
+                "rolls": [
+                  6
+                ],
+                "mod": 3,
+                "total": 9,
+                "time": "2026-09-27T06:10:00Z"
+              },
+              {
+                "id": "roll-session0-animal-02",
+                "expr": "Lidar com Animais — aceitar água deixada à distância",
+                "rolls": [
+                  9
+                ],
+                "mod": 2,
+                "total": 11,
+                "time": "2026-09-27T06:10:20Z"
+              },
+              {
+                "id": "roll-session0-perception-01",
+                "expr": "Percepção — localizar a origem do som",
+                "rolls": [
+                  20
+                ],
+                "mod": 1,
+                "total": 21,
+                "time": "2026-09-27T06:11:00Z"
+              },
+              {
+                "id": "roll-session0-communication-01",
+                "expr": "Presença — comunicação por gestos",
+                "rolls": [
+                  10
+                ],
+                "mod": 0,
+                "total": 10,
+                "time": "2026-09-27T06:15:00Z"
+              },
+              {
+                "id": "roll-session0-animal-03",
+                "expr": "Lidar com Animais — aproximação direta após oferecer água",
+                "rolls": [
+                  13
+                ],
+                "mod": 2,
+                "total": 15,
+                "time": "2026-09-27T06:19:00Z"
+              },
+              {
+                "id": "roll-session0-animal-04",
+                "expr": "Lidar com Animais — manter calma durante tratamento",
+                "rolls": [
+                  12
+                ],
+                "mod": 2,
+                "total": 14,
+                "time": "2026-09-27T06:23:00Z"
+              },
+              {
+                "id": "roll-session0-travel-01",
+                "expr": "Resistência — acompanhar a travessia até Velmora",
+                "rolls": [
+                  11
+                ],
+                "mod": 1,
+                "total": 12,
+                "time": "2026-09-27T06:28:00Z"
+              },
+              {
+                "id": "roll-session0-explain-01",
+                "expr": "Presença — relatar a travessia de forma convincente",
+                "rolls": [
+                  18
+                ],
+                "mod": 0,
+                "total": 18,
+                "time": "2026-09-27T07:05:00Z"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 22,
+      "id": "session-000-explanations-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Codex atualizado",
+        "body": "Primeiras respostas sobre Geria, Extramundanos, Aura, criaturas, tradução, Auren e o objeto branco foram registradas; recursos, XP, missões, relações, mapa, condições, Diário, Crônica e conquista também foram sincronizados."
       }
     }
   ]
