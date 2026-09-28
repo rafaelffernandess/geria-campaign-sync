@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 14,
-  "generated_at": "2026-09-27T21:37:00Z",
+  "revision": 15,
+  "generated_at": "2026-09-28T18:30:00Z",
   "events": [
     {
       "seq": 1,
@@ -2576,6 +2576,159 @@
       "payload": {
         "title": "Condição atualizada",
         "body": "A contusão no ombro esquerdo deixou de aplicar penalidade."
+      }
+    },
+    {
+      "seq": 27,
+      "id": "session-000-visual-library",
+      "type": "patch",
+      "payload": {
+        "codex": {
+          "entries": [
+            {
+              "id": "character-maela-001",
+              "category": "characters",
+              "name": "Maela",
+              "state": "known",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20360%20420%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23101a14%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23365540%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22360%22%20height%3D%22420%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22280.8%22%20cy%3D%2292.4%22%20r%3D%22147%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M205%20350c12-98%2048-151%20115-156%2071%203%20111%2058%20122%20156%22%20fill%3D%22%23243c2d%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22322%22%20cy%3D%22145%22%20rx%3D%2273%22%20ry%3D%2288%22%20fill%3D%22%23c89c7a%22%2F%3E%3Cpath%20d%3D%22M246%20128c8-92%20142-112%20157-8-24-29-55-43-87-38-29%203-48%2020-70%2046z%22%20fill%3D%22%23d5d0c7%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M252%20109c-18%2042-10%20111%2012%20137-22-9-43-47-39-91%202-23%2011-38%2027-46zM389%20103c28%2036%2021%20105-7%20141%2032-10%2054-52%2051-97-2-23-16-38-44-44z%22%20fill%3D%22%23aaa79f%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22294%22%20cy%3D%22148%22%20rx%3D%226%22%20ry%3D%225%22%20fill%3D%22%232d3f32%22%2F%3E%3Cellipse%20cx%3D%22350%22%20cy%3D%22148%22%20rx%3D%226%22%20ry%3D%225%22%20fill%3D%22%232d3f32%22%2F%3E%3Cpath%20d%3D%22M302%20190q20%2012%2040%200%22%20fill%3D%22none%22%20stroke%3D%22%237b4d3c%22%20stroke-width%3D%224%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M264%20136q28-17%2053-5M334%20131q24-11%2046%206%22%20fill%3D%22none%22%20stroke%3D%22%237e736b%22%20stroke-width%3D%225%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "character-unknown-woodcutter-001",
+              "category": "characters",
+              "name": "Teren",
+              "state": "known",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20360%20420%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2317120e%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%234a3827%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22360%22%20height%3D%22420%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22280.8%22%20cy%3D%2292.4%22%20r%3D%22147%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M160%20420c16-120%2058-176%20132-185%2084%206%20128%2066%20141%20185%22%20fill%3D%22%23392b20%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22300%22%20cy%3D%22151%22%20rx%3D%2275%22%20ry%3D%2288%22%20fill%3D%22%23b07b56%22%2F%3E%3Cpath%20d%3D%22M222%20123c12-91%20160-104%20165%206-32-30-73-48-112-37-22%206-37%2016-53%2031z%22%20fill%3D%22%2330241e%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M235%20183c21%2096%20116%20101%20139%203-32%2020-44%2038-70%2038-28%200-42-18-69-41z%22%20fill%3D%22%234a3024%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22275%22%20cy%3D%22150%22%20rx%3D%227%22%20ry%3D%225%22%20fill%3D%22%23252018%22%2F%3E%3Cellipse%20cx%3D%22332%22%20cy%3D%22150%22%20rx%3D%227%22%20ry%3D%225%22%20fill%3D%22%23252018%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M239%20139q28-16%2048-8M318%20131q26-8%2049%209%22%20fill%3D%22none%22%20stroke%3D%22%233c2a21%22%20stroke-width%3D%227%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M191%2098q105-90%20214%202l-21%2027q-85-34-171%200z%22%20fill%3D%22%2355402e%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "creature-unknown-lupine-001",
+              "category": "creatures",
+              "name": "Varkin",
+              "state": "known",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%230b1510%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23304a35%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M54%20302c38-121%2096-188%20193-198%20101%209%20160%2077%20192%20198z%22%20fill%3D%22%23252828%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M142%20132%2090%2039l102%2058M359%20130l55-89-106%2057%22%20fill%3D%22%23202323%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22250%22%20cy%3D%22171%22%20rx%3D%22123%22%20ry%3D%22107%22%20fill%3D%22%23383c3c%22%2F%3E%3Cpath%20d%3D%22M155%2087q95-64%20190%204l-28%2031q-67-36-133%202z%22%20fill%3D%22%23171b1c%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M168%20105l34-30%2030%2028%2034-31%2031%2033%2033-19%2021%2039-39%2017-126-2z%22%20fill%3D%22%23111719%22%20opacity%3D%22.95%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22202%22%20cy%3D%22163%22%20rx%3D%2212%22%20ry%3D%229%22%20fill%3D%22%23e5bd39%22%2F%3E%3Cellipse%20cx%3D%22300%22%20cy%3D%22163%22%20rx%3D%2212%22%20ry%3D%229%22%20fill%3D%22%23e5bd39%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22250%22%20cy%3D%22216%22%20rx%3D%2224%22%20ry%3D%2215%22%20fill%3D%22%23101313%22%2F%3E%3Cpath%20d%3D%22M210%20238q40%2029%2080%200%22%20fill%3D%22none%22%20stroke%3D%22%23b6b0a5%22%20stroke-width%3D%226%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M174%20224l-20%2031%2031-7M327%20224l20%2031-31-7%22%20fill%3D%22%23e5dfcf%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "creature-unknown-colossus-001",
+              "category": "creatures",
+              "name": "Drauk",
+              "state": "known",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23120f0d%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%2349382d%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M28%20330c29-132%20112-213%20260-226%20147%2010%20249%2089%20321%20226z%22%20fill%3D%22%23463a30%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M112%20165q61-111%20194-108%20139%201%20194%20105l-63%2029q-43-56-130-57-84%201-133%2058z%22%20fill%3D%22%23272a27%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M127%20151l43-55%2047%2024%2043-57%2051%2040%2057-48%2036%2063%2065-18%2017%2076-73%2022-245-4z%22%20fill%3D%22%23171c1b%22%2F%3E%0A%20%20%3Cellipse%20cx%3D%22235%22%20cy%3D%22166%22%20rx%3D%2213%22%20ry%3D%2210%22%20fill%3D%22%23efc33f%22%2F%3E%3Cellipse%20cx%3D%22370%22%20cy%3D%22166%22%20rx%3D%2213%22%20ry%3D%2210%22%20fill%3D%22%23efc33f%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M211%20223q96%2062%20190-2-16%20103-97%20105-76-5-93-103z%22%20fill%3D%22%23171313%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M226%20230l23%2058%2025-49%2028%2061%2029-63%2024%2050%2025-58%22%20fill%3D%22%23e8e0cd%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "item-unknown-white-token-001",
+              "category": "items",
+              "name": "Objeto branco desconhecido",
+              "state": "discovered",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%230b1514%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23294d43%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%22105%22%20fill%3D%22%23eff6f3%22%20opacity%3D%22.35%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%2288%22%20fill%3D%22%23ffffff%22%20opacity%3D%22.55%22%20stroke%3D%22%23d9ffef%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%2215%22%20fill%3D%22none%22%20stroke%3D%22%23657e72%22%20stroke-width%3D%228%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M304%20169q-54-36-72-91M336%20169q56-35%2075-90M320%20197q0%2054-29%2090%22%20fill%3D%22none%22%20stroke%3D%22%23657e72%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%22135%22%20fill%3D%22none%22%20stroke%3D%22%23d7fff2%22%20stroke-width%3D%222%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "item-translation-pendant-unknown-001",
+              "category": "items",
+              "name": "Laço de Fala",
+              "state": "known",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23171615%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23334047%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M320%200q-8%2084%200%20123%22%20stroke%3D%22%23bbb79f%22%20stroke-width%3D%226%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22182%22%20r%3D%2283%22%20fill%3D%22%2378684f%22%20stroke%3D%22%23d3c7a7%22%20stroke-width%3D%229%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22182%22%20r%3D%2252%22%20fill%3D%22%2384c9e8%22%2F%3E%3Ccircle%20cx%3D%22301%22%20cy%3D%22160%22%20r%3D%2217%22%20fill%3D%22%23d9f7ff%22%20opacity%3D%22.7%22%2F%3E%3Cpath%20d%3D%22M263%20182q57-78%20114%200-57%2077-114%200z%22%20fill%3D%22none%22%20stroke%3D%22%23e7d9b6%22%20stroke-width%3D%226%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "location-velmora-001",
+              "category": "locations",
+              "name": "Velmora",
+              "state": "known",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%236f9a89%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23bed5b4%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Crect%20y%3D%22250%22%20width%3D%22640%22%20height%3D%22110%22%20fill%3D%22%23455e35%22%2F%3E%3Cpath%20d%3D%22M0%20265q130-60%20270-5t370-8v108H0z%22%20fill%3D%22%23314528%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M64%20260v-88h38v88M538%20260v-95h39v95%22%20stroke%3D%22%23674c32%22%20stroke-width%3D%2218%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M42%20182l42-48%2042%2048M515%20174l44-51%2045%2051%22%20fill%3D%22%23805b39%22%2F%3E%0A%20%20%3Cg%20fill%3D%22%23c3a274%22%20stroke%3D%22%234f3827%22%20stroke-width%3D%223%22%3E%3Cpath%20d%3D%22M155%20264v-104h96v104z%22%2F%3E%3Cpath%20d%3D%22M278%20264v-126h112v126z%22%2F%3E%3Cpath%20d%3D%22M413%20264v-91h83v91z%22%2F%3E%3C%2Fg%3E%0A%20%20%3Cg%20fill%3D%22%23713f2d%22%3E%3Cpath%20d%3D%22M143%20160l60-57%2061%2057z%22%2F%3E%3Cpath%20d%3D%22M266%20138l68-68%2069%2068z%22%2F%3E%3Cpath%20d%3D%22M402%20173l53-48%2052%2048z%22%2F%3E%3C%2Fg%3E%0A%20%20%3Cpath%20d%3D%22M0%20282h640%22%20stroke%3D%22%23bda16b%22%20stroke-width%3D%228%22%20stroke-dasharray%3D%228%207%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "location-auren-rumor-001",
+              "category": "locations",
+              "name": "Auren",
+              "state": "rumor",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2380acc6%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23d8d1b8%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M0%20285q175-63%20317-20t323-8v103H0z%22%20fill%3D%22%2346633e%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M70%20280V168h62v112M513%20280V147h65v133%22%20fill%3D%22%23a28e72%22%2F%3E%3Cpath%20d%3D%22M55%20169l46-65%2047%2065M495%20148l50-75%2050%2075%22%20fill%3D%22%23526376%22%2F%3E%0A%20%20%3Cg%20fill%3D%22%23b8a78e%22%20stroke%3D%22%2363584a%22%20stroke-width%3D%223%22%3E%3Crect%20x%3D%22157%22%20y%3D%22194%22%20width%3D%2273%22%20height%3D%2289%22%2F%3E%3Crect%20x%3D%22241%22%20y%3D%22155%22%20width%3D%2278%22%20height%3D%22128%22%2F%3E%3Crect%20x%3D%22334%22%20y%3D%22176%22%20width%3D%2284%22%20height%3D%22107%22%2F%3E%3Crect%20x%3D%22427%22%20y%3D%22204%22%20width%3D%2261%22%20height%3D%2279%22%2F%3E%3C%2Fg%3E%0A%20%20%3Cpath%20d%3D%22M226%20156l54-65%2054%2065M319%20176l58-83%2058%2083%22%20fill%3D%22%235b6f7d%22%2F%3E%3Cpath%20d%3D%22M0%20295h640%22%20stroke%3D%22%23d0bf93%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M34%20286h572%22%20stroke%3D%22%237f6f55%22%20stroke-width%3D%224%22%20stroke-dasharray%3D%2214%208%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22375%22%20cy%3D%2299%22%20r%3D%2231%22%20fill%3D%22%239a8262%22%2F%3E%3Cpath%20d%3D%22M344%20100q31-53%2062%200z%22%20fill%3D%22%236e7f8b%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "location-unknown-forest-001",
+              "category": "locations",
+              "name": "Floresta desconhecida",
+              "state": "discovered",
+              "summary": "Floresta onde Rafael despertou em Geria.",
+              "body": "Área florestal ainda sem nome conhecido, próxima de Velmora. Foi onde Rafael despertou, encontrou o Varkin, enfrentou um Drauk e descobriu o objeto branco.",
+              "tags": [
+                "Primeiro local",
+                "Floresta",
+                "Informação parcial"
+              ],
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%230b1510%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23304a35%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M0%20360V0h640v360z%22%20fill%3D%22%2312251a%22%2F%3E%3Cg%20stroke%3D%22%2344392b%22%20stroke-width%3D%2234%22%3E%3Cpath%20d%3D%22M80%20360Q90%20192%2066%200%22%2F%3E%3Cpath%20d%3D%22M233%20360Q250%20187%20225%200%22%2F%3E%3Cpath%20d%3D%22M430%20360Q403%20175%20439%200%22%2F%3E%3Cpath%20d%3D%22M584%20360Q559%20190%20603%200%22%2F%3E%3C%2Fg%3E%0A%20%20%3Cg%20stroke%3D%22%231e3927%22%20stroke-width%3D%2218%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M0%2074Q170%2021%20324%2089T640%2061%22%2F%3E%3Cpath%20d%3D%22M0%20154Q162%2088%20310%20150T640%20128%22%2F%3E%3C%2Fg%3E%0A%20%20%3Cpath%20d%3D%22M0%20322q125-65%20237-21t403-17v76H0z%22%20fill%3D%22%2329472d%22%2F%3E%3Cpath%20d%3D%22M285%20360q29-108%2039-232%2032%20101%2044%20232%22%20fill%3D%22%235e4a32%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "location-root-shelter-001",
+              "category": "locations",
+              "name": "Abrigo das raízes gigantes",
+              "state": "discovered",
+              "summary": "Abrigo improvisado usado por Rafael durante a fuga do Drauk.",
+              "body": "Cavidade formada por raízes antigas, pedras e um tronco caído. Foi onde Rafael se escondeu do Drauk e encontrou o objeto branco desconhecido.",
+              "tags": [
+                "Abrigo",
+                "Floresta desconhecida",
+                "Primeiro refúgio"
+              ],
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%230b1510%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23304a35%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23172218%22%2F%3E%3Cpath%20d%3D%22M0%20325q150-46%20275-15t365-7v57H0z%22%20fill%3D%22%2331432d%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M85%2020q84%2088%20139%20180%2035%2056%20111%20160M555%200q-85%2097-132%20185-31%2058-97%20175M330%200q-22%20108-14%20189%205%2070%2011%20171%22%20fill%3D%22none%22%20stroke%3D%22%2366513a%22%20stroke-width%3D%2248%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M217%20240q105-73%20211%200l-30%20120H245z%22%20fill%3D%22%23080d09%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22278%22%20r%3D%2215%22%20fill%3D%22%23eef9ef%22%20opacity%3D%22.75%22%2F%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "geria",
+              "category": "world",
+              "name": "Geria",
+              "state": "known",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%235c4e36%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%239c855a%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M30%2042q70-28%20137%2017t112-4q73-48%20144-1t184%203v255q-86-35-165%205t-147-7q-65-46-137%200t-128%201z%22%20fill%3D%22%23b59a68%22%20stroke%3D%22%236e5739%22%20stroke-width%3D%227%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M42%20210q93-91%20168-58t108%2023q41-8%2067-58t97-17%20117%2051%22%20fill%3D%22none%22%20stroke%3D%22%23577992%22%20stroke-width%3D%2216%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M91%20271Q205%20213%20281%20244T420%20209q59-52%20139-81%22%20fill%3D%22none%22%20stroke%3D%22%23f0dfaa%22%20stroke-width%3D%225%22%20stroke-dasharray%3D%2212%209%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22106%22%20cy%3D%22267%22%20r%3D%2213%22%20fill%3D%22%23325e39%22%2F%3E%3Ccircle%20cx%3D%22315%22%20cy%3D%22238%22%20r%3D%2213%22%20fill%3D%22%23325e39%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22132%22%20r%3D%2215%22%20fill%3D%22%238b6234%22%2F%3E%3C%2Fsvg%3E"
+            }
+          ]
+        },
+        "inventory": [
+          {
+            "id": "item-mufwpsox-1cjxfc",
+            "name": "Escudo redondo",
+            "media": [
+              {
+                "id": "media-shield-cover",
+                "type": "image",
+                "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23161513%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233e3428%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Ccircle%20cx%3D%22320%22%20cy%3D%22185%22%20r%3D%22125%22%20fill%3D%22%23694b30%22%20stroke%3D%22%2334271d%22%20stroke-width%3D%2214%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22185%22%20r%3D%22105%22%20fill%3D%22none%22%20stroke%3D%22%239f7748%22%20stroke-width%3D%228%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22185%22%20r%3D%2231%22%20fill%3D%22%237c8580%22%20stroke%3D%22%233c4641%22%20stroke-width%3D%228%22%2F%3E%3Cpath%20d%3D%22M185%2082l270%20206M200%20300l238-221%22%20stroke%3D%22%234d3624%22%20stroke-width%3D%227%22%20opacity%3D%22.7%22%2F%3E%3C%2Fsvg%3E",
+                "caption": "Escudo redondo"
+              }
+            ]
+          },
+          {
+            "id": "item-mufwpsox-placeholder-sword",
+            "name": "Espada de treino reforçada",
+            "media": [
+              {
+                "id": "media-sword-cover",
+                "type": "image",
+                "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23151713%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%233d463a%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M310%2045l30%200%208%20204-22%2055-24-55z%22%20fill%3D%22%23d7d9d5%22%20stroke%3D%22%23717a75%22%20stroke-width%3D%224%22%2F%3E%3Cpath%20d%3D%22M261%20250h127v18H261z%22%20fill%3D%22%23886842%22%2F%3E%3Cpath%20d%3D%22M314%20270h26v78h-26z%22%20fill%3D%22%23553c29%22%2F%3E%3Ccircle%20cx%3D%22327%22%20cy%3D%22348%22%20r%3D%2214%22%20fill%3D%22%23a7834f%22%2F%3E%3C%2Fsvg%3E",
+                "caption": "Espada de treino reforçada"
+              }
+            ]
+          }
+        ],
+        "mediaLibrary": [
+          {
+            "id": "media-route-map-session0",
+            "type": "image",
+            "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%235c4e36%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%239c855a%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Cpath%20d%3D%22M30%2042q70-28%20137%2017t112-4q73-48%20144-1t184%203v255q-86-35-165%205t-147-7q-65-46-137%200t-128%201z%22%20fill%3D%22%23b59a68%22%20stroke%3D%22%236e5739%22%20stroke-width%3D%227%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M42%20210q93-91%20168-58t108%2023q41-8%2067-58t97-17%20117%2051%22%20fill%3D%22none%22%20stroke%3D%22%23577992%22%20stroke-width%3D%2216%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M91%20271Q205%20213%20281%20244T420%20209q59-52%20139-81%22%20fill%3D%22none%22%20stroke%3D%22%23f0dfaa%22%20stroke-width%3D%225%22%20stroke-dasharray%3D%2212%209%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22106%22%20cy%3D%22267%22%20r%3D%2213%22%20fill%3D%22%23325e39%22%2F%3E%3Ccircle%20cx%3D%22315%22%20cy%3D%22238%22%20r%3D%2213%22%20fill%3D%22%23325e39%22%2F%3E%3Ccircle%20cx%3D%22548%22%20cy%3D%22132%22%20r%3D%2215%22%20fill%3D%22%238b6234%22%2F%3E%3C%2Fsvg%3E",
+            "caption": "Rota conhecida: floresta, Velmora e Auren",
+            "source": "Campanha"
+          },
+          {
+            "id": "media-white-object",
+            "type": "image",
+            "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%230b1514%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23294d43%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22r%22%3E%3Cstop%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%22.45%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23f3d58a%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Ccircle%20cx%3D%22499.20000000000005%22%20cy%3D%2279.2%22%20r%3D%22125.99999999999999%22%20fill%3D%22url(%23r)%22%2F%3E%0A%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%22105%22%20fill%3D%22%23eff6f3%22%20opacity%3D%22.35%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%2288%22%20fill%3D%22%23ffffff%22%20opacity%3D%22.55%22%20stroke%3D%22%23d9ffef%22%20stroke-width%3D%224%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%2215%22%20fill%3D%22none%22%20stroke%3D%22%23657e72%22%20stroke-width%3D%228%22%2F%3E%0A%20%20%3Cpath%20d%3D%22M304%20169q-54-36-72-91M336%20169q56-35%2075-90M320%20197q0%2054-29%2090%22%20fill%3D%22none%22%20stroke%3D%22%23657e72%22%20stroke-width%3D%2212%22%20stroke-linecap%3D%22round%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%22320%22%20cy%3D%22180%22%20r%3D%22135%22%20fill%3D%22none%22%20stroke%3D%22%23d7fff2%22%20stroke-width%3D%222%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E",
+            "caption": "Objeto branco desconhecido",
+            "source": "Codex"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 28,
+      "id": "session-000-visual-library-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Galeria atualizada",
+        "body": "Retratos, criaturas, itens e locais já descobertos receberam artes no Codex."
       }
     }
   ]
