@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 16,
-  "generated_at": "2026-09-28T18:38:00Z",
+  "revision": 17,
+  "generated_at": "2026-09-28T18:40:00Z",
   "events": [
     {
       "seq": 1,
@@ -3011,6 +3011,61 @@
       "payload": {
         "title": "Campaign Sync atualizado",
         "body": "Auren foi descoberta e a barreira linguística foi resolvida permanentemente para o Comum de Geria; recursos, XP, habilidade linguística, mapa, missão, relações, Diário, Crônica, itens e visuais foram sincronizados."
+      }
+    },
+    {
+      "seq": 31,
+      "id": "session-000-visual-completion",
+      "type": "patch",
+      "payload": {
+        "inventory": [
+          {
+            "id": "item-mufwpsox-sy2pli",
+            "name": "Espada de treino reforçada",
+            "media": [
+              {
+                "id": "media-sword-cover",
+                "type": "image",
+                "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22g%22%20x1%3D%220%22%20x2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23101511%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23354437%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23g)%22%2F%3E%3Cpath%20d%3D%22M306%2028h28l13%20212-22%2063-25-63z%22%20fill%3D%22%23d9dedb%22%20stroke%3D%22%2369746d%22%20stroke-width%3D%225%22%2F%3E%3Cpath%20d%3D%22M244%20245h151v19H244z%22%20fill%3D%22%2395734a%22%2F%3E%3Cpath%20d%3D%22M308%20265h28v77h-28z%22%20fill%3D%22%23533b29%22%2F%3E%3Ccircle%20cx%3D%22322%22%20cy%3D%22345%22%20r%3D%2213%22%20fill%3D%22%23b28d55%22%2F%3E%3C%2Fsvg%3E",
+                "caption": "Espada de treino reforçada"
+              }
+            ]
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "location-unnamed-stream-001",
+              "category": "locations",
+              "name": "Riacho sem nome",
+              "state": "discovered",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23163022%22%2F%3E%3Cpath%20d%3D%22M0%20305q97-81%20183-59t130%2022q48%200%2087-44t95-22q59%2021%20145-26v184H0z%22%20fill%3D%22%2331543a%22%2F%3E%3Cpath%20d%3D%22M-30%20348q125-63%20225-42t154-8q67-36%20116-27t205-60%22%20fill%3D%22none%22%20stroke%3D%22%236ca7b8%22%20stroke-width%3D%2276%22%2F%3E%3Cpath%20d%3D%22M-20%20346q120-60%20218-39t153-10q65-31%20114-24t199-58%22%20fill%3D%22none%22%20stroke%3D%22%23b8dfe6%22%20stroke-width%3D%229%22%20opacity%3D%22.65%22%2F%3E%3Cg%20stroke%3D%22%23513f2d%22%20stroke-width%3D%2226%22%3E%3Cpath%20d%3D%22M87%20270Q98%20139%2074%200%22%2F%3E%3Cpath%20d%3D%22M520%20241Q501%20123%20530%200%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"
+            },
+            {
+              "id": "system-aura-basic-001",
+              "category": "systems",
+              "name": "Aura",
+              "state": "discovered",
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22a%22%3E%3Cstop%20stop-color%3D%22%23bfffe0%22%20stop-opacity%3D%22.9%22%2F%3E%3Cstop%20offset%3D%22.45%22%20stop-color%3D%22%235fd99b%22%20stop-opacity%3D%22.42%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%235fd99b%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%230a1310%22%2F%3E%3Cellipse%20cx%3D%22320%22%20cy%3D%22184%22%20rx%3D%22185%22%20ry%3D%22165%22%20fill%3D%22url(%23a)%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22103%22%20r%3D%2246%22%20fill%3D%22%2318241e%22%2F%3E%3Cpath%20d%3D%22M246%20328q12-152%2074-161%2065%2010%2078%20161z%22%20fill%3D%22%2318241e%22%2F%3E%3Cpath%20d%3D%22M319%20152q-53%2062-78%20150M321%20153q56%2060%2080%20149%22%20fill%3D%22none%22%20stroke%3D%22%239dffd0%22%20stroke-width%3D%229%22%20opacity%3D%22.55%22%2F%3E%3Cpath%20d%3D%22M319%20169V318%22%20stroke%3D%22%23c8ffe2%22%20stroke-width%3D%226%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E"
+            }
+          ]
+        },
+        "mediaLibrary": [
+          {
+            "id": "media-stream-cover",
+            "type": "image",
+            "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%23163022%22%2F%3E%3Cpath%20d%3D%22M0%20305q97-81%20183-59t130%2022q48%200%2087-44t95-22q59%2021%20145-26v184H0z%22%20fill%3D%22%2331543a%22%2F%3E%3Cpath%20d%3D%22M-30%20348q125-63%20225-42t154-8q67-36%20116-27t205-60%22%20fill%3D%22none%22%20stroke%3D%22%236ca7b8%22%20stroke-width%3D%2276%22%2F%3E%3Cpath%20d%3D%22M-20%20346q120-60%20218-39t153-10q65-31%20114-24t199-58%22%20fill%3D%22none%22%20stroke%3D%22%23b8dfe6%22%20stroke-width%3D%229%22%20opacity%3D%22.65%22%2F%3E%3Cg%20stroke%3D%22%23513f2d%22%20stroke-width%3D%2226%22%3E%3Cpath%20d%3D%22M87%20270Q98%20139%2074%200%22%2F%3E%3Cpath%20d%3D%22M520%20241Q501%20123%20530%200%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+            "caption": "Riacho sem nome",
+            "source": "Codex"
+          },
+          {
+            "id": "media-aura-cover",
+            "type": "image",
+            "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%3Cdefs%3E%3CradialGradient%20id%3D%22a%22%3E%3Cstop%20stop-color%3D%22%23bfffe0%22%20stop-opacity%3D%22.9%22%2F%3E%3Cstop%20offset%3D%22.45%22%20stop-color%3D%22%235fd99b%22%20stop-opacity%3D%22.42%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%235fd99b%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22%230a1310%22%2F%3E%3Cellipse%20cx%3D%22320%22%20cy%3D%22184%22%20rx%3D%22185%22%20ry%3D%22165%22%20fill%3D%22url(%23a)%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22103%22%20r%3D%2246%22%20fill%3D%22%2318241e%22%2F%3E%3Cpath%20d%3D%22M246%20328q12-152%2074-161%2065%2010%2078%20161z%22%20fill%3D%22%2318241e%22%2F%3E%3Cpath%20d%3D%22M319%20152q-53%2062-78%20150M321%20153q56%2060%2080%20149%22%20fill%3D%22none%22%20stroke%3D%22%239dffd0%22%20stroke-width%3D%229%22%20opacity%3D%22.55%22%2F%3E%3Cpath%20d%3D%22M319%20169V318%22%20stroke%3D%22%23c8ffe2%22%20stroke-width%3D%226%22%20opacity%3D%22.5%22%2F%3E%3C%2Fsvg%3E",
+            "caption": "Aura — identificação provisória",
+            "source": "Codex"
+          }
+        ]
       }
     }
   ]
