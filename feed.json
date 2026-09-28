@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 15,
-  "generated_at": "2026-09-28T18:30:00Z",
+  "revision": 16,
+  "generated_at": "2026-09-28T18:38:00Z",
   "events": [
     {
       "seq": 1,
@@ -2729,6 +2729,288 @@
       "payload": {
         "title": "Galeria atualizada",
         "body": "Retratos, criaturas, itens e locais já descobertos receberam artes no Codex."
+      }
+    },
+    {
+      "seq": 29,
+      "id": "session-000-arrive-auren-language-solved",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Auren — Casa das Vozes",
+          "timeOfDay": "Tarde"
+        },
+        "character": {
+          "xp": 240,
+          "nextXp": 273,
+          "resources": {
+            "hp": {
+              "cur": 124,
+              "max": 124
+            },
+            "stamina": {
+              "cur": 68,
+              "max": 82
+            },
+            "mana": {
+              "cur": 0,
+              "max": 0
+            },
+            "aura": {
+              "cur": 52,
+              "max": 54
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          }
+        },
+        "skills": [
+          {
+            "id": "language-common-geria",
+            "name": "Comum de Geria",
+            "rank": "Fluente",
+            "desc": "Compreensão e fala permanentes do idioma comum usado em Auren, Velmora e grande parte das rotas comerciais conhecidas. Não concede automaticamente outros idiomas, códigos ou dialetos fechados."
+          }
+        ],
+        "effects": [
+          {
+            "id": "linguistic-concordance-common",
+            "name": "Concordância Linguística — Comum de Geria",
+            "kind": "buff",
+            "duration": 0,
+            "unit": "dias",
+            "stacks": 1,
+            "permanent": true,
+            "modifiers": [],
+            "desc": "O Elixir de Concordância estabeleceu compreensão e produção permanentes do Comum de Geria."
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "location-auren-rumor-001",
+              "category": "locations",
+              "name": "Auren",
+              "state": "known",
+              "summary": "Grande cidade comercial alcançada por Rafael após deixar Velmora.",
+              "body": "Auren é uma cidade murada e movimentada, ligada a Velmora por uma estrada relativamente segura. Possui mercados, artesãos, avaliadores, estudiosos e serviços especializados que não existem na pequena vila. Rafael chegou de carroça com Maela, Teren e o Varkin, indo diretamente à Casa das Vozes.",
+              "tags": [
+                "Cidade",
+                "Comércio",
+                "Especialistas",
+                "Destino alcançado"
+              ],
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22sky%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2378b4dc%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e8d9bd%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23sky)%22%2F%3E%3Cpath%20d%3D%22M0%20278q177-57%20324-22t316-10v114H0z%22%20fill%3D%22%2348633f%22%2F%3E%0A%3Cpath%20d%3D%22M45%20283h550%22%20stroke%3D%22%23776953%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M73%20274h492%22%20stroke%3D%22%23d2c49b%22%20stroke-width%3D%227%22%2F%3E%0A%3Cg%20fill%3D%22%23bcae94%22%20stroke%3D%22%23675c4c%22%20stroke-width%3D%223%22%3E%3Crect%20x%3D%22119%22%20y%3D%22184%22%20width%3D%2273%22%20height%3D%2296%22%2F%3E%3Crect%20x%3D%22204%22%20y%3D%22145%22%20width%3D%2289%22%20height%3D%22135%22%2F%3E%3Crect%20x%3D%22307%22%20y%3D%22170%22%20width%3D%2290%22%20height%3D%22110%22%2F%3E%3Crect%20x%3D%22408%22%20y%3D%22126%22%20width%3D%2297%22%20height%3D%22154%22%2F%3E%3C%2Fg%3E%0A%3Cg%20fill%3D%22%23536c80%22%3E%3Cpath%20d%3D%22M104%20185l52-62%2052%2062z%22%2F%3E%3Cpath%20d%3D%22M187%20145l61-82%2062%2082z%22%2F%3E%3Cpath%20d%3D%22M292%20170l60-77%2060%2077z%22%2F%3E%3Cpath%20d%3D%22M391%20126l66-96%2067%2096z%22%2F%3E%3C%2Fg%3E%0A%3Cpath%20d%3D%22M0%20302q83-26%20166-3t152%200q80-25%20163%200t159%200v61H0z%22%20fill%3D%22%23567e92%22%2F%3E%3Cpath%20d%3D%22M244%20281q76-81%20151%200%22%20fill%3D%22none%22%20stroke%3D%22%238f8068%22%20stroke-width%3D%2218%22%2F%3E%0A%3C%2Fsvg%3E"
+            },
+            {
+              "id": "location-house-of-voices-001",
+              "category": "locations",
+              "name": "Casa das Vozes",
+              "state": "known",
+              "summary": "Estabelecimento de Auren especializado em idiomas, tradução e soluções linguísticas.",
+              "body": "Maela levou Rafael diretamente à Casa das Vozes para resolver a barreira linguística. O local combina serviços de tradução, preparação alquímica e procedimentos de adaptação a idiomas.",
+              "tags": [
+                "Auren",
+                "Idiomas",
+                "Alquimia",
+                "Serviço especializado"
+              ],
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23101722%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23263b45%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22glow%22%3E%3Cstop%20stop-color%3D%22%239eeaff%22%20stop-opacity%3D%22.75%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%239eeaff%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23bg)%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22190%22%20r%3D%22145%22%20fill%3D%22url(%23glow)%22%2F%3E%0A%3Cpath%20d%3D%22M282%2061h76v41l-18%2024v21c62%2026%2085%2077%2070%20140-9%2037-43%2057-90%2057s-82-20-91-57c-15-63%209-114%2071-140v-21l-18-24z%22%20fill%3D%22%23b7d4d8%22%20fill-opacity%3D%22.35%22%20stroke%3D%22%23dffcff%22%20stroke-width%3D%227%22%2F%3E%0A%3Cpath%20d%3D%22M245%20230q75-48%20151%200v65q-27%2035-76%2035t-75-35z%22%20fill%3D%22%236cd2e7%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20d%3D%22M290%2091h60%22%20stroke%3D%22%23c7b375%22%20stroke-width%3D%2214%22%20stroke-linecap%3D%22round%22%2F%3E%0A%3Ccircle%20cx%3D%22319%22%20cy%3D%22220%22%20r%3D%2230%22%20fill%3D%22%23defbff%22%20opacity%3D%22.7%22%2F%3E%3Cpath%20d%3D%22M276%20219q43-59%2087%200-44%2059-87%200z%22%20fill%3D%22none%22%20stroke%3D%22%23f1dfac%22%20stroke-width%3D%226%22%2F%3E%0A%3C%2Fsvg%3E"
+            },
+            {
+              "id": "item-elixir-concordance-001",
+              "category": "items",
+              "name": "Elixir de Concordância",
+              "state": "known",
+              "summary": "Consumível linguístico capaz de estabelecer compreensão e fala permanentes de um idioma específico.",
+              "body": "Rafael consumiu uma dose preparada para o Comum de Geria. O efeito é permanente para esse idioma: ele agora compreende e fala o Comum sem depender do Laço de Fala. O elixir não concede conhecimento automático de todos os idiomas de Geria.",
+              "tags": [
+                "Consumível",
+                "Poção",
+                "Idioma",
+                "Efeito permanente"
+              ],
+              "image": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23101722%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23263b45%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22glow%22%3E%3Cstop%20stop-color%3D%22%239eeaff%22%20stop-opacity%3D%22.75%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%239eeaff%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23bg)%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22190%22%20r%3D%22145%22%20fill%3D%22url(%23glow)%22%2F%3E%0A%3Cpath%20d%3D%22M282%2061h76v41l-18%2024v21c62%2026%2085%2077%2070%20140-9%2037-43%2057-90%2057s-82-20-91-57c-15-63%209-114%2071-140v-21l-18-24z%22%20fill%3D%22%23b7d4d8%22%20fill-opacity%3D%22.35%22%20stroke%3D%22%23dffcff%22%20stroke-width%3D%227%22%2F%3E%0A%3Cpath%20d%3D%22M245%20230q75-48%20151%200v65q-27%2035-76%2035t-75-35z%22%20fill%3D%22%236cd2e7%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20d%3D%22M290%2091h60%22%20stroke%3D%22%23c7b375%22%20stroke-width%3D%2214%22%20stroke-linecap%3D%22round%22%2F%3E%0A%3Ccircle%20cx%3D%22319%22%20cy%3D%22220%22%20r%3D%2230%22%20fill%3D%22%23defbff%22%20opacity%3D%22.7%22%2F%3E%3Cpath%20d%3D%22M276%20219q43-59%2087%200-44%2059-87%200z%22%20fill%3D%22none%22%20stroke%3D%22%23f1dfac%22%20stroke-width%3D%226%22%2F%3E%0A%3C%2Fsvg%3E"
+            },
+            {
+              "id": "mystery-language-barrier-001",
+              "category": "mysteries",
+              "name": "Barreira linguística",
+              "state": "studied",
+              "summary": "A barreira inicial foi superada permanentemente para o Comum de Geria.",
+              "body": "Depois de chegar a Auren, Rafael consumiu um Elixir de Concordância preparado para o Comum de Geria. Desde então, consegue compreender e falar esse idioma sem artefatos de tradução. Outros idiomas ainda exigem aprendizado ou meios próprios.",
+              "tags": [
+                "Idioma",
+                "Resolvido parcialmente",
+                "Comum de Geria"
+              ]
+            }
+          ]
+        },
+        "map": {
+          "markers": [
+            {
+              "id": "marker-auren-001",
+              "name": "Auren",
+              "type": "location",
+              "x": 78,
+              "y": 39,
+              "visible": true
+            },
+            {
+              "id": "marker-house-of-voices-001",
+              "name": "Casa das Vozes",
+              "type": "location",
+              "x": 80,
+              "y": 40,
+              "visible": true
+            }
+          ]
+        },
+        "quests": [
+          {
+            "id": "quest-understand-local-language-001",
+            "name": "Quebrar a barreira da língua",
+            "desc": "Rafael precisava encontrar uma forma confiável de compreender e falar a língua local de Geria.",
+            "status": "Concluída",
+            "type": "Objetivo pessoal",
+            "objectives": [
+              {
+                "id": "obj-identify-translation-method",
+                "text": "Descobrir como funciona o método de tradução visto em Velmora",
+                "done": true
+              },
+              {
+                "id": "obj-learn-about-lasting-methods",
+                "text": "Descobrir se existem métodos duradouros ou permanentes",
+                "done": true
+              },
+              {
+                "id": "obj-reach-specialist-language",
+                "text": "Encontrar um especialista capaz de oferecer uma solução permanente",
+                "done": true
+              },
+              {
+                "id": "obj-obtain-lasting-translation",
+                "text": "Obter compreensão duradoura ou permanente da língua local",
+                "done": true
+              }
+            ],
+            "reward": "Fluência permanente no Comum de Geria."
+          },
+          {
+            "id": "quest-investigate-origin-001",
+            "name": "De onde eu vim — e por quê?",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-reach-auren",
+                "text": "Chegar a Auren, onde existem especialistas relevantes",
+                "done": true
+              },
+              {
+                "id": "obj-find-scholar-extramundanos",
+                "text": "Encontrar alguém capaz de pesquisar relatos de Extramundanos",
+                "done": false
+              },
+              {
+                "id": "obj-appraise-energy",
+                "text": "Obter uma avaliação especializada da manifestação energética",
+                "done": false
+              },
+              {
+                "id": "obj-recover-white-object",
+                "text": "Recuperar o objeto branco deixado no abrigo, quando for seguro",
+                "done": true
+              },
+              {
+                "id": "obj-appraise-white-object",
+                "text": "Levar o objeto branco a um avaliador especializado",
+                "done": false
+              },
+              {
+                "id": "obj-discover-cause-crossing",
+                "text": "Descobrir o que causou a travessia entre mundos",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "relations": [
+          {
+            "id": "relation-rafa-maela-001",
+            "a": "Rafael",
+            "b": "Maela",
+            "type": "Ajuda / confiança",
+            "sentiment": "positive",
+            "notes": "Maela acompanhou Rafael até Auren e usou um favor profissional para garantir acesso imediato ao Elixir de Concordância, priorizando a comunicação permanente."
+          },
+          {
+            "id": "relation-rafa-woodcutter-001",
+            "a": "Rafael",
+            "b": "Teren",
+            "type": "Cooperação / confiança",
+            "sentiment": "positive",
+            "notes": "Teren conduziu a carroça de Velmora até Auren e permaneceu ao lado de Rafael durante a viagem."
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-session0-road-to-auren",
+            "title": "Auren e a língua de Geria",
+            "body": "Maela e Teren levaram Rafael de carroça até Auren por uma estrada relativamente rápida e segura. A primeira parada foi a Casa das Vozes. Maela acionou um favor profissional para obter uma dose de Elixir de Concordância preparada para o Comum de Geria. Rafael consumiu a poção e passou a compreender e falar o idioma permanentemente, sem depender do Laço de Fala.",
+            "date": "Sessão 0"
+          }
+        ],
+        "chronicle": [
+          {
+            "id": "chron-session0-language-solved",
+            "title": "As palavras finalmente fazem sentido",
+            "body": "Ao chegar a Auren, Rafael resolveu sua prioridade imediata: a barreira de idioma. O Elixir de Concordância tornou o Comum de Geria uma língua compreensível e falável permanentemente. Pela primeira vez desde a travessia, ele pode conversar livremente com os habitantes do mundo.",
+            "date": "Sessão 0"
+          }
+        ],
+        "mediaLibrary": [
+          {
+            "id": "media-auren-cover",
+            "type": "image",
+            "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22sky%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%220%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%2378b4dc%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23e8d9bd%22%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23sky)%22%2F%3E%3Cpath%20d%3D%22M0%20278q177-57%20324-22t316-10v114H0z%22%20fill%3D%22%2348633f%22%2F%3E%0A%3Cpath%20d%3D%22M45%20283h550%22%20stroke%3D%22%23776953%22%20stroke-width%3D%2212%22%2F%3E%3Cpath%20d%3D%22M73%20274h492%22%20stroke%3D%22%23d2c49b%22%20stroke-width%3D%227%22%2F%3E%0A%3Cg%20fill%3D%22%23bcae94%22%20stroke%3D%22%23675c4c%22%20stroke-width%3D%223%22%3E%3Crect%20x%3D%22119%22%20y%3D%22184%22%20width%3D%2273%22%20height%3D%2296%22%2F%3E%3Crect%20x%3D%22204%22%20y%3D%22145%22%20width%3D%2289%22%20height%3D%22135%22%2F%3E%3Crect%20x%3D%22307%22%20y%3D%22170%22%20width%3D%2290%22%20height%3D%22110%22%2F%3E%3Crect%20x%3D%22408%22%20y%3D%22126%22%20width%3D%2297%22%20height%3D%22154%22%2F%3E%3C%2Fg%3E%0A%3Cg%20fill%3D%22%23536c80%22%3E%3Cpath%20d%3D%22M104%20185l52-62%2052%2062z%22%2F%3E%3Cpath%20d%3D%22M187%20145l61-82%2062%2082z%22%2F%3E%3Cpath%20d%3D%22M292%20170l60-77%2060%2077z%22%2F%3E%3Cpath%20d%3D%22M391%20126l66-96%2067%2096z%22%2F%3E%3C%2Fg%3E%0A%3Cpath%20d%3D%22M0%20302q83-26%20166-3t152%200q80-25%20163%200t159%200v61H0z%22%20fill%3D%22%23567e92%22%2F%3E%3Cpath%20d%3D%22M244%20281q76-81%20151%200%22%20fill%3D%22none%22%20stroke%3D%22%238f8068%22%20stroke-width%3D%2218%22%2F%3E%0A%3C%2Fsvg%3E",
+            "caption": "Auren",
+            "source": "Codex"
+          },
+          {
+            "id": "media-elixir-concordance",
+            "type": "image",
+            "src": "data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20640%20360%22%3E%0A%3Cdefs%3E%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23101722%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23263b45%22%2F%3E%3C%2FlinearGradient%3E%0A%3CradialGradient%20id%3D%22glow%22%3E%3Cstop%20stop-color%3D%22%239eeaff%22%20stop-opacity%3D%22.75%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%239eeaff%22%20stop-opacity%3D%220%22%2F%3E%3C%2FradialGradient%3E%3C%2Fdefs%3E%0A%3Crect%20width%3D%22640%22%20height%3D%22360%22%20fill%3D%22url(%23bg)%22%2F%3E%3Ccircle%20cx%3D%22320%22%20cy%3D%22190%22%20r%3D%22145%22%20fill%3D%22url(%23glow)%22%2F%3E%0A%3Cpath%20d%3D%22M282%2061h76v41l-18%2024v21c62%2026%2085%2077%2070%20140-9%2037-43%2057-90%2057s-82-20-91-57c-15-63%209-114%2071-140v-21l-18-24z%22%20fill%3D%22%23b7d4d8%22%20fill-opacity%3D%22.35%22%20stroke%3D%22%23dffcff%22%20stroke-width%3D%227%22%2F%3E%0A%3Cpath%20d%3D%22M245%20230q75-48%20151%200v65q-27%2035-76%2035t-75-35z%22%20fill%3D%22%236cd2e7%22%20fill-opacity%3D%22.8%22%2F%3E%0A%3Cpath%20d%3D%22M290%2091h60%22%20stroke%3D%22%23c7b375%22%20stroke-width%3D%2214%22%20stroke-linecap%3D%22round%22%2F%3E%0A%3Ccircle%20cx%3D%22319%22%20cy%3D%22220%22%20r%3D%2230%22%20fill%3D%22%23defbff%22%20opacity%3D%22.7%22%2F%3E%3Cpath%20d%3D%22M276%20219q43-59%2087%200-44%2059-87%200z%22%20fill%3D%22none%22%20stroke%3D%22%23f1dfac%22%20stroke-width%3D%226%22%2F%3E%0A%3C%2Fsvg%3E",
+            "caption": "Elixir de Concordância",
+            "source": "Codex"
+          }
+        ],
+        "operations": [
+          {
+            "op": "removeItem",
+            "id": "item-mufwpsox-placeholder-sword"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 30,
+      "id": "session-000-arrive-auren-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Campaign Sync atualizado",
+        "body": "Auren foi descoberta e a barreira linguística foi resolvida permanentemente para o Comum de Geria; recursos, XP, habilidade linguística, mapa, missão, relações, Diário, Crônica, itens e visuais foram sincronizados."
       }
     }
   ]
