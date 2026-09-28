@@ -26,3 +26,11 @@ O app do jogador recebe somente o que já foi descoberto. O mapa mestre e artes 
 ```json
 {"op":"revealMapTile","id":"tile-001","value":{"src":"https://.../media/maps/tile-001.webp","x":38,"y":42,"w":16,"h":16,"name":"Região explorada"}}
 ```
+
+
+## Visual Quality 4.3
+
+- Não usar ilustrações simplificadas geradas por SVG como arte final de Codex.
+- Retratos, criaturas, locais e itens importantes devem receber arte raster/gerada de qualidade.
+- Enquanto a arte real não existir, o Codex exibe um placeholder neutro de "arte pendente".
+- O mapa continua sem o mapa-mestre no app; fragmentos de terreno conhecidos são revelados por tiles, deixando todo o resto sob névoa preta.
