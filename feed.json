@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 17,
-  "generated_at": "2026-09-28T18:40:00Z",
+  "revision": 18,
+  "generated_at": "2026-09-28T18:51:52.544Z",
   "events": [
     {
       "seq": 1,
@@ -3066,6 +3066,27 @@
             "source": "Codex"
           }
         ]
+      }
+    },
+    {
+      "seq": 32,
+      "id": "system-visual-quality-43",
+      "type": "patch",
+      "payload": {
+        "operations": [
+          {
+            "op": "purgeLegacyVisuals"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 33,
+      "id": "system-visual-quality-43-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Visual Quality 4.3",
+        "body": "Ilustrações vetoriais simplificadas antigas foram desativadas. O Codex agora aguarda arte ilustrada real e mantém o mapa em exploração progressiva."
       }
     }
   ]
