@@ -1,8 +1,8 @@
 {
   "schema": "geria-campaign-feed-v1",
   "campaign": "geria-main",
-  "revision": 18,
-  "generated_at": "2026-09-28T18:51:52.544Z",
+  "revision": 19,
+  "generated_at": "2026-09-29T01:13:43.006Z",
   "events": [
     {
       "seq": 1,
@@ -3087,6 +3087,71 @@
       "payload": {
         "title": "Visual Quality 4.3",
         "body": "Ilustrações vetoriais simplificadas antigas foram desativadas. O Codex agora aguarda arte ilustrada real e mantém o mapa em exploração progressiva."
+      }
+    },
+    {
+      "seq": 34,
+      "id": "visual-backfill-drauk",
+      "type": "patch",
+      "payload": {
+        "operations": [
+          {
+            "op": "setEntryImage",
+            "id": "creature-unknown-colossus-001",
+            "src": "https://raw.githubusercontent.com/rafaelffernandess/geria-campaign-sync/main/media/codex/drauk.webp"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 35,
+      "id": "visual-policy-pending-queue",
+      "type": "patch",
+      "payload": {
+        "operations": [
+          {
+            "op": "set",
+            "path": "sync.visualPolicy",
+            "value": {
+              "version": "1.0",
+              "automatic": true,
+              "quality": "high",
+              "rules": [
+                "Gerar arte para personagens relevantes, criaturas identificadas, locais importantes, itens únicos ou relevantes e mudanças marcantes de equipamento.",
+                "Nunca usar SVG procedural como arte final.",
+                "Não revelar visualmente detalhes que o personagem ainda não conhece.",
+                "Sincronizar a arte no mesmo turno em que a descoberta visual ocorrer, quando apropriado."
+              ]
+            }
+          },
+          {
+            "op": "set",
+            "path": "sync.visualQueue",
+            "value": [
+              "character-maela-001",
+              "character-unknown-woodcutter-001",
+              "creature-unknown-lupine-001",
+              "location-velmora-001",
+              "location-auren-rumor-001",
+              "location-house-of-voices-001",
+              "location-unknown-forest-001",
+              "location-root-shelter-001",
+              "location-unnamed-stream-001",
+              "item-unknown-white-token-001",
+              "item-translation-pendant-unknown-001",
+              "item-elixir-concordance-001"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 36,
+      "id": "visual-backfill-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Sincronização visual atualizada",
+        "body": "A arte do Drauk foi substituída por uma ilustração real. O restante do conteúdo visual conhecido entrou na fila de geração e sincronização."
       }
     }
   ]
