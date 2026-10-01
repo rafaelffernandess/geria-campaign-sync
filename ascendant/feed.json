@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 22,
-  "generated_at": "2026-10-01T23:28:00-03:00",
+  "revision": 23,
+  "generated_at": "2026-10-08T20:10:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -1048,6 +1048,265 @@
         "flags": {
           "firstTowerReturnComplete": true,
           "firstMaterialSaleComplete": true
+        }
+      }
+    },
+    {
+      "seq": 29,
+      "id": "ascendant-week-001-n4-training-farm-29",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "session": 1,
+          "worldDate": "Uma semana após a primeira incursão",
+          "location": "Associação de Incursores — área de retorno da Torre",
+          "chapter": "Semana 1 — Rotina de Caça",
+          "timeOfDay": "Noite"
+        },
+        "character": {
+          "level": 4,
+          "xp": 620,
+          "nextXp": 1100,
+          "resources": {
+            "hp": {
+              "cur": 128,
+              "max": 136
+            },
+            "stamina": {
+              "cur": 39,
+              "max": 86
+            },
+            "aura": {
+              "cur": 61,
+              "max": 156
+            }
+          },
+          "progression": {
+            "systemVersion": 3,
+            "rootClass": "Slayer",
+            "rewardedThroughLevel": 4,
+            "attributePoints": 3,
+            "talentPoints": 1,
+            "trainingPoints": 2,
+            "hpFromLevels": 18,
+            "staminaFromLevels": 12,
+            "levelHistory": [
+              {
+                "level": 2,
+                "date": "Semana 1 — Dia 1",
+                "note": "Primeiro nível obtido durante a rotina de caça no N-4."
+              },
+              {
+                "level": 3,
+                "date": "Semana 1 — Dia 3",
+                "note": "Evolução por combate repetido e treino de controle energético."
+              },
+              {
+                "level": 4,
+                "date": "Semana 1 — Dia 6",
+                "note": "Evolução após sucessivas incursões solo no Setor N-4."
+              }
+            ],
+            "lastLevelUpAt": "Semana 1 — Dia 6"
+          },
+          "powerProfiles": {
+            "aura": {
+              "knowledge": "Treino de combate intensivo — controle intermediário inicial",
+              "rank": "B",
+              "potential": "A-",
+              "capacity": 156,
+              "property": "Aceleradora",
+              "behavior": "Expansiva",
+              "advantages": [
+                "Retomada de fluxo extremamente rápida após o fim de uma supressão",
+                "A propriedade Aceleradora pode ser concentrada localmente para explosões curtas de movimento",
+                "Melhor controle de frenagem, direção e reinício de fluxo"
+              ],
+              "drawbacks": [
+                "Alternância repetida com Zero Absoluto Pessoal causa sobrecarga neuroenergética",
+                "Zero Absoluto Pessoal interrompe também o fluxo da própria Aura enquanto está ativo"
+              ],
+              "notes": "Uma semana de incursões repetidas no Setor N-4 elevou a reserva e melhorou significativamente o controle, sem mudança de Rank."
+            }
+          }
+        },
+        "techniques": [
+          {
+            "id": "technique-ascendant-null-switch",
+            "kind": "technique",
+            "name": "Alternância Nula",
+            "rank": "E-",
+            "power": "aura",
+            "training": 62,
+            "cost": "Exige alternância precisa entre Zero Absoluto Pessoal e Aura; sequências longas ainda causam sobrecarga neuroenergética.",
+            "source": "Zero Absoluto Pessoal + Aura Aceleradora",
+            "desc": "Mantém a supressão energética como defesa e religa a Aura Aceleradora em janelas curtas para contra-atacar durante a retomada do fluxo adversário. Após uma semana de treino, a transição ficou muito mais rápida e consistente."
+          },
+          {
+            "id": "technique-ascendant-null-pulse",
+            "kind": "technique",
+            "name": "Pulso Nulo",
+            "rank": "F+",
+            "power": "aura",
+            "training": 36,
+            "cost": "Uso repetido acumula pressão neurológica e exige timing preciso.",
+            "source": "Zero Absoluto Pessoal",
+            "desc": "Ativa o campo de imobilidade energética apenas por um instante, interrompendo fluxos próximos sem sustentar a supressão por longos períodos. Reduz o tempo em que a própria Aura de Rafael permanece bloqueada."
+          }
+        ],
+        "skills": [
+          {
+            "id": "skill-ascendant-accelerated-burst",
+            "kind": "skill",
+            "name": "Arranque Acelerado",
+            "rank": "E-",
+            "power": "aura",
+            "training": 54,
+            "cost": "Aura; exige concentração localizada nas pernas e no eixo corporal.",
+            "source": "Aura — propriedade Aceleradora",
+            "desc": "Concentra a propriedade Aceleradora da Aura em uma explosão curta de movimento. O uso ficou mais estável, com melhor frenagem e mudança de direção."
+          },
+          {
+            "id": "skill-ascendant-flow-reading",
+            "kind": "skill",
+            "name": "Leitura de Fluxo",
+            "rank": "F+",
+            "power": "aura",
+            "training": 31,
+            "cost": "Concentração; perde precisão em ambientes com muitas assinaturas simultâneas.",
+            "source": "Treino de percepção energética",
+            "desc": "Percebe alterações imediatas no movimento de energia sobrenatural nas proximidades, ajudando Rafael a reconhecer o instante em que um fluxo é interrompido ou começa a se restabelecer."
+          }
+        ],
+        "inventory": [
+          {
+            "id": "item-ascendant-bronze-industrial-katana-001",
+            "durability": {
+              "cur": 88,
+              "max": 100
+            },
+            "condition": "Bom"
+          },
+          {
+            "id": "item-ascendant-bronze-light-protection-001",
+            "durability": {
+              "cur": 84,
+              "max": 100
+            },
+            "condition": "Bom"
+          },
+          {
+            "id": "item-ascendant-n4-dense-resonant-core",
+            "name": "Núcleo Ressonante Denso — N-4",
+            "type": "Material",
+            "rarity": "Raro",
+            "qty": 1,
+            "weight": 0.24,
+            "desc": "Núcleo incomumente denso obtido de uma criatura de elite no Setor N-4. A circulação residual permanece estável mesmo horas após a coleta.",
+            "effects": "Não avaliado.",
+            "category": "misc",
+            "subtype": "Material de criatura",
+            "quality": "Superior",
+            "condition": "Bom",
+            "materials": [],
+            "tags": [
+              "Torre",
+              "Andar 1",
+              "N-4",
+              "Ressonante",
+              "Não avaliado"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": null,
+            "charges": null,
+            "visualStatus": "pending"
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "system-zero-absolute-week1-control",
+              "category": "systems",
+              "name": "Zero Absoluto Pessoal — Refinamento de Controle",
+              "state": "discovered",
+              "summary": "Uma semana de treino permitiu transformar ativações longas em pulsos curtos e modular melhor a área de supressão.",
+              "body": "Rafael aprendeu a contrair o campo para perto do corpo, sustentá-lo com menos desperdício e realizar ativações breves em forma de Pulso Nulo. Também consegue forçar expansões maiores por pouco tempo, mas isso aumenta rapidamente a sobrecarga. O Talento continua bloqueando a própria Aura enquanto está ativo, não apaga matéria nem projéteis físicos já produzidos e ainda não foi testado contra um Talento de outro Ressonante.",
+              "tags": [
+                "Talento",
+                "Zero Absoluto Pessoal",
+                "Treino",
+                "Semana 1"
+              ]
+            },
+            {
+              "id": "tower-floor1-n4-week1-pattern",
+              "category": "tower",
+              "name": "Setor N-4 — Padrão de Reposição",
+              "state": "discovered",
+              "summary": "A fauna hostil do setor volta a ocupar rotas limpas ao longo de horas ou dias.",
+              "body": "Após repetir incursões durante uma semana, Rafael confirmou que limpar uma rota do N-4 não torna a área permanentemente segura. Criaturas migram de regiões adjacentes e novos grupos reaparecem, permitindo novas caçadas, embora a densidade varie ao longo do dia.",
+              "tags": [
+                "Torre",
+                "Andar 1",
+                "N-4",
+                "Observação de campo"
+              ]
+            }
+          ]
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-week1-n4-routine",
+            "title": "Uma semana de rotina no N-4",
+            "body": "Durante os sete dias seguintes, Rafael repetiu a rotina de entrar sozinho no Andar 1, caçar no Setor N-4, treinar Zero Absoluto Pessoal e Aura Aceleradora, recolher materiais, retornar à Associação, vender a maior parte da coleta, reparar o equipamento e descansar. O treino elevou Rafael ao nível 4, refinou Alternância Nula para E-, Arranque Acelerado para E-, revelou Leitura de Fluxo (F+) e permitiu criar Pulso Nulo (F+). A reserva de Aura cresceu de 138 para 156, sem mudança do Rank B. Um Núcleo Ressonante Denso raro foi mantido sem avaliação.",
+            "date": "Fim da Semana 1"
+          }
+        ],
+        "chronicle": [
+          {
+            "id": "chronicle-ascendant-week1-n4-grind",
+            "title": "A semana em que o N-4 virou rotina",
+            "body": "Em apenas uma semana, Rafael transformou a área que havia sido apresentada como rota a evitar em seu principal campo de treino. A repetição de combate real acelerou sua evolução, mas também tornou seus registros de incursão cada vez mais incompatíveis com o perfil extremamente fraco mantido nos dados oficiais da Associação.",
+            "date": "Fim da Semana 1"
+          }
+        ],
+        "operations": [
+          {
+            "op": "money",
+            "currencyId": "coin-local",
+            "amount": 10960,
+            "reason": "Venda de materiais coletados em sete dias de incursões no Setor N-4",
+            "date": "Semana 1"
+          },
+          {
+            "op": "money",
+            "currencyId": "coin-local",
+            "amount": -1650,
+            "reason": "Reparos sucessivos da katana e da proteção leve",
+            "date": "Semana 1"
+          },
+          {
+            "op": "money",
+            "currencyId": "coin-local",
+            "amount": -480,
+            "reason": "Atendimento, curativos e recuperação na Associação",
+            "date": "Semana 1"
+          },
+          {
+            "op": "money",
+            "currencyId": "coin-local",
+            "amount": -300,
+            "reason": "Reposição de suprimentos de incursão",
+            "date": "Semana 1"
+          }
+        ],
+        "flags": {
+          "week1TrainingRoutineComplete": true,
+          "nullPulseUnlocked": true,
+          "flowReadingUnlocked": true,
+          "associationPatternNotice": 1,
+          "n4RoutineEstablished": true
         }
       }
     }
