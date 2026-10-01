@@ -1,7 +1,162 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 0,
-  "generated_at": "2026-09-28T23:55:00-03:00",
-  "events": []
+  "revision": 1,
+  "generated_at": "2026-09-30T23:15:00-03:00",
+  "events": [
+    {
+      "seq": 1,
+      "id": "ascendant-session-000-opening",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "session": 0,
+          "chapter": "Sessão 0 — Avaliação",
+          "location": "Associação Geral de Incursores — sala de espera",
+          "timeOfDay": "Fim da tarde"
+        },
+        "character": {
+          "name": "Rafael",
+          "level": 1,
+          "xp": 0,
+          "nextXp": 335,
+          "className": "Suporte",
+          "classTier": "Básica",
+          "adventurerRank": "Sem licença",
+          "background": "Trabalhador comum",
+          "talents": [
+            {
+              "id": "talent-004",
+              "name": "Reflexo Afiado",
+              "rarity": "Comum",
+              "category": "Físico / Sensorial",
+              "kind": "Passivo",
+              "desc": "Acelera reações a ameaças."
+            }
+          ],
+          "powerProfiles": {
+            "mana": {
+              "knowledge": "Não avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "",
+              "appraisals": []
+            },
+            "prana": {
+              "knowledge": "Não avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "",
+              "appraisals": []
+            },
+            "aura": {
+              "knowledge": "Não avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "",
+              "appraisals": []
+            },
+            "forca": {
+              "knowledge": "Não avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "",
+              "appraisals": []
+            },
+            "eter": {
+              "knowledge": "Não avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "",
+              "appraisals": []
+            }
+          }
+        },
+        "ascendant": {
+          "awakeningStatus": "Recém-desperto",
+          "license": "Em processo de avaliação",
+          "classAssessment": "Suporte",
+          "talents": [
+            {
+              "id": "talent-004",
+              "name": "Reflexo Afiado",
+              "rarity": "Comum",
+              "category": "Físico / Sensorial",
+              "kind": "Passivo",
+              "desc": "Acelera reações a ameaças."
+            }
+          ]
+        },
+        "codex": {
+          "entries": [
+            {
+              "id": "org-associacao-geral-incursores",
+              "category": "organizations",
+              "name": "Associação Geral de Incursores",
+              "state": "discovered",
+              "summary": "Órgão público responsável pelo registro, avaliação e licenciamento de Incursores.",
+              "body": "Rafael compareceu à Associação após despertar como Ressonante. Sua avaliação de Classe resultou em Suporte e sua avaliação de Talento identificou Reflexo Afiado, de raridade Comum. Ainda faltam as avaliações de Poderes e Assinaturas Energéticas antes da conclusão do processo de licença.",
+              "tags": [
+                "Organização pública",
+                "Licenciamento",
+                "Avaliação"
+              ]
+            }
+          ]
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-session0-evaluation",
+            "title": "O dia da avaliação",
+            "body": "Na madrugada anterior, Rafael despertou como Ressonante ao voltar do turno noturno no mercadinho. No dia seguinte, procurou a Associação Geral de Incursores. A avaliação de Classe resultou em Suporte; a de Talento revelou Reflexo Afiado, Comum. No fim da tarde, ele aguarda as avaliações de Poderes e Assinaturas Energéticas.",
+            "date": "Sessão 0"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 2,
+      "id": "ascendant-session-000-opening-notice",
+      "type": "notice",
+      "payload": {
+        "title": "ASCENDANT — Sessão 0 iniciada",
+        "body": "Estado inicial registrado no feed ascendant-main. Geria não foi alterada."
+      }
+    }
+  ]
 }
