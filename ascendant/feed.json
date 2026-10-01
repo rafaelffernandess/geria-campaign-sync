@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 19,
-  "generated_at": "2026-10-01T18:20:00-03:00",
+  "revision": 20,
+  "generated_at": "2026-10-01T18:28:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -568,6 +568,63 @@
         "flags": {
           "talentFirstUse": true,
           "energyStasisObserved": true
+        }
+      }
+    },
+    {
+      "seq": 26,
+      "id": "ascendant-session-000-null-switch-26",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Torre — Andar 1, Setor N-4",
+          "chapter": "Sessão 0 — Primeiro Degrau",
+          "timeOfDay": "Manhã"
+        },
+        "techniques": [
+          {
+            "id": "technique-ascendant-null-switch",
+            "kind": "technique",
+            "name": "Alternância Nula",
+            "rank": "F",
+            "power": "aura",
+            "training": 1,
+            "cost": "Exige alternância precisa entre Zero Absoluto Pessoal e Aura; repetição rápida causa sobrecarga de controle.",
+            "source": "Zero Absoluto Pessoal + Aura Aceleradora",
+            "desc": "Usa o Talento como defesa para interromper fluxos sobrenaturais próximos; em seguida desativa o campo e religa a Aura aceleradora para explorar a breve retomada de fluxo e contra-atacar antes que o oponente recupere plenamente o ritmo energético."
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "system-zero-absolute-switching",
+              "category": "systems",
+              "name": "Zero Absoluto Pessoal — Alternância",
+              "state": "discovered",
+              "summary": "A propriedade aceleradora da Aura permite explorar a retomada de fluxo após a desativação do campo nulo.",
+              "body": "Rafael confirmou que pode alternar entre o campo de imobilidade energética e sua Aura. Ao desligar Zero Absoluto Pessoal, todos os fluxos suprimidos podem recomeçar, mas a propriedade Aceleradora da Aura de Rafael faz sua própria retomada ocorrer de forma particularmente rápida, criando uma curta janela de contra-ataque. A alternância repetida exige controle fino e começa a causar pressão física e mental. Ainda não foi confirmado se todo tipo de Talento é anulável; manifestações que dependam de fluxo energético parecem candidatas, enquanto efeitos passivos, estruturais ou já materializados permanecem desconhecidos."
+            },
+            {
+              "id": "creature-grey-ripper",
+              "category": "creatures",
+              "name": "Rasgador Cinzento",
+              "state": "discovered",
+              "summary": "Predador recorrente dos andares iniciais da Torre, perigoso em matilhas.",
+              "body": "Rafael encontrou uma matilha no Setor N-4. Dentro do campo de Zero Absoluto, os Rasgadores perderam o reforço sobrenatural perceptível, mas mantiveram massa, garras, mandíbula e capacidade física natural."
+            }
+          ]
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-null-switch-first-combat",
+            "title": "Alternância entre Zero e Aura",
+            "body": "Rafael testou em combate uma estratégia própria: manter Zero Absoluto Pessoal ativo para suprimir o reforço sobrenatural dos Rasgadores, desligá-lo no instante do ataque inimigo e reativar a Aura Aceleradora para contra-atacar durante a retomada de fluxo. A primeira execução funcionou de forma excepcional, mas a alternância rápida já mostrou sinais de sobrecarga de controle.",
+            "date": "Sessão 0 — manhã"
+          }
+        ],
+        "flags": {
+          "zeroAuraSwitchDiscovered": true,
+          "zeroAbsoluteTalentSuppressionUnconfirmed": true
         }
       }
     }
