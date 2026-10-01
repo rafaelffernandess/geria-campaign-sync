@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 21,
-  "generated_at": "2026-10-01T23:05:00-03:00",
+  "revision": 22,
+  "generated_at": "2026-10-01T23:28:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -927,6 +927,127 @@
           "n4FirstSweepComplete": true,
           "zeroAbsolutePhysicalLimitObserved": true,
           "acceleratedBurstUnlocked": true
+        }
+      }
+    },
+    {
+      "seq": 28,
+      "id": "ascendant-session-000-return-and-sell-28",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Associação de Incursores — Balcão de Compra de Materiais",
+          "chapter": "Sessão 0 — Retorno da Primeira Incursão",
+          "timeOfDay": "Noite"
+        },
+        "character": {
+          "finance": {
+            "currencies": [
+              {
+                "id": "coin-local",
+                "name": "Moeda local",
+                "amount": 1685,
+                "known": false,
+                "symbol": "",
+                "rate": null
+              }
+            ],
+            "ledger": [
+              {
+                "id": "txn-ascendant-first-tower-sale",
+                "date": "Sessão 0 — noite",
+                "currencyId": "coin-local",
+                "currencyName": "Moeda local",
+                "amount": 1685,
+                "reason": "Venda de materiais obtidos no Setor N-4 do Andar 1",
+                "balanceAfter": 1685
+              }
+            ]
+          },
+          "currencies": [
+            {
+              "id": "coin-local",
+              "name": "Moeda local",
+              "amount": 1685,
+              "known": false,
+              "symbol": "",
+              "rate": null
+            }
+          ]
+        },
+        "quests": [
+          {
+            "id": "quest-ascendant-first-tower-entry",
+            "status": "Concluída",
+            "objectives": [
+              {
+                "id": "obj-first-loadout",
+                "text": "Preparar equipamento para a primeira incursão",
+                "done": true
+              },
+              {
+                "id": "obj-first-checkin",
+                "text": "Registrar o ingresso no controle da Torre",
+                "done": true
+              },
+              {
+                "id": "obj-choose-entry-mode",
+                "text": "Escolher entrar sozinho ou procurar grupo",
+                "done": true
+              },
+              {
+                "id": "obj-first-floor",
+                "text": "Entrar no primeiro andar da Torre",
+                "done": true
+              },
+              {
+                "id": "obj-reach-n4",
+                "text": "Chegar ao Setor N-4",
+                "done": true
+              },
+              {
+                "id": "obj-sweep-n4",
+                "text": "Eliminar os contatos hostis ativos encontrados durante a varredura do N-4",
+                "done": true
+              },
+              {
+                "id": "obj-return-floor1",
+                "text": "Retornar em segurança ao ponto de saída",
+                "done": true
+              }
+            ],
+            "reward": "Primeira incursão concluída"
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-first-tower-return-sale",
+            "title": "Retorno e primeira venda de materiais",
+            "body": "Rafael deixou o Andar 1 após a varredura do N-4 e vendeu no balcão da Associação todos os materiais coletados: 14 Núcleos Cinzentos de Rasgador, 1 Núcleo de Rasgador Alfa, 5 Feixes de Espinhos Ressonantes e 2 Fragmentos de Couraça Mineralizada. A venda rendeu 1.685 em moeda local.",
+            "date": "Sessão 0 — noite"
+          }
+        ],
+        "operations": [
+          {
+            "op": "removeItem",
+            "id": "material-grey-ripper-core"
+          },
+          {
+            "op": "removeItem",
+            "id": "material-grey-ripper-alpha-core-n4"
+          },
+          {
+            "op": "removeItem",
+            "id": "material-resonant-spines-floor1"
+          },
+          {
+            "op": "removeItem",
+            "id": "material-mineralized-carapace-floor1"
+          }
+        ],
+        "flags": {
+          "firstTowerReturnComplete": true,
+          "firstMaterialSaleComplete": true
         }
       }
     }
