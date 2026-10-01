@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 7,
-  "generated_at": "2026-10-01T00:22:00-03:00",
+  "revision": 8,
+  "generated_at": "2026-10-01T11:58:00-03:00",
   "events": [
     {
       "seq": 1,
@@ -1181,6 +1181,344 @@
             "date": "Sessão 0"
           }
         ]
+      }
+    },
+    {
+      "seq": 14,
+      "id": "ascendant-session-000-night-study-training",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "session": 0,
+          "chapter": "Sessão 0 — Primeiro turno após o Despertar",
+          "location": "Mercadinho — caixa do turno noturno",
+          "timeOfDay": "Madrugada"
+        },
+        "character": {
+          "resources": {
+            "hp": {
+              "cur": 118,
+              "max": 118
+            },
+            "stamina": {
+              "cur": 74,
+              "max": 74
+            },
+            "mana": {
+              "cur": 56,
+              "max": 60
+            },
+            "aura": {
+              "cur": 0,
+              "max": 0
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 6,
+              "max": 8
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          },
+          "affinities": {
+            "mana": "D-",
+            "prana": "Não avaliado",
+            "aura": "Não avaliado",
+            "forca": "F-",
+            "eter": "Não avaliado"
+          },
+          "powerProfiles": {
+            "mana": {
+              "knowledge": "Avaliado",
+              "access": "Desperto",
+              "rank": "D-",
+              "potential": "A- (preliminar)",
+              "affinity": "Apoio / modulação de resposta (preliminar)",
+              "elements": [],
+              "color": "Azul-clara na leitura instrumental",
+              "traits": [
+                "Reserva acima da média",
+                "Fluxo ainda irregular",
+                "Assinatura primária",
+                "Boa resposta a modulação de terceiros",
+                "Controle fino em desenvolvimento"
+              ],
+              "advantages": [
+                "Capacidade total de Mana promissora para um recém-desperto",
+                "Compatibilidade preliminar com técnicas de suporte"
+              ],
+              "drawbacks": [
+                "Controle consciente baixo",
+                "Dificuldade de exteriorização",
+                "Sustentação curta"
+              ],
+              "notes": "Durante o primeiro turno noturno após o Despertar, Rafael estudou fundamentos públicos de Mana e praticou circulação de volumes mínimos entre a palma, os dedos e o antebraço. O ganho foi de precisão, não de potência: passou a iniciar e interromper pequenos fluxos com menos colapso involuntário.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — contato ativo com esfera de ressonância",
+                "Associação Geral de Incursores — avaliação de Skills inatas",
+                "Associação Geral de Incursores — controle preliminar",
+                "Autotreino — controle básico de fluxo"
+              ]
+            },
+            "forca": {
+              "knowledge": "Avaliado",
+              "access": "Desperto",
+              "rank": "F-",
+              "potential": "D (preliminar)",
+              "affinity": "Cinética / Vetorial",
+              "elements": [],
+              "color": "Incolor na manifestação; resposta branca no instrumental",
+              "traits": [
+                "Microdeslocamento à distância",
+                "Baixa potência",
+                "Controle direcional em desenvolvimento"
+              ],
+              "advantages": [
+                "Segunda assinatura funcional confirmada",
+                "Responde bem a exercícios de precisão com objetos leves"
+              ],
+              "drawbacks": [
+                "Alcance mínimo",
+                "Potência extremamente baixa",
+                "Fadiga mental rápida em repetição"
+              ],
+              "notes": "Rafael praticou Impulso Vetorial com objetos muito leves do mercadinho, priorizando direção e parada em vez de distância. A reserva funcional de Força passou a ser percebida como pequena, mas utilizável; o rank permaneceu F-.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — teste ativo de Força",
+                "Associação Geral de Incursores — avaliação de Skills inatas",
+                "Associação Geral de Incursores — controle preliminar",
+                "Autotreino — precisão vetorial"
+              ]
+            },
+            "aura": {
+              "knowledge": "Avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Rafael estudou os fundamentos públicos de Aura, mas sua avaliação inicial não detectou manifestação utilizável.",
+              "appraisals": [
+                "Associação Geral de Incursores — avaliação inicial"
+              ]
+            },
+            "prana": {
+              "knowledge": "Avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Rafael estudou os fundamentos públicos de Prana, mas sua avaliação inicial não detectou manifestação utilizável.",
+              "appraisals": [
+                "Associação Geral de Incursores — avaliação inicial"
+              ]
+            },
+            "eter": {
+              "knowledge": "Avaliado",
+              "access": "Latente",
+              "rank": "Não avaliado",
+              "potential": "Desconhecido",
+              "affinity": "Desconhecida",
+              "elements": [],
+              "color": "Desconhecida",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Rafael leu material público introdutório sobre Éter. Sua avaliação inicial não detectou manifestação utilizável.",
+              "appraisals": [
+                "Associação Geral de Incursores — avaliação inicial"
+              ]
+            }
+          }
+        },
+        "skills": [
+          {
+            "id": "skill-support-response-window",
+            "name": "Janela de Reação",
+            "rank": "F+",
+            "power": "mana",
+            "category": "Suporte / Buff",
+            "kind": "skill",
+            "resource": "Mana",
+            "cost": "4 Mana",
+            "target": "1 aliado em curto alcance",
+            "training": 3,
+            "source": "Despertar / Classe Suporte",
+            "desc": "Ajusta brevemente o fluxo de Mana do alvo para reduzir o atraso entre percepção e resposta motora. O efeito atual é pequeno e dura poucos segundos.",
+            "limitations": [
+              "Não pode ser mantida por muito tempo",
+              "Efeito atual discreto",
+              "Instável em alvos múltiplos",
+              "Não demonstrou uso confiável no próprio usuário"
+            ],
+            "status": "Desperta"
+          },
+          {
+            "id": "skill-force-nudge",
+            "name": "Impulso Vetorial",
+            "rank": "F-",
+            "power": "forca",
+            "category": "Força / Telecinese",
+            "kind": "skill",
+            "resource": "Força",
+            "cost": "1 Força",
+            "target": "Objeto ou alvo próximo",
+            "training": 11,
+            "source": "Assinatura secundária de Força",
+            "desc": "Aplica um empurrão telecinético extremamente fraco em uma direção escolhida. No estado atual, serve para deslocamentos mínimos e objetos leves.",
+            "limitations": [
+              "Potência extremamente baixa",
+              "Alcance curto",
+              "Controle ainda inconsistente"
+            ],
+            "status": "Desperta"
+          }
+        ],
+        "techniques": [
+          {
+            "id": "technique-mana-basic-flow-control",
+            "name": "Controle Básico de Fluxo",
+            "rank": "F-",
+            "power": "mana",
+            "kind": "technique",
+            "cost": "Variável (1+ Mana)",
+            "source": "Autodidata — exercícios introdutórios públicos",
+            "training": 8,
+            "desc": "Conduz volumes mínimos de Mana entre pontos do corpo e interrompe o fluxo voluntariamente. É um exercício de controle e precisão, não uma técnica ofensiva."
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "system-mana",
+              "category": "systems",
+              "name": "Mana",
+              "state": "discovered",
+              "summary": "Energia arcana associada à magia estruturada, acumulável no corpo e manipulável por diferentes métodos.",
+              "body": "Materiais introdutórios descrevem Mana como energia capaz de ser acumulada no corpo, absorvida do ambiente e organizada por fórmulas, símbolos, palavras, gestos, catalisadores ou compreensão. Feitiços, encantamentos, runas e rituais são usos clássicos.",
+              "tags": [
+                "Mana",
+                "Energia",
+                "Conhecimento público"
+              ]
+            },
+            {
+              "id": "system-prana",
+              "category": "systems",
+              "name": "Prana",
+              "state": "discovered",
+              "summary": "Fluxo vital relacionado à vida, respiração, circulação interna e cultivo.",
+              "body": "O Prana é estudado como um fluxo vital cultivado por respiração, circulação interna, meditação, movimento e contato com ritmos naturais. Está associado a Respirações, cultivo, recuperação e técnicas de criação ou destruição.",
+              "tags": [
+                "Prana",
+                "Energia vital",
+                "Conhecimento público"
+              ]
+            },
+            {
+              "id": "system-aura",
+              "category": "systems",
+              "name": "Aura",
+              "state": "discovered",
+              "summary": "Manifestação combativa da vitalidade, concentrada no corpo, em armas, defesas e golpes.",
+              "body": "Aura é tratada como a via marcial mais diretamente ligada à potência física, resistência, presença e técnicas de combate. Usuários treinados podem condensá-la no corpo, em armas, armaduras e ataques.",
+              "tags": [
+                "Aura",
+                "Marcial",
+                "Conhecimento público"
+              ]
+            },
+            {
+              "id": "system-forca",
+              "category": "systems",
+              "name": "Força",
+              "state": "discovered",
+              "summary": "Pressão da consciência sobre o mundo, ligada a foco, vontade, percepção e projeção mental.",
+              "body": "A Força é a via associada a telecinese, pressão, barreiras, percepção extrassensorial e outras técnicas mentais. No caso de Rafael, a manifestação confirmada é cinética e vetorial, ainda em nível F-.",
+              "tags": [
+                "Força",
+                "Mental",
+                "Telecinese",
+                "Conhecimento público"
+              ]
+            },
+            {
+              "id": "system-eter",
+              "category": "systems",
+              "name": "Éter",
+              "state": "discovered",
+              "summary": "Via primordial e excepcional, descrita como uma camada fundamental relacionada aos demais sistemas.",
+              "body": "Material público trata a manipulação direta de Éter como excepcional e perigosa, associada a fenômenos únicos, interações entre sistemas, espaço, causalidade e essência.",
+              "tags": [
+                "Éter",
+                "Primordial",
+                "Conhecimento público"
+              ]
+            },
+            {
+              "id": "system-power-control-basics",
+              "category": "systems",
+              "name": "Reserva, Expressão e Controle",
+              "state": "discovered",
+              "summary": "Ter energia, conseguir liberá-la e controlá-la são capacidades relacionadas, mas não idênticas.",
+              "body": "O próprio resultado de Rafael ilustra a distinção prática: sua Mana possui reserva razoável e potencial preliminar alto, mas sua expressão atual é D- e seu controle ainda é baixo. Treino de iniciantes costuma separar potência bruta de exercícios de fluxo, interrupção, direção e precisão.",
+              "tags": [
+                "Treino",
+                "Controle",
+                "Mana",
+                "Força",
+                "Conhecimento estudado"
+              ]
+            }
+          ]
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-first-night-study",
+            "title": "Primeira noite de estudo e autotreino",
+            "body": "Durante o turno tranquilo no mercadinho, Rafael leu material introdutório sobre Mana, Prana, Aura, Força e Éter. Em intervalos sem clientes, praticou controle fino: circulação mínima de Mana pelos dedos e pequenos impulsos de Força em objetos leves. Não houve aumento de rank ou XP, mas o controle começou a ficar mais reproduzível. Janela de Reação chegou a 3% de treino, Impulso Vetorial a 11% e Controle Básico de Fluxo a 8%.",
+            "date": "Sessão 0 — madrugada"
+          }
+        ],
+        "chronicle": [
+          {
+            "id": "chronicle-ascendant-first-work-night",
+            "title": "O primeiro expediente como Incursor",
+            "body": "No mesmo dia em que recebeu a licença Bronze provisória, Rafael cumpriu normalmente seu turno noturno no mercadinho e usou as horas vazias para começar a entender e praticar os próprios poderes.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "removeEffect",
+            "id": "effect-light-mental-fatigue"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 15,
+      "id": "ascendant-session-000-night-study-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Estudo e autotreino registrados",
+        "body": "Conhecimento dos cinco sistemas expandido; Controle Básico de Fluxo aprendido; progresso de treino registrado sem aumento de rank ou XP."
       }
     }
   ]
