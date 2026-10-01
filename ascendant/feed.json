@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 3,
-  "generated_at": "2026-09-30T23:22:00-03:00",
+  "revision": 4,
+  "generated_at": "2026-09-30T23:24:00-03:00",
   "events": [
     {
       "seq": 1,
@@ -643,6 +643,98 @@
       "payload": {
         "title": "ASCENDANT sincronizado",
         "body": "Estado de personagem, recursos, avaliação energética, missão ativa, diário e conhecimento público básico foram atualizados no Campaign Sync de ascendant-main."
+      }
+    },
+    {
+      "seq": 7,
+      "id": "ascendant-session-000-force-test",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "powerProfiles": {
+            "forca": {
+              "knowledge": "Avaliação ativa concluída",
+              "access": "Desperta",
+              "rank": "F-",
+              "potential": "D (preliminar)",
+              "affinity": "Cinética / vetorial rudimentar",
+              "elements": [],
+              "color": "Incolor na manifestação; resposta branca no instrumental",
+              "traits": [
+                "Microdeslocamento à distância",
+                "Resposta consciente instável",
+                "Baixa potência"
+              ],
+              "advantages": [
+                "Confirma uma segunda assinatura funcional"
+              ],
+              "drawbacks": [
+                "Alcance mínimo",
+                "Potência extremamente baixa",
+                "Controle inconsistente"
+              ],
+              "notes": "No teste de foco sem contato, Rafael conseguiu produzir um deslocamento mensurável no alvo luminoso. A assinatura de Força foi confirmada como funcional, porém no limite inferior de classificação. O comportamento observado foi cinético, semelhante a um empurrão vetorial extremamente fraco.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — teste ativo de Força"
+              ]
+            }
+          }
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-force-test",
+            "title": "Segunda assinatura confirmada",
+            "body": "O teste ativo confirmou que o traço residual de Força não era apenas ruído. Rafael conseguiu deslocar minimamente o alvo sem contato físico. A assinatura foi classificada provisoriamente como F-, com potencial D e comportamento cinético rudimentar.",
+            "date": "Sessão 0"
+          }
+        ],
+        "quests": [
+          {
+            "id": "quest-ascendant-license-evaluation",
+            "name": "Concluir a avaliação de Incursor",
+            "desc": "Finalizar as etapas de avaliação energética e de controle para concluir o processo inicial de registro e licença.",
+            "status": "Ativa",
+            "type": "Registro",
+            "objectives": [
+              {
+                "id": "obj-class-assessment",
+                "text": "Concluir avaliação de Classe",
+                "done": true
+              },
+              {
+                "id": "obj-talent-assessment",
+                "text": "Concluir avaliação de Talento",
+                "done": true
+              },
+              {
+                "id": "obj-energy-assessment",
+                "text": "Concluir avaliação de Assinaturas Energéticas",
+                "done": false
+              },
+              {
+                "id": "obj-control-assessment",
+                "text": "Concluir avaliação de controle preliminar",
+                "done": false
+              },
+              {
+                "id": "obj-license-result",
+                "text": "Receber resultado do processo de licença",
+                "done": false
+              }
+            ],
+            "reward": "Licença de Incursor, se aprovado"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 8,
+      "id": "ascendant-session-000-force-test-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Assinatura secundária confirmada",
+        "body": "Força foi confirmada como assinatura funcional em nível F- durante o teste ativo."
       }
     }
   ]
