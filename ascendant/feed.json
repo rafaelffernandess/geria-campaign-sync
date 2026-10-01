@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 5,
-  "generated_at": "2026-10-01T00:17:00-03:00",
+  "revision": 6,
+  "generated_at": "2026-10-01T00:19:00-03:00",
   "events": [
     {
       "seq": 1,
@@ -932,6 +932,178 @@
       "payload": {
         "title": "Skills iniciais registradas",
         "body": "Janela de Reação (F+) e Impulso Vetorial (F-) foram adicionadas ao estado de Rafael. A avaliação energética foi concluída; falta o controle preliminar e o resultado da licença."
+      }
+    },
+    {
+      "seq": 11,
+      "id": "ascendant-session-000-control-preliminary",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "resources": {
+            "hp": {
+              "cur": 118,
+              "max": 118
+            },
+            "stamina": {
+              "cur": 74,
+              "max": 74
+            },
+            "mana": {
+              "cur": 47,
+              "max": 60
+            },
+            "aura": {
+              "cur": 0,
+              "max": 0
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          },
+          "effects": [
+            {
+              "id": "effect-light-mental-fatigue",
+              "name": "Fadiga Mental Leve",
+              "type": "Temporário",
+              "source": "Avaliação de controle preliminar",
+              "desc": "Cansaço leve causado por tentativas repetidas de manifestação consciente de Mana e Força.",
+              "duration": "Curta"
+            }
+          ],
+          "powerProfiles": {
+            "mana": {
+              "knowledge": "Avaliação ativa concluída",
+              "access": "Desperta",
+              "rank": "D-",
+              "potential": "A- (preliminar)",
+              "affinity": "Apoio cinético / modulação de resposta (preliminar)",
+              "elements": [],
+              "color": "Azul-clara na leitura instrumental",
+              "traits": [
+                "Reserva acima da média",
+                "Emissão consciente baixa",
+                "Fluxo irregular",
+                "Assinatura primária",
+                "Boa resposta a modulação de terceiros"
+              ],
+              "advantages": [
+                "Capacidade total de Mana promissora para um recém-desperto",
+                "Compatibilidade preliminar com técnicas de suporte de resposta"
+              ],
+              "drawbacks": [
+                "Controle consciente baixo",
+                "Dificuldade de exteriorização",
+                "Sustentação curta"
+              ],
+              "notes": "No controle preliminar, Rafael conseguiu repetir Janela de Reação sob comando após uma falha inicial. O fluxo continua irregular, mas já é reproduzível em condição controlada.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — contato ativo com esfera de ressonância",
+                "Associação Geral de Incursores — avaliação de Skills inatas",
+                "Associação Geral de Incursores — controle preliminar"
+              ]
+            },
+            "forca": {
+              "knowledge": "Avaliação ativa concluída",
+              "access": "Desperta",
+              "rank": "F-",
+              "potential": "D (preliminar)",
+              "affinity": "Cinética / vetorial rudimentar",
+              "elements": [],
+              "color": "Incolor na manifestação; resposta branca no instrumental",
+              "traits": [
+                "Microdeslocamento à distância",
+                "Resposta consciente instável",
+                "Baixa potência"
+              ],
+              "advantages": [
+                "Segunda assinatura funcional confirmada"
+              ],
+              "drawbacks": [
+                "Alcance mínimo",
+                "Potência extremamente baixa",
+                "Controle inconsistente"
+              ],
+              "notes": "Rafael conseguiu reproduzir Impulso Vetorial sob comando em ambiente controlado. O deslocamento foi mínimo, mas suficiente para confirmar uso voluntário básico.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — teste ativo de Força",
+                "Associação Geral de Incursores — avaliação de Skills inatas",
+                "Associação Geral de Incursores — controle preliminar"
+              ]
+            }
+          }
+        },
+        "ascendant": {
+          "license": "Parecer pendente",
+          "awakeningStatus": "Recém-desperto",
+          "classAssessment": "Suporte",
+          "skillPoints": 0
+        },
+        "quests": [
+          {
+            "id": "quest-ascendant-license-evaluation",
+            "name": "Concluir a avaliação de Incursor",
+            "desc": "Finalizar as etapas de avaliação energética e de controle para concluir o processo inicial de registro e licença.",
+            "status": "Ativa",
+            "type": "Registro",
+            "objectives": [
+              {
+                "id": "obj-class-assessment",
+                "text": "Concluir avaliação de Classe",
+                "done": true
+              },
+              {
+                "id": "obj-talent-assessment",
+                "text": "Concluir avaliação de Talento",
+                "done": true
+              },
+              {
+                "id": "obj-energy-assessment",
+                "text": "Concluir avaliação de Assinaturas Energéticas",
+                "done": true
+              },
+              {
+                "id": "obj-control-assessment",
+                "text": "Concluir avaliação de controle preliminar",
+                "done": true
+              },
+              {
+                "id": "obj-license-result",
+                "text": "Receber resultado do processo de licença",
+                "done": false
+              }
+            ],
+            "reward": "Licença de Incursor, se aprovado"
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-control-test",
+            "title": "Controle preliminar concluído",
+            "body": "Rafael repetiu Janela de Reação e Impulso Vetorial sob comando. A primeira tentativa de Mana falhou, mas as seguintes foram reproduzíveis. O controle ainda é baixo e instável, porém suficiente para concluir a etapa preliminar em ambiente controlado. O teste consumiu 8 pontos de Mana e deixou fadiga mental leve.",
+            "date": "Sessão 0"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 12,
+      "id": "ascendant-session-000-control-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Controle preliminar concluído",
+        "body": "Rafael concluiu a etapa de controle. O parecer final da licença ainda está pendente."
       }
     }
   ]
