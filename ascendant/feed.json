@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 11,
-  "generated_at": "2026-10-01T17:40:00-03:00",
+  "revision": 12,
+  "generated_at": "2026-10-01T17:45:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -21,6 +21,67 @@
     {
       "seq": 17,
       "id": "ascendant-session-000-restore-zero-absoluto",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "talents": [
+            {
+              "id": "talent-127",
+              "name": "Zero Absoluto Pessoal",
+              "rarity": "Singular",
+              "category": "Singular",
+              "kind": "Misto",
+              "desc": "Impõe imobilidade energética extrema centrada no usuário."
+            }
+          ]
+        },
+        "ascendant": {
+          "talents": [
+            {
+              "id": "talent-127",
+              "name": "Zero Absoluto Pessoal",
+              "rarity": "Singular",
+              "category": "Singular",
+              "kind": "Misto",
+              "desc": "Impõe imobilidade energética extrema centrada no usuário."
+            }
+          ]
+        },
+        "operations": [
+          {
+            "op": "set",
+            "path": "character.talents",
+            "value": [
+              {
+                "id": "talent-127",
+                "name": "Zero Absoluto Pessoal",
+                "rarity": "Singular",
+                "category": "Singular",
+                "kind": "Misto",
+                "desc": "Impõe imobilidade energética extrema centrada no usuário."
+              }
+            ]
+          },
+          {
+            "op": "set",
+            "path": "ascendant.talents",
+            "value": [
+              {
+                "id": "talent-127",
+                "name": "Zero Absoluto Pessoal",
+                "rarity": "Singular",
+                "category": "Singular",
+                "kind": "Misto",
+                "desc": "Impõe imobilidade energética extrema centrada no usuário."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 18,
+      "id": "ascendant-session-000-restore-zero-absoluto-v2",
       "type": "patch",
       "payload": {
         "character": {
