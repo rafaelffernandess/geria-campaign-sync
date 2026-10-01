@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 4,
-  "generated_at": "2026-09-30T23:24:00-03:00",
+  "revision": 5,
+  "generated_at": "2026-10-01T00:17:00-03:00",
   "events": [
     {
       "seq": 1,
@@ -735,6 +735,203 @@
       "payload": {
         "title": "Assinatura secundária confirmada",
         "body": "Força foi confirmada como assinatura funcional em nível F- durante o teste ativo."
+      }
+    },
+    {
+      "seq": 9,
+      "id": "ascendant-session-000-innate-skills-evaluation",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "session": 0,
+          "chapter": "Sessão 0 — Avaliação de Poderes",
+          "location": "Associação Geral de Incursores — Sala 12, Laboratório de Ressonância",
+          "timeOfDay": "Fim da tarde"
+        },
+        "character": {
+          "resources": {
+            "hp": {
+              "cur": 118,
+              "max": 118
+            },
+            "stamina": {
+              "cur": 74,
+              "max": 74
+            },
+            "mana": {
+              "cur": 55,
+              "max": 60
+            },
+            "aura": {
+              "cur": 0,
+              "max": 0
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          },
+          "skills": [
+            {
+              "id": "skill-support-response-window",
+              "name": "Janela de Reação",
+              "rank": "F+",
+              "category": "Suporte / Buff",
+              "kind": "Ativa",
+              "resource": "Mana",
+              "cost": "4 Mana",
+              "target": "1 aliado em curto alcance",
+              "desc": "Ajusta brevemente o fluxo de Mana do alvo para reduzir o atraso entre percepção e resposta motora. O efeito atual é pequeno e dura poucos segundos.",
+              "limitations": [
+                "Não pode ser mantida por muito tempo",
+                "Efeito atual discreto",
+                "Instável em alvos múltiplos",
+                "Não demonstrou uso confiável no próprio usuário"
+              ],
+              "status": "Desperta"
+            },
+            {
+              "id": "skill-force-nudge",
+              "name": "Impulso Vetorial",
+              "rank": "F-",
+              "category": "Força / Telecinese",
+              "kind": "Ativa",
+              "resource": "Força",
+              "cost": "Muito baixo",
+              "target": "Objeto ou alvo próximo",
+              "desc": "Aplica um empurrão telecinético extremamente fraco em uma direção escolhida. No estado atual, serve para deslocamentos mínimos e objetos leves.",
+              "limitations": [
+                "Potência extremamente baixa",
+                "Alcance curto",
+                "Controle inconsistente"
+              ],
+              "status": "Desperta"
+            }
+          ],
+          "powerProfiles": {
+            "mana": {
+              "knowledge": "Avaliação ativa concluída",
+              "access": "Desperta",
+              "rank": "D-",
+              "potential": "A- (preliminar)",
+              "affinity": "Apoio cinético / modulação de resposta (preliminar)",
+              "elements": [],
+              "color": "Azul-clara na leitura instrumental",
+              "traits": [
+                "Reserva acima da média",
+                "Emissão consciente muito baixa",
+                "Fluxo irregular",
+                "Assinatura primária",
+                "Boa resposta a modulação de terceiros"
+              ],
+              "advantages": [
+                "Capacidade total de Mana promissora para um recém-desperto",
+                "Compatibilidade preliminar com técnicas de suporte de resposta"
+              ],
+              "drawbacks": [
+                "Controle consciente muito fraco",
+                "Dificuldade de exteriorização",
+                "Sustentação curta"
+              ],
+              "notes": "A avaliação de Skills mostrou que a Mana de Rafael responde melhor quando direcionada para ajustar o fluxo de outra pessoa do que quando usada para emissão bruta. A primeira Skill identificada foi Janela de Reação, um buff de baixa intensidade focado em tempo de resposta.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — contato ativo com esfera de ressonância",
+                "Associação Geral de Incursores — avaliação de Skills inatas"
+              ]
+            },
+            "forca": {
+              "knowledge": "Avaliação ativa concluída",
+              "access": "Desperta",
+              "rank": "F-",
+              "potential": "D (preliminar)",
+              "affinity": "Cinética / vetorial rudimentar",
+              "elements": [],
+              "color": "Incolor na manifestação; resposta branca no instrumental",
+              "traits": [
+                "Microdeslocamento à distância",
+                "Resposta consciente instável",
+                "Baixa potência"
+              ],
+              "advantages": [
+                "Confirma uma segunda assinatura funcional"
+              ],
+              "drawbacks": [
+                "Alcance mínimo",
+                "Potência extremamente baixa",
+                "Controle inconsistente"
+              ],
+              "notes": "A assinatura de Força se manifesta como um impulso telecinético rudimentar. A avaliação registrou a técnica Impulso Vetorial como uso ativo básico da assinatura.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — teste ativo de Força",
+                "Associação Geral de Incursores — avaliação de Skills inatas"
+              ]
+            }
+          }
+        },
+        "quests": [
+          {
+            "id": "quest-ascendant-license-evaluation",
+            "name": "Concluir a avaliação de Incursor",
+            "desc": "Finalizar as etapas de avaliação energética e de controle para concluir o processo inicial de registro e licença.",
+            "status": "Ativa",
+            "type": "Registro",
+            "objectives": [
+              {
+                "id": "obj-class-assessment",
+                "text": "Concluir avaliação de Classe",
+                "done": true
+              },
+              {
+                "id": "obj-talent-assessment",
+                "text": "Concluir avaliação de Talento",
+                "done": true
+              },
+              {
+                "id": "obj-energy-assessment",
+                "text": "Concluir avaliação de Assinaturas Energéticas",
+                "done": true
+              },
+              {
+                "id": "obj-control-assessment",
+                "text": "Concluir avaliação de controle preliminar",
+                "done": false
+              },
+              {
+                "id": "obj-license-result",
+                "text": "Receber resultado do processo de licença",
+                "done": false
+              }
+            ],
+            "reward": "Licença de Incursor, se aprovado"
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-first-skills",
+            "title": "Primeiras Skills identificadas",
+            "body": "A avaliação de poderes revelou duas manifestações iniciais. Janela de Reação (F+) usa Mana para melhorar discretamente a velocidade de resposta de um aliado por poucos segundos. Impulso Vetorial (F-) é um empurrão telecinético muito fraco ligado à assinatura de Força. O teste consumiu 4 pontos de Mana.",
+            "date": "Sessão 0"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 10,
+      "id": "ascendant-session-000-innate-skills-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Skills iniciais registradas",
+        "body": "Janela de Reação (F+) e Impulso Vetorial (F-) foram adicionadas ao estado de Rafael. A avaliação energética foi concluída; falta o controle preliminar e o resultado da licença."
       }
     }
   ]
