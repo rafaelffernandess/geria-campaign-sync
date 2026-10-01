@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 20,
-  "generated_at": "2026-10-01T18:28:00-03:00",
+  "revision": 21,
+  "generated_at": "2026-10-01T23:05:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -625,6 +625,308 @@
         "flags": {
           "zeroAuraSwitchDiscovered": true,
           "zeroAbsoluteTalentSuppressionUnconfirmed": true
+        }
+      }
+    },
+    {
+      "seq": 27,
+      "id": "ascendant-session-000-n4-sweep-27",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Torre — Andar 1, Setor N-4",
+          "chapter": "Sessão 0 — Varredura do N-4",
+          "timeOfDay": "Fim de tarde"
+        },
+        "character": {
+          "xp": 310,
+          "nextXp": 335,
+          "resources": {
+            "hp": {
+              "cur": 74,
+              "max": 118
+            },
+            "stamina": {
+              "cur": 12,
+              "max": 74
+            },
+            "aura": {
+              "cur": 19,
+              "max": 138
+            }
+          },
+          "powerProfiles": {
+            "aura": {
+              "knowledge": "Autotreino de combate — controle inicial",
+              "advantages": [
+                "Retomada de fluxo extremamente rápida após o fim de uma supressão",
+                "A propriedade Aceleradora pode ser concentrada localmente para explosões curtas de movimento"
+              ],
+              "drawbacks": [
+                "Alternância repetida com Zero Absoluto Pessoal causa sobrecarga neuroenergética",
+                "Zero Absoluto Pessoal interrompe também o fluxo da própria Aura enquanto está ativo"
+              ],
+              "notes": "Treino intensivo realizado no Setor N-4 do Andar 1."
+            }
+          }
+        },
+        "techniques": [
+          {
+            "id": "technique-ascendant-null-switch",
+            "kind": "technique",
+            "name": "Alternância Nula",
+            "rank": "F+",
+            "power": "aura",
+            "training": 28,
+            "cost": "Alternância rápida entre Zero Absoluto Pessoal e Aura; uso prolongado causa sobrecarga de controle e fadiga neuroenergética.",
+            "source": "Zero Absoluto Pessoal + Aura Aceleradora",
+            "desc": "Mantém o campo nulo como defesa e o desliga no instante escolhido para religar a Aura Aceleradora e contra-atacar durante a retomada do fluxo energético adversário."
+          }
+        ],
+        "skills": [
+          {
+            "id": "skill-ascendant-accelerated-burst",
+            "kind": "skill",
+            "name": "Arranque Acelerado",
+            "rank": "F",
+            "power": "aura",
+            "training": 14,
+            "cost": "Aura; exige concentração localizada nas pernas e no eixo corporal.",
+            "source": "Manifestação espontânea por treino em combate",
+            "desc": "Concentra por um instante a propriedade Aceleradora da Aura no corpo para produzir um deslocamento explosivo de curta distância."
+          }
+        ],
+        "inventory": [
+          {
+            "id": "item-ascendant-bronze-industrial-katana-001",
+            "durability": {
+              "cur": 63,
+              "max": 100
+            },
+            "condition": "Usado"
+          },
+          {
+            "id": "item-ascendant-bronze-light-protection-001",
+            "durability": {
+              "cur": 71,
+              "max": 100
+            },
+            "condition": "Usado"
+          },
+          {
+            "id": "material-grey-ripper-core",
+            "name": "Núcleo Cinzento de Rasgador",
+            "type": "Material",
+            "rarity": "Comum",
+            "qty": 14,
+            "weight": 0.08,
+            "desc": "Núcleo ressonante recuperado de Rasgadores Cinzentos abatidos no Andar 1.",
+            "effects": "Material de venda e fabricação.",
+            "category": "misc",
+            "subtype": "Material de criatura",
+            "quality": "Comum",
+            "condition": "Bom",
+            "materials": [],
+            "tags": [
+              "Torre",
+              "Rasgador Cinzento",
+              "Núcleo"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": null,
+            "charges": null,
+            "visualStatus": "pending"
+          },
+          {
+            "id": "material-grey-ripper-alpha-core-n4",
+            "name": "Núcleo de Rasgador Alfa — N-4",
+            "type": "Material",
+            "rarity": "Refinado",
+            "qty": 1,
+            "weight": 0.18,
+            "desc": "Núcleo mais denso retirado do Rasgador Alfa que comandava a primeira matilha encontrada por Rafael no N-4.",
+            "effects": "Material de criatura de qualidade superior; pode ser vendido ou usado em fabricação.",
+            "category": "misc",
+            "subtype": "Material de criatura",
+            "quality": "Bom",
+            "condition": "Bom",
+            "materials": [],
+            "tags": [
+              "Torre",
+              "Rasgador Alfa",
+              "N-4",
+              "Núcleo"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": null,
+            "charges": null,
+            "visualStatus": "pending"
+          },
+          {
+            "id": "material-resonant-spines-floor1",
+            "name": "Feixe de Espinhos Ressonantes",
+            "type": "Material",
+            "rarity": "Comum",
+            "qty": 5,
+            "weight": 0.12,
+            "desc": "Espinhos rígidos recuperados de Rastejadores Espinhosos. Mantêm estrutura física mesmo sem fluxo energético.",
+            "effects": "Material de venda e fabricação.",
+            "category": "misc",
+            "subtype": "Material de criatura",
+            "quality": "Comum",
+            "condition": "Bom",
+            "materials": [],
+            "tags": [
+              "Torre",
+              "Rastejador Espinhoso"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": null,
+            "charges": null,
+            "visualStatus": "pending"
+          },
+          {
+            "id": "material-mineralized-carapace-floor1",
+            "name": "Fragmento de Couraça Mineralizada",
+            "type": "Material",
+            "rarity": "Refinado",
+            "qty": 2,
+            "weight": 0.65,
+            "desc": "Placas densas retiradas de Brutos Couraçados do Setor N-4.",
+            "effects": "Material resistente para venda ou fabricação.",
+            "category": "misc",
+            "subtype": "Material de criatura",
+            "quality": "Bom",
+            "condition": "Usado",
+            "materials": [],
+            "tags": [
+              "Torre",
+              "Bruto Couraçado",
+              "Couraça"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": null,
+            "charges": null,
+            "visualStatus": "pending"
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "creature-grey-ripper",
+              "category": "creatures",
+              "name": "Rasgador Cinzento",
+              "state": "discovered",
+              "summary": "Predador recorrente dos andares iniciais da Torre, perigoso em matilhas.",
+              "body": "Rafael enfrentou múltiplas matilhas no Setor N-4. Zero Absoluto remove o reforço sobrenatural perceptível, mas não elimina massa, garras, mandíbula ou força muscular natural. Um alfa apresentou maior densidade energética e coordenação de grupo.",
+              "tags": [
+                "Torre",
+                "Andar 1",
+                "Rasgador Cinzento"
+              ]
+            },
+            {
+              "id": "creature-spined-crawler-floor1",
+              "category": "creatures",
+              "name": "Rastejador Espinhoso",
+              "state": "discovered",
+              "summary": "Criatura baixa e veloz que dispara espinhos rígidos a curta e média distância.",
+              "body": "O campo nulo impede o reforço energético dos disparos enquanto a criatura está dentro de seu alcance, mas não faz um espinho físico já lançado desaparecer ou parar no ar. Rafael confirmou assim que Zero Absoluto não apaga consequências físicas já produzidas.",
+              "tags": [
+                "Torre",
+                "Andar 1",
+                "N-4",
+                "Projéteis"
+              ]
+            },
+            {
+              "id": "creature-armored-brute-floor1",
+              "category": "creatures",
+              "name": "Bruto Couraçado",
+              "state": "discovered",
+              "summary": "Quadrúpede pesado protegido por placas mineralizadas e especializado em investidas.",
+              "body": "Zero Absoluto reduz a componente sobrenatural da investida, mas a massa e a inércia do Bruto continuam perigosas. Rafael precisou usar aceleração localizada e esquiva lateral para vencê-los.",
+              "tags": [
+                "Torre",
+                "Andar 1",
+                "N-4",
+                "Couraçado"
+              ]
+            },
+            {
+              "id": "system-zero-absolute-field-control",
+              "category": "systems",
+              "name": "Zero Absoluto Pessoal — Controle Inicial",
+              "state": "discovered",
+              "summary": "O uso prolongado revelou limites práticos e possibilidades de alternância do campo.",
+              "body": "Durante horas de combate, Rafael aprendeu a ativar e desativar Zero Absoluto com mais precisão e a reduzir o tempo entre o fim do campo e a retomada da própria Aura. O Talento não paralisa matéria nem desfaz efeitos físicos já materializados. A interação com Talentos de outros Ressonantes continua não confirmada.",
+              "tags": [
+                "Talento",
+                "Zero Absoluto Pessoal",
+                "Treino"
+              ]
+            }
+          ]
+        },
+        "quests": [
+          {
+            "id": "quest-ascendant-first-tower-entry",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-first-loadout",
+                "text": "Preparar equipamento para a primeira incursão",
+                "done": true
+              },
+              {
+                "id": "obj-first-checkin",
+                "text": "Registrar o ingresso no controle da Torre",
+                "done": true
+              },
+              {
+                "id": "obj-choose-entry-mode",
+                "text": "Escolher entrar sozinho ou procurar grupo",
+                "done": true
+              },
+              {
+                "id": "obj-first-floor",
+                "text": "Entrar no primeiro andar da Torre",
+                "done": true
+              },
+              {
+                "id": "obj-reach-n4",
+                "text": "Chegar ao Setor N-4",
+                "done": true
+              },
+              {
+                "id": "obj-sweep-n4",
+                "text": "Eliminar os contatos hostis ativos encontrados durante a varredura do N-4",
+                "done": true
+              },
+              {
+                "id": "obj-return-floor1",
+                "text": "Retornar em segurança ao ponto de saída",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-n4-sweep",
+            "title": "Varredura intensiva do Setor N-4",
+            "body": "Rafael permaneceu por horas no N-4 e caçou sistematicamente os contatos hostis que encontrou. Ao fim da varredura havia abatido 22 criaturas: 15 Rasgadores Cinzentos, incluindo um alfa, 5 Rastejadores Espinhosos e 2 Brutos Couraçados. O treino refinou Alternância Nula para F+, fez surgir Arranque Acelerado (F) e revelou limites importantes de Zero Absoluto. Rafael terminou muito exausto, ferido e com pouca Aura restante, mas sem contatos hostis ativos detectados na rota que varreu.",
+            "date": "Sessão 0 — fim de tarde"
+          }
+        ],
+        "flags": {
+          "n4FirstSweepComplete": true,
+          "zeroAbsolutePhysicalLimitObserved": true,
+          "acceleratedBurstUnlocked": true
         }
       }
     }
