@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 14,
-  "generated_at": "2026-10-01T18:05:00-03:00",
+  "revision": 15,
+  "generated_at": "2026-10-01T18:12:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -222,6 +222,150 @@
             "id": "journal-ascendant-first-tower-prep",
             "title": "Preparativos para a primeira entrada na Torre",
             "body": "Depois de se acalmar com as mudanças do próprio Despertar, Rafael decidiu ir até a Associação para tentar sua primeira entrada na Torre. Antes do acesso, passou na loja de equipamentos da Associação para montar um conjunto inicial adequado à licença Bronze.",
+            "date": "Sessão 0 — manhã"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 21,
+      "id": "ascendant-session-000-first-loadout-21",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Associação de Incursores — Loja de Equipamentos",
+          "chapter": "Sessão 0 — Primeira ida à Torre",
+          "timeOfDay": "Manhã"
+        },
+        "character": {
+          "equipment": {
+            "chest": "item-ascendant-bronze-light-protection-001",
+            "main": "item-ascendant-bronze-industrial-katana-001"
+          }
+        },
+        "inventory": [
+          {
+            "id": "item-ascendant-bronze-industrial-katana-001",
+            "name": "Katana Industrial de Incursão",
+            "type": "Arma",
+            "rarity": "Comum",
+            "qty": 1,
+            "weight": 1.15,
+            "desc": "Katana moderna produzida em série para Incursores iniciantes. Leve, rápida e resistente o bastante para os primeiros andares da Torre.",
+            "effects": "Arma de corte de uma mão; favorece golpes rápidos e mobilidade. Não possui propriedade ressonante própria.",
+            "category": "weapon",
+            "subtype": "Katana",
+            "quality": "Bom",
+            "condition": "Impecável",
+            "materials": [
+              "Aço",
+              "Polímero"
+            ],
+            "tags": [
+              "Bronze",
+              "Corpo a corpo",
+              "Corte",
+              "Leve"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": {
+              "cur": 100,
+              "max": 100
+            },
+            "charges": null,
+            "visualStatus": "pending"
+          },
+          {
+            "id": "item-ascendant-bronze-light-protection-001",
+            "name": "Proteção Leve Bronze",
+            "type": "Armadura",
+            "rarity": "Comum",
+            "qty": 1,
+            "weight": 3.8,
+            "desc": "Jaqueta tática reforçada com placas discretas nas áreas vitais, feita para preservar mobilidade em incursões de baixo risco.",
+            "effects": "Proteção corporal leve; pouca interferência em deslocamento e movimentos amplos.",
+            "category": "armor",
+            "subtype": "Armadura leve",
+            "quality": "Bom",
+            "condition": "Impecável",
+            "materials": [
+              "Tecido técnico",
+              "Aço",
+              "Polímero"
+            ],
+            "tags": [
+              "Bronze",
+              "Leve",
+              "Mobilidade"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": {
+              "cur": 100,
+              "max": 100
+            },
+            "charges": null,
+            "visualStatus": "pending"
+          },
+          {
+            "id": "item-ascendant-first-incursion-kit-001",
+            "name": "Kit Básico de Primeira Incursão",
+            "type": "Kit",
+            "rarity": "Comum",
+            "qty": 1,
+            "weight": 2.2,
+            "desc": "Conjunto subsidiado pela Associação para a primeira entrada de um Incursor na Torre.",
+            "effects": "Inclui kit compacto de primeiros socorros, lanterna de alta resistência, duas barras energéticas, cantil, marcador luminoso de emergência e bolsa de cintura.",
+            "category": "tool",
+            "subtype": "Kit",
+            "quality": "Comum",
+            "condition": "Impecável",
+            "materials": [],
+            "tags": [
+              "Associação",
+              "Primeira incursão",
+              "Subsidiado"
+            ],
+            "media": [],
+            "protected": false,
+            "durability": null,
+            "charges": null,
+            "visualStatus": "pending"
+          }
+        ],
+        "quests": [
+          {
+            "id": "quest-ascendant-first-tower-entry",
+            "name": "Primeiro Degrau",
+            "desc": "Realizar a primeira entrada oficial de Rafael na Torre.",
+            "status": "Ativa",
+            "type": "Principal",
+            "objectives": [
+              {
+                "id": "obj-first-loadout",
+                "text": "Preparar equipamento para a primeira incursão",
+                "done": true
+              },
+              {
+                "id": "obj-first-checkin",
+                "text": "Registrar o ingresso no controle da Torre",
+                "done": false
+              },
+              {
+                "id": "obj-first-floor",
+                "text": "Entrar no primeiro andar da Torre",
+                "done": false
+              }
+            ],
+            "reward": "Acesso inicial à progressão da Torre"
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-first-loadout",
+            "title": "Primeiro equipamento de Incursor",
+            "body": "Na loja da Associação, Rafael escolheu uma Katana Industrial de Incursão e uma Proteção Leve Bronze. Como recém-licenciado em seu primeiro ingresso, recebeu também o Kit Básico de Primeira Incursão subsidiado pela Associação.",
             "date": "Sessão 0 — manhã"
           }
         ]
