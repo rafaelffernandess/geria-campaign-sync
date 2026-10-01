@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 23,
-  "generated_at": "2026-10-08T20:10:00-03:00",
+  "revision": 24,
+  "generated_at": "2026-10-08T20:20:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -1308,6 +1308,175 @@
           "associationPatternNotice": 1,
           "n4RoutineEstablished": true
         }
+      }
+    },
+    {
+      "seq": 30,
+      "id": "ascendant-week-001-spend-progression-points-30",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Associação de Incursores — área de retorno da Torre",
+          "chapter": "Semana 1 — Consolidação do Treino",
+          "timeOfDay": "Noite"
+        },
+        "character": {
+          "progression": {
+            "talentPoints": 0,
+            "trainingPoints": 0
+          },
+          "talents": [
+            {
+              "id": "talent-127",
+              "name": "Zero Absoluto Pessoal",
+              "rarity": "Singular",
+              "category": "Singular",
+              "kind": "Misto",
+              "desc": "Impõe imobilidade energética extrema centrada no usuário.",
+              "applications": [
+                {
+                  "id": "talent-app-zero-echo",
+                  "name": "Eco Nulo",
+                  "state": "Desbloqueada",
+                  "desc": "Ao encerrar uma supressão sobre um fluxo que esteve preso pelo Zero Absoluto, Rafael consegue provocar um breve atraso na retomada energética do alvo. O efeito dura apenas uma fração de instante, varia com a estabilidade e potência do fluxo adversário e não interrompe matéria, inércia física ou efeitos já materializados."
+                }
+              ]
+            }
+          ]
+        },
+        "ascendant": {
+          "talents": [
+            {
+              "id": "talent-127",
+              "name": "Zero Absoluto Pessoal",
+              "rarity": "Singular",
+              "category": "Singular",
+              "kind": "Misto",
+              "desc": "Impõe imobilidade energética extrema centrada no usuário.",
+              "applications": [
+                {
+                  "id": "talent-app-zero-echo",
+                  "name": "Eco Nulo",
+                  "state": "Desbloqueada",
+                  "desc": "Ao encerrar uma supressão sobre um fluxo que esteve preso pelo Zero Absoluto, Rafael consegue provocar um breve atraso na retomada energética do alvo. O efeito dura apenas uma fração de instante, varia com a estabilidade e potência do fluxo adversário e não interrompe matéria, inércia física ou efeitos já materializados."
+                }
+              ]
+            }
+          ]
+        },
+        "skills": [
+          {
+            "id": "skill-ascendant-accelerated-burst",
+            "kind": "skill",
+            "name": "Arranque Acelerado",
+            "rank": "E+",
+            "power": "aura",
+            "training": 10,
+            "cost": "Aura; exige concentração localizada nas pernas e no eixo corporal.",
+            "source": "Aura — propriedade Aceleradora",
+            "desc": "Concentra a propriedade Aceleradora da Aura em deslocamentos explosivos de curta distância. Em E+, Rafael já executa arrancadas com frenagem muito mais limpa, mudanças rápidas de direção e uma segunda correção curta sem perder completamente o equilíbrio."
+          }
+        ],
+        "codex": {
+          "entries": [
+            {
+              "id": "system-zero-absolute-null-echo",
+              "category": "systems",
+              "name": "Zero Absoluto Pessoal — Eco Nulo",
+              "state": "discovered",
+              "summary": "Nova aplicação do Talento que explora o instante de retomada de um fluxo suprimido.",
+              "body": "Ao invés de apenas desligar o campo e permitir que tudo volte ao normal imediatamente, Rafael aprendeu a encerrar a supressão de modo a deixar o fluxo energético de um alvo afetado em um breve estado de atraso. Esse Eco Nulo cria uma janela adicional para sua Aura Aceleradora entrar em ação. A duração é muito curta e diminui contra fluxos mais estáveis ou poderosos. Não mantém matéria paralisada, não desfaz efeitos físicos já produzidos e não prova, por si só, que Talentos passivos possam ser anulados.",
+              "tags": [
+                "Talento",
+                "Zero Absoluto Pessoal",
+                "Aplicação",
+                "Eco Nulo"
+              ]
+            },
+            {
+              "id": "skill-arranque-acelerado-eplus",
+              "category": "systems",
+              "name": "Arranque Acelerado — E+",
+              "state": "discovered",
+              "summary": "Aprimoramento avançado dentro da faixa E do deslocamento explosivo de Aura.",
+              "body": "Com dois Pontos de Treinamento investidos, Arranque Acelerado avançou de E- para E+. Rafael ganhou frenagem muito mais limpa, mudanças rápidas de direção e capacidade de fazer uma segunda correção curta durante a mesma sequência de deslocamento.",
+              "tags": [
+                "Skill",
+                "Aura",
+                "Aceleradora",
+                "Treinamento"
+              ]
+            }
+          ]
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-progression-points-spent-week1",
+            "title": "Eco Nulo e evolução do Arranque",
+            "body": "Rafael investiu seu Ponto de Talento em Zero Absoluto Pessoal e desenvolveu Eco Nulo, uma aplicação que prolonga por um breve instante a dificuldade de retomada de fluxos energéticos que acabaram de ser suprimidos. Os dois Pontos de Treinamento foram concentrados em Arranque Acelerado, elevando a Skill de E- para E+.",
+            "date": "Fim da Semana 1"
+          }
+        ],
+        "flags": {
+          "nullEchoUnlocked": true,
+          "acceleratedBurstRank": "E+"
+        },
+        "operations": [
+          {
+            "op": "set",
+            "path": "character.progression.talentPoints",
+            "value": 0
+          },
+          {
+            "op": "set",
+            "path": "character.progression.trainingPoints",
+            "value": 0
+          },
+          {
+            "op": "set",
+            "path": "character.talents",
+            "value": [
+              {
+                "id": "talent-127",
+                "name": "Zero Absoluto Pessoal",
+                "rarity": "Singular",
+                "category": "Singular",
+                "kind": "Misto",
+                "desc": "Impõe imobilidade energética extrema centrada no usuário.",
+                "applications": [
+                  {
+                    "id": "talent-app-zero-echo",
+                    "name": "Eco Nulo",
+                    "state": "Desbloqueada",
+                    "desc": "Ao encerrar uma supressão sobre um fluxo que esteve preso pelo Zero Absoluto, Rafael consegue provocar um breve atraso na retomada energética do alvo. O efeito dura apenas uma fração de instante, varia com a estabilidade e potência do fluxo adversário e não interrompe matéria, inércia física ou efeitos já materializados."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "op": "set",
+            "path": "ascendant.talents",
+            "value": [
+              {
+                "id": "talent-127",
+                "name": "Zero Absoluto Pessoal",
+                "rarity": "Singular",
+                "category": "Singular",
+                "kind": "Misto",
+                "desc": "Impõe imobilidade energética extrema centrada no usuário.",
+                "applications": [
+                  {
+                    "id": "talent-app-zero-echo",
+                    "name": "Eco Nulo",
+                    "state": "Desbloqueada",
+                    "desc": "Ao encerrar uma supressão sobre um fluxo que esteve preso pelo Zero Absoluto, Rafael consegue provocar um breve atraso na retomada energética do alvo. O efeito dura apenas uma fração de instante, varia com a estabilidade e potência do fluxo adversário e não interrompe matéria, inércia física ou efeitos já materializados."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
       }
     }
   ]
