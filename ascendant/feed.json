@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 2,
-  "generated_at": "2026-09-30T23:18:00-03:00",
+  "revision": 3,
+  "generated_at": "2026-09-30T23:22:00-03:00",
   "events": [
     {
       "seq": 1,
@@ -271,6 +271,378 @@
       "payload": {
         "title": "Avaliação energética atualizada",
         "body": "A leitura passiva foi registrada. A classificação final depende dos testes ativos."
+      }
+    },
+    {
+      "seq": 5,
+      "id": "ascendant-session-000-active-mana-contact",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "session": 0,
+          "chapter": "Sessão 0 — Avaliação Energética",
+          "location": "Associação Geral de Incursores — Sala 12, Laboratório de Ressonância",
+          "timeOfDay": "Fim da tarde"
+        },
+        "character": {
+          "level": 1,
+          "xp": 0,
+          "nextXp": 335,
+          "className": "Suporte",
+          "classTier": "Básica",
+          "adventurerRank": "Sem licença",
+          "resources": {
+            "hp": {
+              "cur": 118,
+              "max": 118
+            },
+            "stamina": {
+              "cur": 74,
+              "max": 74
+            },
+            "mana": {
+              "cur": 59,
+              "max": 60
+            },
+            "aura": {
+              "cur": 0,
+              "max": 0
+            },
+            "prana": {
+              "cur": 0,
+              "max": 0
+            },
+            "forca": {
+              "cur": 0,
+              "max": 0
+            },
+            "eter": {
+              "cur": 0,
+              "max": 0
+            }
+          },
+          "powerProfiles": {
+            "mana": {
+              "knowledge": "Avaliação ativa em andamento",
+              "access": "Desperta",
+              "rank": "D-",
+              "potential": "A- (preliminar)",
+              "affinity": "Neutra / não definida",
+              "elements": [],
+              "color": "Azul-clara na leitura instrumental",
+              "traits": [
+                "Reserva acima da média",
+                "Emissão consciente muito baixa",
+                "Fluxo irregular",
+                "Assinatura primária"
+              ],
+              "advantages": [
+                "Capacidade total de Mana promissora para um recém-desperto"
+              ],
+              "drawbacks": [
+                "Controle consciente muito fraco",
+                "Dificuldade de exteriorização"
+              ],
+              "notes": "Ao tocar a esfera de ressonância, Rafael demonstrou uma reserva de Mana maior do que sua emissão passiva sugeria. O aparelho classificou a expressão atual em D-, com potencial preliminar A-. A grande limitação observada foi o controle: a Mana responde, mas sai de forma hesitante e irregular. A leitura ainda pode ser refinada por testes subsequentes.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva",
+                "Associação Geral de Incursores — contato ativo com esfera de ressonância"
+              ]
+            },
+            "forca": {
+              "knowledge": "Traço passivo detectado",
+              "access": "Traço residual",
+              "rank": "Não classificável",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [
+                "Traço secundário muito fraco"
+              ],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "A resposta fraca de Força observada na leitura passiva ainda não foi confirmada como assinatura funcional.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            },
+            "aura": {
+              "knowledge": "Leitura passiva concluída",
+              "access": "Sem resposta mensurável",
+              "rank": "Não classificado",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Nenhuma resposta mensurável até o momento.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            },
+            "prana": {
+              "knowledge": "Leitura passiva concluída",
+              "access": "Sem resposta mensurável",
+              "rank": "Não classificado",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Nenhuma resposta mensurável até o momento.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            },
+            "eter": {
+              "knowledge": "Leitura passiva concluída",
+              "access": "Sem resposta mensurável",
+              "rank": "Não classificado",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Nenhuma resposta mensurável até o momento.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            }
+          }
+        },
+        "ascendant": {
+          "awakeningStatus": "Recém-desperto",
+          "license": "Em processo de avaliação",
+          "classAssessment": "Suporte",
+          "skillPoints": 0,
+          "tower": {
+            "highestFloor": 0,
+            "currentFloor": 0,
+            "checkpoints": []
+          },
+          "dungeons": {
+            "clears": 0,
+            "raids": 0,
+            "breaks": 0,
+            "history": []
+          },
+          "reputation": {
+            "public": 0,
+            "companies": {}
+          }
+        },
+        "quests": [
+          {
+            "id": "quest-ascendant-license-evaluation",
+            "name": "Concluir a avaliação de Incursor",
+            "desc": "Finalizar as etapas de avaliação energética e de controle para concluir o processo inicial de registro e licença.",
+            "status": "Ativa",
+            "type": "Registro",
+            "objectives": [
+              {
+                "id": "obj-class-assessment",
+                "text": "Concluir avaliação de Classe",
+                "done": true
+              },
+              {
+                "id": "obj-talent-assessment",
+                "text": "Concluir avaliação de Talento",
+                "done": true
+              },
+              {
+                "id": "obj-energy-assessment",
+                "text": "Concluir avaliação de Assinaturas Energéticas",
+                "done": false
+              },
+              {
+                "id": "obj-control-assessment",
+                "text": "Concluir avaliação de controle preliminar",
+                "done": false
+              },
+              {
+                "id": "obj-license-result",
+                "text": "Receber resultado do processo de licença",
+                "done": false
+              }
+            ],
+            "reward": "Licença de Incursor, se aprovado"
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-active-mana-test",
+            "title": "Contato com a esfera de ressonância",
+            "body": "Rafael tocou a esfera durante o teste ativo de Mana. A reserva medida foi maior do que a emissão passiva sugeria, mas a exteriorização consciente mostrou-se muito fraca e irregular. A expressão atual recebeu avaliação preliminar D-, enquanto o potencial foi estimado preliminarmente em A-. O teste ainda não terminou.",
+            "date": "Sessão 0"
+          }
+        ],
+        "operations": [
+          {
+            "op": "set",
+            "path": "codex.entries",
+            "value": [
+              {
+                "id": "world-ascendant-era-rupturas",
+                "category": "world",
+                "name": "Era das Rupturas",
+                "state": "discovered",
+                "summary": "A era moderna moldada pelo aparecimento de Despertos, Portais, Dungeons, Rupturas e da Torre.",
+                "body": "Rafael nasceu neste mundo e conhece o quadro geral divulgado publicamente: fenômenos de ruptura alteraram a sociedade moderna, surgiram Ressonantes capazes de manipular poderes sobrenaturais e a profissão de Incursor passou a ocupar papel central na contenção de Dungeons e ameaças.",
+                "tags": [
+                  "Conhecimento público",
+                  "Mundo moderno",
+                  "Rupturas"
+                ]
+              },
+              {
+                "id": "system-ressonantes-despertos",
+                "category": "systems",
+                "name": "Despertos e Ressonantes",
+                "state": "discovered",
+                "summary": "Pessoas que manifestam capacidades sobrenaturais após um Despertar.",
+                "body": "O Despertar pode revelar Classe, Talento, Skills e uma ou mais respostas energéticas. A avaliação oficial procura medir esses aspectos e determinar condições de registro e licenciamento.",
+                "tags": [
+                  "Conhecimento público",
+                  "Despertar",
+                  "Ressonantes"
+                ]
+              },
+              {
+                "id": "system-incursores",
+                "category": "systems",
+                "name": "Incursores",
+                "state": "discovered",
+                "summary": "Profissionais licenciados para atuar em operações relacionadas a Dungeons, Rupturas, Torre e criaturas hostis.",
+                "body": "Incursores são registrados e avaliados por órgãos competentes. Companhias, guildas, empresas e equipes profissionais disputam contratos, talentos e prestígio no setor.",
+                "tags": [
+                  "Conhecimento público",
+                  "Profissão",
+                  "Licença"
+                ]
+              },
+              {
+                "id": "org-associacao-geral-incursores",
+                "category": "organizations",
+                "name": "Associação Geral de Incursores",
+                "state": "discovered",
+                "summary": "Órgão público responsável por registro, avaliação e licenciamento de Incursores.",
+                "body": "Rafael compareceu à Associação após despertar como Ressonante. Sua avaliação de Classe resultou em Suporte e sua avaliação de Talento identificou Reflexo Afiado, de raridade Comum. A avaliação energética está em andamento.",
+                "tags": [
+                  "Organização pública",
+                  "Licenciamento",
+                  "Avaliação"
+                ]
+              },
+              {
+                "id": "system-five-energies",
+                "category": "systems",
+                "name": "Cinco Assinaturas Energéticas",
+                "state": "discovered",
+                "summary": "Mana, Prana, Aura, Força e Éter são as cinco vias reconhecidas nas avaliações energéticas modernas.",
+                "body": "Mana está associada à magia estruturada. Prana ao fluxo vital e técnicas respiratórias. Aura à vitalidade combativa e reforço marcial. Força à pressão da consciência e fenômenos mentais. Éter é uma via excepcional, associada a fenômenos fundamentais e raramente acessível de forma direta.",
+                "tags": [
+                  "Conhecimento público",
+                  "Mana",
+                  "Prana",
+                  "Aura",
+                  "Força",
+                  "Éter"
+                ]
+              },
+              {
+                "id": "system-operational-classes",
+                "category": "systems",
+                "name": "Classes Operacionais",
+                "state": "discovered",
+                "summary": "As dezesseis Classes operacionais reconhecidas publicamente para Ressonantes.",
+                "body": "Combatente, Guardião, Berserker, Assassino, Slayer, Magus, Xamã, Curandeiro, Suporte, Alquimista, Engenheiro, Invocador, Arqueiro, Cavaleiro, Monge e Atirador. Caminhos posteriores podem evoluir por tiers de Classe conforme treinamento, requisitos e progressão.",
+                "tags": [
+                  "Conhecimento público",
+                  "Classes"
+                ]
+              },
+              {
+                "id": "system-public-rankings",
+                "category": "systems",
+                "name": "Escalas Públicas de Classificação",
+                "state": "discovered",
+                "summary": "Diferentes sistemas usam escalas próprias para licenças, Rupturas, criaturas, Talentos e Skills.",
+                "body": "Licenças de Incursor usam uma escala pública de Bronze a Coroa. Rupturas são classificadas de Branca a Negra. Criaturas são categorizadas de I — Praga a VII — Extinção. Talentos variam de Comum a Singular. Skills possuem sua própria progressão de domínio.",
+                "tags": [
+                  "Conhecimento público",
+                  "Ranks",
+                  "Licenças"
+                ]
+              },
+              {
+                "id": "system-tower",
+                "category": "world",
+                "name": "A Torre",
+                "state": "discovered",
+                "summary": "Estrutura anômala explorada por Incursores e acompanhada mundialmente.",
+                "body": "A Torre é um dos grandes eixos da sociedade de Incursores. Expedições, recordes de avanço e descobertas em seus andares são acompanhados pela mídia e por Companhias. Rafael ainda não entrou na Torre.",
+                "tags": [
+                  "Conhecimento público",
+                  "Torre"
+                ]
+              },
+              {
+                "id": "system-dungeons-ruptures",
+                "category": "world",
+                "name": "Dungeons e Rupturas",
+                "state": "discovered",
+                "summary": "Fenômenos anômalos que podem abrir áreas hostis, liberar criaturas e exigir intervenção de Incursores.",
+                "body": "Dungeons e Rupturas variam amplamente em risco. Operações de contenção, exploração e fechamento seguem protocolos oficiais, com classificação de ameaça e equipes licenciadas.",
+                "tags": [
+                  "Conhecimento público",
+                  "Dungeons",
+                  "Rupturas"
+                ]
+              },
+              {
+                "id": "creatures-public-bestiary",
+                "category": "creatures",
+                "name": "Bestiário Público",
+                "state": "discovered",
+                "summary": "A sociedade mantém registros públicos de criaturas recorrentes encontradas em Dungeons, Rupturas e na Torre.",
+                "body": "Muitas criaturas catalogadas lembram arquétipos clássicos conhecidos pelo público, embora variantes, mutações e indivíduos excepcionais possam diferir bastante dos registros comuns.",
+                "tags": [
+                  "Conhecimento público",
+                  "Bestiário"
+                ]
+              },
+              {
+                "id": "organizations-companies",
+                "category": "organizations",
+                "name": "Companhias de Incursores",
+                "state": "discovered",
+                "summary": "Organizações privadas e profissionais que recrutam Ressonantes e operam no mercado de incursões.",
+                "body": "Companhias disputam contratos, direitos de exploração, patrocínios e talentos. Grandes Incursores podem se tornar celebridades, símbolos corporativos ou figuras públicas.",
+                "tags": [
+                  "Conhecimento público",
+                  "Companhias",
+                  "Mercado"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seq": 6,
+      "id": "ascendant-session-000-state-sync-notice",
+      "type": "notice",
+      "payload": {
+        "title": "ASCENDANT sincronizado",
+        "body": "Estado de personagem, recursos, avaliação energética, missão ativa, diário e conhecimento público básico foram atualizados no Campaign Sync de ascendant-main."
       }
     }
   ]
