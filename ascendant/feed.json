@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 1,
-  "generated_at": "2026-09-30T23:15:00-03:00",
+  "revision": 2,
+  "generated_at": "2026-09-30T23:18:00-03:00",
   "events": [
     {
       "seq": 1,
@@ -156,6 +156,121 @@
       "payload": {
         "title": "ASCENDANT — Sessão 0 iniciada",
         "body": "Estado inicial registrado no feed ascendant-main. Geria não foi alterada."
+      }
+    },
+    {
+      "seq": 3,
+      "id": "ascendant-session-000-passive-energy-scan",
+      "type": "patch",
+      "payload": {
+        "character": {
+          "powerProfiles": {
+            "mana": {
+              "knowledge": "Leitura passiva concluída",
+              "access": "Detectado",
+              "rank": "Ainda não classificado",
+              "potential": "Ainda não classificado",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [
+                "Assinatura primária detectada",
+                "Amplitude inicial modesta"
+              ],
+              "advantages": [],
+              "drawbacks": [
+                "Controle consciente ainda não demonstrado"
+              ],
+              "notes": "A varredura passiva detectou Mana como a assinatura energética predominante. A intensidade inicial ficou abaixo das leituras que costumam chamar atenção, mas a classificação oficial depende dos testes ativos.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            },
+            "forca": {
+              "knowledge": "Traço passivo detectado",
+              "access": "Traço residual",
+              "rank": "Não classificável na leitura passiva",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [
+                "Traço secundário fraco"
+              ],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Foi detectada uma resposta secundária muito fraca de Força, abaixo do limiar necessário para classificação. Pode ou não se confirmar nos testes ativos.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            },
+            "aura": {
+              "knowledge": "Leitura passiva concluída",
+              "access": "Sem resposta mensurável",
+              "rank": "Não classificado",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Nenhuma resposta mensurável na leitura passiva.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            },
+            "prana": {
+              "knowledge": "Leitura passiva concluída",
+              "access": "Sem resposta mensurável",
+              "rank": "Não classificado",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Nenhuma resposta mensurável na leitura passiva.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            },
+            "eter": {
+              "knowledge": "Leitura passiva concluída",
+              "access": "Sem resposta mensurável",
+              "rank": "Não classificado",
+              "potential": "Desconhecido",
+              "affinity": "Não determinada",
+              "elements": [],
+              "color": "Não determinada",
+              "traits": [],
+              "advantages": [],
+              "drawbacks": [],
+              "notes": "Nenhuma resposta mensurável na leitura passiva.",
+              "appraisals": [
+                "Associação Geral de Incursores — leitura passiva"
+              ]
+            }
+          }
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-passive-energy-scan",
+            "title": "Primeira leitura energética",
+            "body": "A leitura passiva identificou Mana como assinatura predominante de Rafael, com amplitude inicial modesta. Um traço secundário muito fraco de Força também apareceu, ainda abaixo do limiar de classificação. Aura, Prana e Éter não apresentaram resposta mensurável nessa etapa. Os resultados ainda dependem dos testes ativos.",
+            "date": "Sessão 0"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 4,
+      "id": "ascendant-session-000-passive-energy-scan-notice",
+      "type": "notice",
+      "payload": {
+        "title": "Avaliação energética atualizada",
+        "body": "A leitura passiva foi registrada. A classificação final depende dos testes ativos."
       }
     }
   ]
