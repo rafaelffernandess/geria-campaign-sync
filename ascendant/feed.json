@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 18,
-  "generated_at": "2026-10-01T18:14:00-03:00",
+  "revision": 19,
+  "generated_at": "2026-10-01T18:20:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -545,6 +545,30 @@
             "date": "Sessão 0 — manhã"
           }
         ]
+      }
+    },
+    {
+      "seq": 25,
+      "id": "ascendant-session-000-talent-first-use-25",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Torre — Andar 1, Setor N-4",
+          "chapter": "Sessão 0 — Primeiro Degrau",
+          "timeOfDay": "Manhã"
+        },
+        "journal": [
+          {
+            "id": "journal-ascendant-first-talent-use",
+            "title": "Primeira ativação do Talento",
+            "body": "Cercado por Rasgadores Cinzentos no Setor N-4, Rafael ativou conscientemente seu Talento pela primeira vez e observou que ele interrompe o fluxo de energia sobrenatural em uma zona curta centrada em seu corpo. A própria Aura de Rafael também é afetada enquanto o efeito permanece ativo. Alcance, duração e limites ainda são desconhecidos.",
+            "date": "Sessão 0 — manhã"
+          }
+        ],
+        "flags": {
+          "talentFirstUse": true,
+          "energyStasisObserved": true
+        }
       }
     }
   ]
