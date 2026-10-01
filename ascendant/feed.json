@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 6,
-  "generated_at": "2026-10-01T00:19:00-03:00",
+  "revision": 7,
+  "generated_at": "2026-10-01T00:22:00-03:00",
   "events": [
     {
       "seq": 1,
@@ -1104,6 +1104,83 @@
       "payload": {
         "title": "Controle preliminar concluído",
         "body": "Rafael concluiu a etapa de controle. O parecer final da licença ainda está pendente."
+      }
+    },
+    {
+      "seq": 13,
+      "id": "ascendant-session-000-license-issued",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "session": 0,
+          "chapter": "Sessão 0 — Licenciamento",
+          "location": "Associação Geral de Incursores — área de atendimento",
+          "timeOfDay": "Início da noite"
+        },
+        "character": {
+          "adventurerRank": "Bronze",
+          "inventory": [
+            {
+              "id": "item-ascendant-bronze-temp-license",
+              "name": "Credencial Provisória de Incursor — Bronze",
+              "type": "Documento",
+              "rarity": "Comum",
+              "qty": 1,
+              "weight": 0.05,
+              "desc": "Credencial provisória emitida após a avaliação inicial.",
+              "effects": "Comprova registro e licença Bronze.",
+              "category": "story",
+              "subtype": "Licença"
+            }
+          ]
+        },
+        "ascendant": {
+          "license": "Bronze — Provisória"
+        },
+        "quests": [
+          {
+            "id": "quest-ascendant-license-evaluation",
+            "name": "Concluir a avaliação de Incursor",
+            "status": "Concluída",
+            "type": "Registro",
+            "objectives": [
+              {
+                "id": "obj-class-assessment",
+                "text": "Concluir avaliação de Classe",
+                "done": true
+              },
+              {
+                "id": "obj-talent-assessment",
+                "text": "Concluir avaliação de Talento",
+                "done": true
+              },
+              {
+                "id": "obj-energy-assessment",
+                "text": "Concluir avaliação de Assinaturas Energéticas",
+                "done": true
+              },
+              {
+                "id": "obj-control-assessment",
+                "text": "Concluir avaliação de controle preliminar",
+                "done": true
+              },
+              {
+                "id": "obj-license-result",
+                "text": "Receber resultado do processo de licença",
+                "done": true
+              }
+            ],
+            "reward": "Licença de Incursor Bronze — Provisória"
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-license-bronze",
+            "title": "Licença de Incursor emitida",
+            "body": "Rafael concluiu o processo inicial e recebeu licença Bronze provisória.",
+            "date": "Sessão 0"
+          }
+        ]
       }
     }
   ]
