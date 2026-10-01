@@ -1,8 +1,8 @@
 {
   "schema": "world-codex-campaign-feed-v1",
   "campaign": "ascendant-main",
-  "revision": 15,
-  "generated_at": "2026-10-01T18:12:00-03:00",
+  "revision": 16,
+  "generated_at": "2026-10-01T18:18:00-03:00",
   "events": [
     {
       "seq": 16,
@@ -366,6 +366,49 @@
             "id": "journal-ascendant-first-loadout",
             "title": "Primeiro equipamento de Incursor",
             "body": "Na loja da Associação, Rafael escolheu uma Katana Industrial de Incursão e uma Proteção Leve Bronze. Como recém-licenciado em seu primeiro ingresso, recebeu também o Kit Básico de Primeira Incursão subsidiado pela Associação.",
+            "date": "Sessão 0 — manhã"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 22,
+      "id": "ascendant-session-000-tower-checkin-22",
+      "type": "patch",
+      "payload": {
+        "campaign": {
+          "location": "Associação de Incursores — Controle de Acesso da Torre",
+          "chapter": "Sessão 0 — Primeiro Degrau",
+          "timeOfDay": "Manhã"
+        },
+        "quests": [
+          {
+            "id": "quest-ascendant-first-tower-entry",
+            "status": "Ativa",
+            "objectives": [
+              {
+                "id": "obj-first-loadout",
+                "text": "Preparar equipamento para a primeira incursão",
+                "done": true
+              },
+              {
+                "id": "obj-first-checkin",
+                "text": "Registrar o ingresso no controle da Torre",
+                "done": true
+              },
+              {
+                "id": "obj-first-floor",
+                "text": "Entrar no primeiro andar da Torre",
+                "done": false
+              }
+            ]
+          }
+        ],
+        "journal": [
+          {
+            "id": "journal-ascendant-first-tower-checkin",
+            "title": "Check-in para a primeira entrada na Torre",
+            "body": "Rafael apresentou sua credencial Bronze no controle de acesso e confirmou que aquela seria sua primeira entrada na Torre. O registro oficial continua mostrando Classe Não Classificável e assinaturas energéticas não mensuráveis.",
             "date": "Sessão 0 — manhã"
           }
         ]
